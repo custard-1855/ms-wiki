@@ -5,7 +5,7 @@ repo_url: https://github.com/custard-1855/ms-wiki
 repo_name: ms-wiki
 edit_uri: edit/main/docs/
 copyright: >-
-  非公式の攻略wikiです。ゲームの画像・情報の権利は LEME に帰属します。<br>
+  非公式の攻略wikiです。文章は <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.ja">CC BY-SA 4.0</a> (マジサバwiki 編集者一同)。ゲームの画像・情報の権利は LEME に帰属し、ライセンスの対象外です。<br>
   情報の追加・質問・要望は <a href="https://discord.gg/scXvWqmCZG">Discord</a> へどうぞ。
 
 theme:
