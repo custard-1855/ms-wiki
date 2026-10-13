@@ -1,0 +1,19 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# スクレイプ結果 (中間生成物。正は docs/)
+out/
+
+# MkDocs のビルド出力
+site/
+
+# テスト用の npm パッケージ
+node_modules/

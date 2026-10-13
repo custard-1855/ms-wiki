@@ -1,0 +1,119 @@
+/*-------------------------------------------------------
+  1. カスタムプロパティで全色を定義
+-------------------------------------------------------*/
+:root {
+  /* 背景系 */
+  --color-bg:            #f5f6fa;
+  --color-panel:         #F3F4F9;
+
+  /* 文字系 */
+  --color-text:          #2c3e50;
+  --color-link:          #4CAF50;
+  --color-link-hover:    #43A047;
+
+  /* 境界線・シャドウ */
+  --color-border:        #e0e0e0;
+  --color-shadow:        rgba(0,0,0,.25);
+
+  /* 選択 */
+  --color-select-bg: #39f;
+  --color-select-text: #fff;
+}
+
+/*-------------------------------------------------------
+  2. OSがダークモードのときの上書き
+-------------------------------------------------------*/
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-bg:         #1e1e1e;
+    --color-panel:      #2a2a2a;
+    --color-text:       #f0f0f0;
+/* for dark mode
+    --color-link:       #4ea6ff;
+    --color-link-hover: #82b1ff;
+  /* 選択 */
+  --color-select-bg: #D870AD;
+  --color-select-text: #222;
+*/
+/* 統一*/
+	/* リンク */
+    --color-link:          #4CAF50;
+    --color-link-hover:    #43A047;
+
+	/* 境界?など */
+    --color-border:     #3a3a3a;
+    --color-shadow:     rgba(0,0,0,.6);
+  }
+}
+
+/*-------------------------------------------------------
+  3. 全体スタイルに変数を適用
+-------------------------------------------------------*/
+body {
+  background:     var(--color-bg)     !important;
+  color:          var(--color-text)   !important;
+  font-family:    'Noto Sans JP', sans-serif !important;
+  line-height:    1.6 !important;
+  margin: 0; padding: 40;
+}
+a { /* リンク */
+  color:          var(--color-link)        !important;
+  text-decoration:none                    !important;
+  transition:    color .2s ease;
+}
+a:hover {
+  color:          var(--color-link-hover)  !important;
+  text-decoration:underline               !important;
+}
+
+/* パネル系（wrapper, shadow, footnote など） */
+.main_wrapper,
+.atwiki-contents-shadow,
+.atwiki-side-ads,
+.atwiki-footnote,
+.atwiki-footer-ads {
+  background-color: var(--color-panel) !important;
+}
+.atwiki-contents-shadow {
+  box-shadow: 0 0 2px var(--color-shadow), 0 2px 2px var(--color-shadow);
+}
+/*
+	h3の要素の色が黒かったため
+	他も同様
+*/
+.atwiki-contents h3, .atwiki-contents h4,
+.atwiki-sp-contents h3, .atwiki-sp-contents h4,
+.uk-h1,.uk-h2,.uk-h3,.uk-h4,.uk-h5,.uk-h6,h1,h2,h3,h4,h5,h6
+{
+    color: var(--color-text)
+}
+
+
+/* 
+	選択時の色
+	コピーする時の色を青から赤紫に
+*/
+::selection {
+    background: var(--color-select-bg);
+    color: var(--color-select-text);
+    text-shadow: none
+}
+
+
+/* テーブルやボーダーに共通の境界線色 */
+table,
+*, /* グローバルにすべての境界線を */
+.atwiki-contents-shadow {
+  border-color: var(--color-border) !important;
+}
+
+
+/*-------------------------------------------------------
+  4. 既存の大画面用メディアクエリも変数化
+-------------------------------------------------------*/
+@media print, screen and (min-width: 960px) {
+  .main_wrapper {
+    background-color: var(--color-panel) !important;
+  }
+  /* 必要に応じて他の固定色も var(--…) に置き換えてください */
+}
