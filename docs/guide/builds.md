@@ -1,0 +1,807 @@
+# 参考記録・ビルド構築解説
+
+**<span style="color: #F54738">大体の疑問は[よくある質問](faq.md)で解決しますよ！</span>**
+
+wiki内記事へのご意見・ご要望はdiscordにて受付中です。
+
+## 参考記録
+
+ここでは上位tierビルドの参考記録を載せています。単に記録を載せるだけでなく、魔法やAFの取得意図も書いていきます。
+
+大型アップデートの度に更新する予定です。
+
+初心者の方で、良い記録出したい!という方は是非参考にしてみてくださいね。
+
+### v0.991 / テラ (ハード)
+
+hoge
+
+### v0.982 / テラ (ハード)
+
+長時間生存だけを考えた記録は↓をどうぞ
+
+<https://discord.com/channels/1055826059385389056/1055858434437812254/1501636146763927805>
+
+#### 簡単に52:30(ジェム上限)に到達出来るビルド
+
+<img src="../assets/images/guide/builds/1.png" alt="1" width="720" height="1612">
+
+<img src="../assets/images/guide/builds/2.png" alt="2" width="720" height="1612">
+
+<img src="../assets/images/guide/builds/3.png" alt="3" width="720" height="1612">
+
+<img src="../assets/images/guide/builds/4.png" alt="4" width="720" height="1612">
+
+<img src="../assets/images/guide/builds/5.png" alt="5" width="720" height="1612">
+
+<img src="../assets/images/guide/builds/6.png" alt="6" width="720" height="1612">
+
+<img src="../assets/images/guide/builds/7.png" alt="7" width="720" height="1612">
+
+**狙い**
+
+簡単に、なるべくリロールを行わずに52:30に到達出来るよう、必要なAFはアクセラレータ・ウロボロス・契約の箱のみとすることで伝説AF運ゲーを緩和して、アセンション(究極魔法)を使用することで火力系AFの要求数を減らすことを目的としたビルドです。60%以上の確率で伝説AFを集められるので、安定感がとても高いビルドとなっています。
+
+## v0.981
+
+### atomon
+
+<img src="../assets/images/guide/builds/a1.png" alt="a1" width="720" height="1612">
+
+<img src="../assets/images/guide/builds/a2.png" alt="a2" width="720" height="1612">
+
+<img src="../assets/images/guide/builds/a3.png" alt="a3" width="720" height="1612">
+
+<img src="../assets/images/guide/builds/a4.png" alt="a4" width="720" height="1612">
+
+<img src="../assets/images/guide/builds/a5.png" alt="a5" width="720" height="1612">
+
+<img src="../assets/images/guide/builds/a6.png" alt="a6" width="720" height="1612">
+
+<img src="../assets/images/guide/builds/a7.png" alt="a7" width="720" height="1612">
+
+<img src="../assets/images/guide/builds/a8.png" alt="a8" width="720" height="1612">
+
+<img src="../assets/images/guide/builds/a9.png" alt="a9" width="720" height="1612">
+
+<https://youtu.be/0007NV4duu4?si=n84F-Asvisq6snAp>
+
+<https://youtu.be/er8CaThXAnY?si=ymhLTOpUwsfIxCjJ>
+
+### Noah
+
+#### ビルド
+
+| + | 143分23秒 / メイジ / コスモス・花火・テラ電流 |  |
+| --- | --- | --- |
+
+- 融合魔法(44レベル)
+  - コスモス
+  - 花火(ドッペルゲンガー)
+  - テラ電流
+- 補助魔法(20レベル)
+  - 蜃気楼(幽体化)
+  - シールド(再構築)
+  - 魔法陣(魔力解放)
+  - アルマゲドン(携挙)
+- その他(14レベル)
+  - 霜柱(絶対零度)
+  - 津波(極点)
+- パッシブ魔法(19レベル)
+  - 通常パッシブ(高速詠唱、生命力、加速、探索、集中、狙撃)
+  - 特別パッシブ(任意の4レベル)
+
+## v0.972, テラ(ハード)
+
+### atomon
+
+#### 狙い
+
+- クラス
+
+AFの取得数増加の為に考古学者を選択しています。
+
+- 実験体
+
+黒猫確保の為に、大魔法使いを選択しています。
+
+- 魔法
+
+融合魔法は、tierA以上の魔法であれば何でも良い(40分は越える)とは思います。
+
+しかし、atomonとしては花火不死鳥ゲートをおすすめしています。
+
+良い記録を出すには、何度も走りなおす必要がありますから、なるべく安定した(必要なAFの取得順に左右されない)走りが出来るビルドとして強く推しています。
+
+パッシブ魔法は全部取りましょう。魔法陣、シールド、幽体化、霜柱、溶岩地帯と同時に取るには、キューブやアカシックレコードを取れば良いですよ。
+
+魔法(非融合)の採用意図を明記しておきます。
+
+魔法陣:派生の魔力開放によるクールタイム減少を得るために採用
+
+シールド:VT(詳しくはここへ[テラ(ハード)](../database/terra-hard.md))を凌ぐため
+
+幽体化:シールドと同様
+
+霜柱:シールドと同様
+
+溶岩地帯:バグか仕様か、融解の効果が全ての魔法に適用されていることを利用することで終盤の敵を倒すために採用
+
+- AF
+
+伝説AFは契約の箱・アクセラレータ・ウロボロス・ガイア・ウラン・タイタン・アカシックレコード・神聖不可侵は最低限取りましょう。残りは超越体・創造術・王冠・死神の鎌・金銀財宝等で揃えられると良い感じです。
+
+一般AFは、シナジー:スチームパンク、ヒーリングファクターを取得するために必要なAFを集めることを第一として、残りをの枠をステータスを強化するAFや、霊魂や力場、結界といった、40分以降のウェーブを越えるためのAFを集めています。
+
+AFのtier表を見ながら、慎重に吟味してからAFを取りましょう。
+
+下記はほぼ狙い通りに構築出来た記録です。
+
+<img src="../assets/images/guide/builds/screenshot_20251220-164456.png" alt="Screenshot_20251220-164456">
+
+<img src="../assets/images/guide/builds/screenshot_20251220-164506.png" alt="Screenshot_20251220-164506">
+
+<img src="../assets/images/guide/builds/screenshot_20251220-164510.png" alt="Screenshot_20251220-164510">
+
+<img src="../assets/images/guide/builds/screenshot_20251220-164513.png" alt="Screenshot_20251220-164513">
+
+<img src="../assets/images/guide/builds/screenshot_20251220-164517.png" alt="Screenshot_20251220-164517">
+
+<img src="../assets/images/guide/builds/screenshot_20251220-164522.png" alt="Screenshot_20251220-164522">
+
+<img src="../assets/images/guide/builds/screenshot_20251220-164526.png" alt="Screenshot_20251220-164526">
+
+<img src="../assets/images/guide/builds/screenshot_20251220-164530.png" alt="Screenshot_20251220-164530">
+
+<img src="../assets/images/guide/builds/screenshot_20251220-164534.png" alt="Screenshot_20251220-164534">
+
+### Noah
+
+#### ビルド
+
+| + | 107分30秒 / 神秘術師 / クアンタムレーザー・花火・ゲート | <img src="../assets/images/guide/builds/screenshot_20260111-014152.png" alt="Screenshot_20260111-014152" width="1080" height="2340"> <br> <img src="../assets/images/guide/builds/screenshot_20260111-014125.png" alt="Screenshot_20260111-014125" width="1080" height="2340"> <br> <img src="../assets/images/guide/builds/screenshot_20260111-014128.png" alt="Screenshot_20260111-014128" width="1080" height="2340"> <br> <img src="../assets/images/guide/builds/screenshot_20260111-014131.png" alt="Screenshot_20260111-014131" width="1080" height="2340"> <br> <img src="../assets/images/guide/builds/screenshot_20260111-014135.png" alt="Screenshot_20260111-014135" width="1080" height="2340"> <br> <img src="../assets/images/guide/builds/screenshot_20260111-014140.png" alt="Screenshot_20260111-014140" width="1080" height="2340"> <br> <img src="../assets/images/guide/builds/screenshot_20260111-014143.png" alt="Screenshot_20260111-014143" width="1080" height="2340"> <br> <img src="../assets/images/guide/builds/screenshot_20260111-014147.png" alt="Screenshot_20260111-014147" width="1080" height="2340"> <br> <img src="../assets/images/guide/builds/screenshot_20260111-014159.png" alt="Screenshot_20260111-014159" width="1080" height="2340"> |
+| --- | --- | --- |
+
+- 融合魔法(44レベル)
+  - クアンタムレーザー
+  - 花火(ドッペルゲンガー)
+  - ゲート
+- 補助魔法(15レベル)
+  - 蜃気楼(幽体化)
+  - シールド(再構築)
+  - 魔法陣(魔力解放)
+- その他(21レベル)
+  - 霜柱(絶対零度)
+  - 吹雪(極寒期)
+  - 溶岩地帯(融解)
+- パッシブ魔法(19レベル)
+  - 通常パッシブ(高速詠唱、生命力、加速、探索、集中、狙撃)
+  - 特別パッシブ(任意の4レベル)
+
+#### 狙い
+
+序盤の移動を快適にしつつ、25分と40分〜45分の突破を安定させ、さらに終盤でも通用する火力を確保するため、クアンタムレーザーを採用しています。
+
+そのため、神秘術師のクラスと実験体を使用しています。
+
+また、霜柱と吹雪を習得するために、パッシブ魔法の取り方を次のように工夫しています。
+
+加速と高速詠唱は最大まで上げます。
+
+生命力、集中、探索、狙撃は最大の1つ手前まで上げます。
+
+魔力発散、破裂は、アカシックレコードや人工知能魔法等によってレベルに余裕ができた場合のみ、最大の1つ手前まで上げます。
+
+知能は最終的にレベルが余った場合にのみ習得します。
+
+序盤を安定させるために、融合魔法はプラズマ光線、花火、ゲートの順番で習得します。
+
+プラズマ光線は可能な限り早く習得しましょう。
+
+レベル40〜50までは、融合魔法の素材と加速/探索パッシブのみを選択するよう努めてください。
+
+12分のウェーブまでにレベル75に到達しゲートを習得することが理想ですが、習得出来ずとも殆どの場合問題ありません。
+
+25分のウェーブまでにレベル100に到達しクアンタムレーザーを習得してください。習得出来ない場合、ここで死ぬ可能性がかなり高くなります。
+
+アカシックレコードとフクロウがあれば、これらは安定します。獲得を狙うようにしてください。
+
+| + | 前回 | \| + \| 95分 / 神秘術師 / クアンタムレーザー・花火・ゲート \| <img src="../assets/images/guide/builds/screenshot_20251211-160530.png" alt="Screenshot_20251211-160530" width="1080" height="2340"> <br> <img src="../assets/images/guide/builds/screenshot_20251211-160533.png" alt="Screenshot_20251211-160533" width="1080" height="2340"> <br> <img src="../assets/images/guide/builds/screenshot_20251211-160536.png" alt="Screenshot_20251211-160536" width="1080" height="2340"> <br> <img src="../assets/images/guide/builds/screenshot_20251211-160539.png" alt="Screenshot_20251211-160539" width="1080" height="2340"> <br> <img src="../assets/images/guide/builds/screenshot_20251211-160543.png" alt="Screenshot_20251211-160543" width="1080" height="2340"> <br> <img src="../assets/images/guide/builds/screenshot_20251211-160558.png" alt="Screenshot_20251211-160558" width="1080" height="2340"> <br> <img src="../assets/images/guide/builds/screenshot_20251211-160603.png" alt="Screenshot_20251211-160603" width="1080" height="2340"> <br> <img src="../assets/images/guide/builds/screenshot_20251211-160606.png" alt="Screenshot_20251211-160606" width="1080" height="2340"> <br> <img src="../assets/images/guide/builds/screenshot_20251211-160619.png" alt="Screenshot_20251211-160619" width="1080" height="2340"> \| \| --- \| --- \| --- \| **狙い** --- 25分や45分〜52分を安定させるために、火力の高いクアンタムレーザーを使用しています。 <br> そのため、神秘術師のクラスと実験体を使用しています。 <br> また、霜柱、吹雪、津波を全て習得するために、アカシックレコードを取得した上で、生命力、集中、探索のレベルをMAX直前で止め、エンチャント、知能、魔力発散、狙撃、破裂の習得は諦めています。 <br> 津波と吹雪のレベルMAXを後回しにすることで、25分以前に権能の領域を取得した場合、4番目の融合として不死鳥を習得することができます。 <br> 権能の領域が取得出来なかった場合は、吹雪/極寒期、津波/極点を習得することができます。 <br> アカシックレコードが取得出来なかった場合は、津波を習得せず、霜柱と吹雪だけを習得し、パッシブ魔法のレベルを最大にするか魔力発散や狙撃を習得しましょう。 |
+| --- | --- | --- | --- | --- | --- |
+
+## v0.964, テラ
+
+### atomon
+
+#### 狙い
+
+- [クラス](../database/classes.md)
+
+AFの取得数を増やす為に考古学者を採用しています。
+
+- [実験体](../database/test-subjects.md)
+
+黒猫確保の為に、大魔法使いを選択しています。
+
+- 魔法
+
+融合魔法は、tierA以上の魔法であれば何でも良い(40分は越える)とは思います。
+
+しかし、atomonとしてはブラスター不死鳥@1、花火不死鳥@1をおすすめしています。上記ビルドは火力が安定して出せる上、不死鳥の残機を増やす効果により40分のウェーブを越せる可能性が増すからです。
+
+通常魔法は、敵の遅延のための吹雪、延命の為のシールド・幽体化を取得した後、余ったレベルを溶岩地帯に割くようにしています。
+
+パッシブ魔法は、高速詠唱、加速、集中、知能を終盤までに揃え、また、序盤は探索を取ることを徹底しています。より多くマナオーブを集め、商人から安定してAFを買うためです。(以前は探索を取っていませんでしたが、今環境は商人から高額な赤AFが出現する確率が上がっていて、今までより商人から多くのAFを購入するのが大変になったため、取得するようになりました。)
+
+- AF
+
+伝説AFはガイア,アクセラレータ、ウロボロス、契約の箱、神聖不可侵、を必ず取得し、残りの枠はタイタン、ウラン、創造術、ゲノムマップ、超越体で埋めることを目指しています。
+
+一般AFは、シナジー:スチームパンク、ヒーリングファクター、ヴェノム、ワンダーランドを取得するために必要なAFを集めることを第一として、残りをの枠をステータスを強化するAFや、霊魂や力場、結界といった、40分以降のウェーブを越えるためのAFを集めています。
+
+前環境よりも宝箱・商人から赤AFが出やすくなった事により、今まで以上にエピックやレアのAFを取得しづらくなっています。AFのtier表を見ながら、慎重に吟味してからAFを取りましょう。
+
+下記はほぼ狙い通りに構築出来た記録です。
+
+<img src="../assets/images/guide/builds/screenshot_20250814-230804.png" alt="Screenshot_20250814-230804" width="720" height="1612">
+
+<img src="../assets/images/guide/builds/screenshot_20250814-230809.png" alt="Screenshot_20250814-230809" width="720" height="1612">
+
+<img src="../assets/images/guide/builds/screenshot_20250814-230813.png" alt="Screenshot_20250814-230813" width="720" height="1612">
+
+<img src="../assets/images/guide/builds/screenshot_20250814-230816.png" alt="Screenshot_20250814-230816" width="720" height="1612">
+
+<img src="../assets/images/guide/builds/screenshot_20250814-230820.png" alt="Screenshot_20250814-230820" width="720" height="1612">
+
+<img src="../assets/images/guide/builds/screenshot_20250814-230830.png" alt="Screenshot_20250814-230830" width="720" height="1612">
+
+<img src="../assets/images/guide/builds/screenshot_20250814-230834.png" alt="Screenshot_20250814-230834" width="720" height="1612">
+
+#### 追記
+
+ビルドの構想は変えず、記録を更新したので。
+
+動画もあるので、動き方の参考になると思います。
+
+<img src="../assets/images/guide/builds/screenshot_20250907-231105.png" alt="Screenshot_20250907-231105" width="720" height="1612">
+
+<img src="../assets/images/guide/builds/screenshot_20250907-231110.png" alt="Screenshot_20250907-231110" width="720" height="1612">
+
+<img src="../assets/images/guide/builds/screenshot_20250907-231113.png" alt="Screenshot_20250907-231113" width="720" height="1612">
+
+<img src="../assets/images/guide/builds/screenshot_20250907-231116.png" alt="Screenshot_20250907-231116" width="720" height="1612">
+
+<img src="../assets/images/guide/builds/screenshot_20250907-231120.png" alt="Screenshot_20250907-231120" width="720" height="1612">
+
+<img src="../assets/images/guide/builds/screenshot_20250907-231128.png" alt="Screenshot_20250907-231128" width="720" height="1612">
+
+<img src="../assets/images/guide/builds/screenshot_20250907-231135.png" alt="Screenshot_20250907-231135" width="720" height="1612">
+
+<img src="../assets/images/guide/builds/screenshot_20250907-231139.png" alt="Screenshot_20250907-231139" width="720" height="1612">
+
+動画
+
+<https://youtu.be/nigO16g27-o?feature=shared>
+
+<https://youtu.be/wethk9Xzwws?feature=shared>
+
+#### 追追記
+
+記録を更新したので
+
+<img src="../assets/images/guide/builds/screenshot_20251005-221912.png" alt="Screenshot_20251005-221912" width="720" height="1612">
+
+<img src="../assets/images/guide/builds/screenshot_20251005-221916.png" alt="Screenshot_20251005-221916" width="720" height="1612">
+
+<img src="../assets/images/guide/builds/screenshot_20251005-221920.png" alt="Screenshot_20251005-221920" width="720" height="1612">
+
+<img src="../assets/images/guide/builds/screenshot_20251005-221923.png" alt="Screenshot_20251005-221923" width="720" height="1612">
+
+<img src="../assets/images/guide/builds/screenshot_20251005-221928.png" alt="Screenshot_20251005-221928" width="720" height="1612">
+
+<img src="../assets/images/guide/builds/screenshot_20251005-221934.png" alt="Screenshot_20251005-221934" width="720" height="1612">
+
+<img src="../assets/images/guide/builds/screenshot_20251005-221938.png" alt="Screenshot_20251005-221938" width="720" height="1612">
+
+<img src="../assets/images/guide/builds/screenshot_20251005-221942.png" alt="Screenshot_20251005-221942" width="720" height="1612">
+
+動画
+
+<iframe class="video" src="https://www.youtube.com/embed/UP2QUqFUlkw" allowfullscreen loading="lazy"></iframe>
+
+<iframe class="video" src="https://www.youtube.com/embed/A2DjCvN-B3Y" allowfullscreen loading="lazy"></iframe>
+
+<iframe class="video" src="https://www.youtube.com/embed/08nTuanN3EE" allowfullscreen loading="lazy"></iframe>
+
+<iframe class="video" src="https://www.youtube.com/embed/T4wkPxIBBic" allowfullscreen loading="lazy"></iframe>
+
+### Noah
+
+| + | 77分 / 考古学者 / 花火・炎の嵐・ゲート | <img src="../assets/images/guide/builds/1000009357.png" alt="1000009357" width="1080" height="2340"> <br> <img src="../assets/images/guide/builds/1000009358.png" alt="1000009358" width="1080" height="2340"> <br> <img src="../assets/images/guide/builds/1000009359.png" alt="1000009359" width="1080" height="2340"> <br> <img src="../assets/images/guide/builds/1000009360.png" alt="1000009360" width="1080" height="2340"> <br> <img src="../assets/images/guide/builds/1000009361.png" alt="1000009361" width="1080" height="2340"> <br> <img src="../assets/images/guide/builds/1000009362.png" alt="1000009362" width="1080" height="2340"> <br> <img src="../assets/images/guide/builds/1000009364.jpg" alt="1000009364" width="1080" height="427"> <br> <img src="../assets/images/guide/builds/1000009365.png" alt="1000009365" width="1080" height="2340"> |
+| --- | --- | --- |
+
+#### 狙い
+
+- 実験体
+
+黒猫を確実に入手することができる大魔法使いを使用しています。黒猫を入手できないリスクはありますが、より多くのAFを購入することができるジャック・オ・ランタンもオススメです。
+
+- クラス
+
+チェストの出現量が多く、霊魂等の重要AFを入手しやすい考古学者を使用しています。重要AFを入手できないリスクありますが、シールドを強化することができるビショップもオススメです。
+
+- 融合魔法
+
+花火、ゲート、炎の嵐を使用しています。
+
+まず精霊と魔力弾、エネルギー弾を優先的に習得し、次いで焼却と隕石落下を習得していきます。閃光ショックは12分頃にラグナロクを習得できればいいので、積極的に習得しにいく必要はありません。
+
+魔法ミサイルとドッペルゲンガーを早い段階で作成することで、焼却と合わせて序盤(12分半まで)がかなり楽になります。
+
+何か変更したい融合がある場合は、下記Tier表のTier0、Tier1、もしくはTier2の魔法であればそこまで問題は無いと思います。
+
+| + | 個人的Tier | <img src="../assets/images/guide/builds/noah融合tier.png" alt="Noah融合Tier" width="1140" height="826"> |
+| --- | --- | --- |
+
+- 魔法
+
+レベル構成は以下の通りです。
+
+融合魔法3種(44レベル)
+
+補助魔法3種[^1](15レベル)
+
+凍結魔法[^2](14レベル)
+
+溶岩地帯(7レベル)
+
+通常パッシブ5種[^3](15レベル)
+
+自由枠(4レベル)
+
+5つのパッシブ魔法(知能、狙撃、魔力発散、破裂、エンチャント)の習得を諦めることで、吹雪(極寒期)、霜柱(絶対零度)、溶岩地帯(融解)の習得を実現しています。レベルに余裕が生まれた場合の習得優先度は、魔力発散、狙撃、破裂、知能、エンチャントの順です。
+
+特別パッシブは、下記Tier表のTier0、Tier1であれば習得することにしています。
+
+| + | 特別パッシブ個人的Tier | <img src="../assets/images/guide/builds/noah特別パッシブtier.png" alt="Noah特別パッシブTier" width="1140" height="460"> |
+| --- | --- | --- |
+
+- AF
+
+一般AFは生存力(HP、防御力、回避率、移動速度など)を向上させるもの(童話の本、そよ風、霊魂、平和条約など)を優先して取得しています。
+
+伝説AFは、契約の箱、アクセラレータ、ウロボロスが必須です。これらさえ揃っていれば最悪問題は有りません。
+
+神聖不可侵、ガイアは極力入手したいです。
+
+ウラン、タイタンの権能、死神の鎌、創造術、王冠、金銀財宝[^4]は大いに役立つので、入手できると嬉しいです。
+
+オベリスクをリロールする基準は以下の通りです。
+
+下記のTier表参照。
+
+| + | 伝説AF個人的Tier | <img src="../assets/images/guide/builds/noah伝説aftier.png" alt="Noah伝説AFTier" width="1140" height="552"> |
+| --- | --- | --- |
+
+| + | リロール基準 | Tier1のAFが出現した場合、基本的にリロールは行わない。 <br> Tier1.5のAFが出現した場合、オベリスクの残数に余裕が無く、かつTier1のAFで入手できていないモノがある場合に限りリロールを行う。 <br> Tier2のAFが出現した場合、Tier2以下のAFを既に取得しておりTier1、1.5のAFの入手に不安がある場合はリロールを行う。 <br> Tier3のAFが出現した場合、取得してきたAFがほとんどTier1もしくは1.5で、伝説AFが充実しているという状況でない限りはリロールを行う。 <br> Tier4、5のAFが出現した場合、基本的にリロールを行う。 |
+| --- | --- | --- |
+
+シナジーは基本的に生存力を向上させるもの(スチームパンク、エリクサー、アークエンジェルなど)と、完成させることが容易な火力を向上させるもの(モナーク、ニュークリア、カオスなど)を狙っています。
+
+また、余裕がある場合は、完成させることが難しいが火力や生存力を向上させるもの(オラクル、トリックスター、アービターなど)も狙いに行きます。
+
+#### 戦略
+
+- ウェーブ内
+
+基本的には黒い領域に沿って周回し、無敵状態になったら敵を端にある溶岩地帯に誘導して敵を殺します。無敵状態の残り時間が3〜4割を切ったら周回を再開しましょう。全てはこの繰り返しです。
+
+青ルーンが発動した場合は、出現したばかりの敵を通り抜けて周回に入るか、前後に動きながら幽体化の発動を待つことでやり過ごしましょう。
+
+世界樹の果実は、生体シールドが全て削り取られたあたりで獲得すると良いです。大体の位置を覚えておきましょう。見失った場合は、獲得することに固執しすぎて死ぬことがないように気をつけてください。
+
+ウェーブ開始数分はボス敵の位置が悪く死にやすいため、死にそうになったらすぐゲームを閉じられるよう心の準備をしておきましょう。ウェーブ序盤で白ルーンを発動することができればかなり安定性が増すので、狙ってみるのも良いでしょう。
+
+- ウェーブ外
+
+融解の上に立って敵を殺し続け[^5]、殺せなくなったら直進[^6]もしくは敵の群れの周りを周回[^7]しましょう。
+
+ウェーブ開始時は、基本的には上か下に走りながら突入して、その勢いのまま左右どちらかに方向転換し周回に入ると安定しやすいです。突入に失敗した場合は迷わずゲームを閉じて、ウェーブ外の始めからやり直しましょう。
+
+## v0.956(v0.958にも対応)), テラ
+
+### 狙い
+
+- [クラス](../database/classes.md)
+
+AFの取得数を増やす為に考古学者を採用しています。
+
+- [実験体](../database/test-subjects.md)
+
+黒猫確保の為に、大魔法使いを選択しています。
+
+- 魔法
+
+融合魔法は、tierA以上の魔法であれば何でも良いです。
+
+通常魔法は、敵の遅延のための吹雪、延命の為のシールド・幽体化を取得した後、余ったレベルを溶岩地帯に割くようにしています。
+
+パッシブ魔法はサイズ上昇以外全て取って良いです。
+
+- AF
+
+伝説AFはガイア、タイタン、アクセラレータ、ウロボロスをステータス向上の為に、契約の箱を青ルーン(敵全体を即死させる)や白ルーン(一定時間無敵)の為に取得しています。上記以外の伝説AFは、女伯爵、魔剣が取れると良いでしょう。
+
+通常AFは、融合魔法を強化するAFは当然として、おもちゃの城・童話の本(敵を避けやすくする)、アンデッド(残機増加はシンプル強い)、歯車(AFのCT減少が偉い)、生体シールド＆結界(2つもつ事で、どんな攻撃も6回まで被弾可能)、力場・肉・霊魂・世界樹の葉・ゼンマイ装置(延命用)、ムーンクリスタル・蜘蛛の巣(遅延)、ステンドグラス(ルーン効果持続時間延長)等は必ず取得しましょう。
+
+これら以外の通常AFは、ステータス向上に繋がるものが取れれば良いと思います。
+
+40分までにAFを取得出来る数は平均70個(内伝説AF11個)ほどですから、深層区域よりもAFの取得可能数は減っており、壁の突破は大変ですが、諦めずに頑張りましょう。
+
+以下に、2パターンのビルドでの壁突破時の記録を貼っておきます。参考までにどうぞ。
+
+①ブラスター・雪花開花・超新星
+
+<img src="../assets/images/guide/builds/screenshot_2025-05-18-00-10-51-28_a018ce24e5d63bb13a8d24754083b426.jpg" alt="Screenshot_2025-05-18-00-10-51-28_a018ce24e5d63bb13a8d24754083b426" width="1200" height="2000">
+
+<img src="../assets/images/guide/builds/screenshot_2025-05-18-00-10-54-83_a018ce24e5d63bb13a8d24754083b426.jpg" alt="Screenshot_2025-05-18-00-10-54-83_a018ce24e5d63bb13a8d24754083b426" width="1200" height="2000">
+
+<img src="../assets/images/guide/builds/screenshot_2025-05-18-00-10-58-05_a018ce24e5d63bb13a8d24754083b426.jpg" alt="Screenshot_2025-05-18-00-10-58-05_a018ce24e5d63bb13a8d24754083b426" width="1200" height="2000">
+
+<img src="../assets/images/guide/builds/screenshot_2025-05-18-00-11-00-51_a018ce24e5d63bb13a8d24754083b426.jpg" alt="Screenshot_2025-05-18-00-11-00-51_a018ce24e5d63bb13a8d24754083b426" width="1200" height="2000">
+
+<img src="../assets/images/guide/builds/screenshot_2025-05-18-00-11-03-90_a018ce24e5d63bb13a8d24754083b426.jpg" alt="Screenshot_2025-05-18-00-11-03-90_a018ce24e5d63bb13a8d24754083b426" width="1200" height="2000">
+
+<img src="../assets/images/guide/builds/screenshot_2025-05-18-00-11-06-80_a018ce24e5d63bb13a8d24754083b426.jpg" alt="Screenshot_2025-05-18-00-11-06-80_a018ce24e5d63bb13a8d24754083b426" width="1200" height="2000">
+
+---
+
+②エクシディウム+雷の息吹
+
+<img src="../assets/images/guide/builds/screenshot_2025-05-28-17-56-33-72_a018ce24e5d63bb13a8d24754083b426.jpg" alt="Screenshot_2025-05-28-17-56-33-72_a018ce24e5d63bb13a8d24754083b426" width="1200" height="2000">
+
+<img src="../assets/images/guide/builds/screenshot_2025-05-28-17-56-36-21_a018ce24e5d63bb13a8d24754083b426.jpg" alt="Screenshot_2025-05-28-17-56-36-21_a018ce24e5d63bb13a8d24754083b426" width="1200" height="2000">
+
+<img src="../assets/images/guide/builds/screenshot_2025-05-28-17-57-06-71_a018ce24e5d63bb13a8d24754083b426.jpg" alt="Screenshot_2025-05-28-17-57-06-71_a018ce24e5d63bb13a8d24754083b426" width="1200" height="2000">
+
+<img src="../assets/images/guide/builds/screenshot_2025-05-28-17-57-09-14_a018ce24e5d63bb13a8d24754083b426.jpg" alt="Screenshot_2025-05-28-17-57-09-14_a018ce24e5d63bb13a8d24754083b426" width="1200" height="2000">
+
+<img src="../assets/images/guide/builds/screenshot_2025-05-28-17-57-11-92_a018ce24e5d63bb13a8d24754083b426.jpg" alt="Screenshot_2025-05-28-17-57-11-92_a018ce24e5d63bb13a8d24754083b426" width="1200" height="2000">
+
+<img src="../assets/images/guide/builds/screenshot_2025-05-28-17-57-14-57_a018ce24e5d63bb13a8d24754083b426.jpg" alt="Screenshot_2025-05-28-17-57-14-57_a018ce24e5d63bb13a8d24754083b426" width="1200" height="2000">
+
+### 終わりに
+
+今環境の"テラ"では融合魔法の選択よりもAFの質がすごく重要で、その結果色々な魔法で40分の壁を超えることが出来ます。ただ、魔法選択の重要性が薄れたわけでは無く、特殊強化魔法の質の重要性が据え置きですし、序盤から融合を作っていかなければならない都合で、魔法の取得順はかなり重要になっています。
+
+上に貼ったスクショを参考にしていただければ、魔法の取得順はひとまず問題ないかと思われますので、攻略に詰まった際の一助となれば幸いです。
+
+### 追記
+
+少しビルドの構想を変えて、記録を更新しました。上記との大きな変更点だけ書いていきます。
+
+- クラスをビショップに変更。シールド枚数増加やCT減少を狙ってのことです。
+
+- 初手のオベリスクで金銀財宝を引き、そこからさらにおもちゃの城を引くことを前提としています。考古学者より宝箱取得数が少ないので、AFの取得数を増やす意味もあります。
+
+その他微細な差異は下画像をご確認下さい(\_ \_)
+
+<img src="../assets/images/guide/builds/screenshot_2025-06-06-04-09-44-95.jpg" alt="Screenshot_2025-06-06-04-09-44-95">
+
+<img src="../assets/images/guide/builds/screenshot_2025-06-06-04-09-49-51.jpg" alt="Screenshot_2025-06-06-04-09-49-51">
+
+<img src="../assets/images/guide/builds/screenshot_2025-06-06-04-09-53-88.jpg" alt="Screenshot_2025-06-06-04-09-53-88">
+
+<img src="../assets/images/guide/builds/screenshot_2025-06-06-04-09-57-75.jpg" alt="Screenshot_2025-06-06-04-09-57-75">
+
+<img src="../assets/images/guide/builds/screenshot_2025-06-06-04-10-02-29.jpg" alt="Screenshot_2025-06-06-04-10-02-29">
+
+<img src="../assets/images/guide/builds/screenshot_2025-06-06-04-10-20-12.jpg" alt="Screenshot_2025-06-06-04-10-20-12">
+
+## v0.946 / 深層区域の参考記録
+
+<img src="../assets/images/guide/builds/screenshot_2024-12-24-20-52-31-94_a018ce24e5d63bb13a8d24754083b426.jpg" alt="Screenshot_2024-12-24-20-52-31-94_a018ce24e5d63bb13a8d24754083b426" width="1200" height="2000">
+
+<img src="../assets/images/guide/builds/screenshot_2024-12-24-20-52-35-68_a018ce24e5d63bb13a8d24754083b426.jpg" alt="Screenshot_2024-12-24-20-52-35-68_a018ce24e5d63bb13a8d24754083b426" width="1200" height="2000">
+
+<img src="../assets/images/guide/builds/screenshot_2024-12-24-20-52-45-23_a018ce24e5d63bb13a8d24754083b426.jpg" alt="Screenshot_2024-12-24-20-52-45-23_a018ce24e5d63bb13a8d24754083b426" width="1200" height="2000">
+
+<img src="../assets/images/guide/builds/screenshot_2024-12-24-20-52-48-99_a018ce24e5d63bb13a8d24754083b426.jpg" alt="Screenshot_2024-12-24-20-52-48-99_a018ce24e5d63bb13a8d24754083b426" width="1200" height="2000">
+
+<img src="../assets/images/guide/builds/screenshot_2024-12-24-20-52-54-55_a018ce24e5d63bb13a8d24754083b426.jpg" alt="Screenshot_2024-12-24-20-52-54-55_a018ce24e5d63bb13a8d24754083b426" width="1200" height="2000">
+
+<img src="../assets/images/guide/builds/screenshot_2024-12-24-20-53-00-76_a018ce24e5d63bb13a8d24754083b426.jpg" alt="Screenshot_2024-12-24-20-53-00-76_a018ce24e5d63bb13a8d24754083b426" width="1200" height="2000">
+
+<img src="../assets/images/guide/builds/screenshot_2024-12-24-20-53-03-47_a018ce24e5d63bb13a8d24754083b426.jpg" alt="Screenshot_2024-12-24-20-53-03-47_a018ce24e5d63bb13a8d24754083b426" width="1200" height="2000">
+
+### 狙い
+
+- [クラス](../database/classes.md)
+
+死体爆発の特性を利用したかったので、黒魔法使いを選んでいます。
+
+- 魔法
+
+融合魔法3種([テラ電流](../magic/tera-current.md)、超新星、[ブラスター](../magic/blaster.md))は、テラ電流で47分半までの雑魚処理、超新星とブラスターでエリートモンスターやシタデル、47分半以降の雑魚処理を担っています。
+
+通常魔法は、津波と吹雪で凍結による敵の遅延、[幽体化](../magic/cloaking.md)と[シールド](../magic/shield.md)で自キャラの延命を、補助魔法は魔法サイズ拡大以外全て、特殊強化魔法は守護天使、強打、無言詠唱、開拓者を取得し、AFの効果と合わせてステータス向上を図っています。
+
+- AF
+
+伝説AFはガイア、タイタン、アクセラレータ、ウロボロスをステータス向上の為に、死神の鎌を即死による実質的な敵数減少の為に、契約の箱を青ルーン(敵全体を即死させる)や白ルーン(一定時間無敵)の為に取得しています。上記以外の伝説AFは、女伯爵、デスペラード、アカシックレコード、魔剣が取れると良いでしょう(無くてもなんとかなるっちゃなる)。
+
+通常AFは、融合魔法を強化するAFは当然として、キューブ(取ると7レベ浮く)、おもちゃの城(敵のサイズダウンにより避けやすくなる)、アンデッド(残機増加はシンプル強い)、歯車(AFのCT減少が偉い)、生体シールド＆結界(2つもつ事で、どんな攻撃も6回まで被弾可能)、力場(延命用)、クローバー(クリ率が上がらなかった時の為の保険)等は必ず取得しましょう。
+
+これら以外の通常AFは、ステータス向上に繋がるものが取れれば良いと思います。
+
+50分までAFを取得出来る数は80個(内伝説AF10個)ほどですから、狙いの通常AFが中々引けなくても、諦めずに最後まで走ると、いい事あるかもしれません。
+
+### 終わりに
+
+今回の記録は金銀財宝、イクリプス、アイアンメイデン等、ほしくはなかった伝説AFを取らされており、狙い通りにはいってませんが、契約の箱のルーンの出目次第では55分まではいけるビルドだと思います。
+
+もっと色々知りたい事あるんだけど!という方はこちらまでどうぞ→<https://discord.gg/pqGRNeauMr>
+
+長々書きましたが、あくまでもatomonの考える走り方ですから、もっと良い走り方知ってるぜという方は、是非コメントに書いて頂けると助かります。
+
+### 追記
+
+少しビルドの構想を変えて、記録を更新しました。上記との大きな変更点だけ書いていきます。
+
+- 津波(極点)を霜柱(絶対零度)に変更しました。より高頻度に凍結をばら撒きたいからです。
+- 死神の鎌の代わりにイクリプスを採用しました。シタデル(デカい敵)をより素早く倒したいからです。
+- アイアンメイデンを積極的に取得するようにしました。47分半のウェーブの突破の安定性向上のためです。
+- [クラス](../database/classes.md)を考古学者に変更しました。より多くAFを取得するためです。
+
+その他微細な差異は下画像をご確認下さい(\_ \_)
+
+<img src="../assets/images/guide/builds/screenshot_2025-02-22-03-11-10-57_a018ce24e5d63bb13a8d24754083b426.jpg" alt="Screenshot_2025-02-22-03-11-10-57_a018ce24e5d63bb13a8d24754083b426" width="1200" height="2000">
+
+<img src="../assets/images/guide/builds/screenshot_2025-02-22-03-11-13-80_a018ce24e5d63bb13a8d24754083b426.jpg" alt="Screenshot_2025-02-22-03-11-13-80_a018ce24e5d63bb13a8d24754083b426" width="1200" height="2000">
+
+<img src="../assets/images/guide/builds/screenshot_2025-02-22-03-11-17-63_a018ce24e5d63bb13a8d24754083b426.jpg" alt="Screenshot_2025-02-22-03-11-17-63_a018ce24e5d63bb13a8d24754083b426" width="1200" height="2000">
+
+<img src="../assets/images/guide/builds/screenshot_2025-02-22-03-11-21-14_a018ce24e5d63bb13a8d24754083b426.jpg" alt="Screenshot_2025-02-22-03-11-21-14_a018ce24e5d63bb13a8d24754083b426" width="1200" height="2000">
+
+<img src="../assets/images/guide/builds/screenshot_2025-02-22-03-11-26-48_a018ce24e5d63bb13a8d24754083b426.jpg" alt="Screenshot_2025-02-22-03-11-26-48_a018ce24e5d63bb13a8d24754083b426" width="1200" height="2000">
+
+<img src="../assets/images/guide/builds/screenshot_2025-02-22-03-11-31-20_a018ce24e5d63bb13a8d24754083b426.jpg" alt="Screenshot_2025-02-22-03-11-31-20_a018ce24e5d63bb13a8d24754083b426" width="1200" height="2000">
+
+<img src="../assets/images/guide/builds/screenshot_2025-02-22-03-11-43-96_a018ce24e5d63bb13a8d24754083b426.jpg" alt="Screenshot_2025-02-22-03-11-43-96_a018ce24e5d63bb13a8d24754083b426" width="1200" height="2000">
+
+### 追追記
+
+ビルド構築思想に大きな変更は無く[^8]、立ち回りにも差はありませんが、正規プレイでの終着点ということで載せておきます。
+
+<img src="../assets/images/guide/builds/screenshot_2025-03-14-19-45-49-02_a018ce24e5d63bb13a8d24754083b426.jpg" alt="Screenshot_2025-03-14-19-45-49-02_a018ce24e5d63bb13a8d24754083b426" width="1200" height="2000">
+
+<img src="../assets/images/guide/builds/screenshot_2025-03-14-19-45-51-98_a018ce24e5d63bb13a8d24754083b426.jpg" alt="Screenshot_2025-03-14-19-45-51-98_a018ce24e5d63bb13a8d24754083b426" width="1200" height="2000">
+
+<img src="../assets/images/guide/builds/screenshot_2025-03-14-19-45-54-67_a018ce24e5d63bb13a8d24754083b426.jpg" alt="Screenshot_2025-03-14-19-45-54-67_a018ce24e5d63bb13a8d24754083b426" width="1200" height="2000">
+
+<img src="../assets/images/guide/builds/screenshot_2025-03-14-19-45-57-08_a018ce24e5d63bb13a8d24754083b426.jpg" alt="Screenshot_2025-03-14-19-45-57-08_a018ce24e5d63bb13a8d24754083b426" width="1200" height="2000">
+
+<img src="../assets/images/guide/builds/screenshot_2025-03-14-19-46-00-04_a018ce24e5d63bb13a8d24754083b426.jpg" alt="Screenshot_2025-03-14-19-46-00-04_a018ce24e5d63bb13a8d24754083b426" width="1200" height="2000">
+
+<img src="../assets/images/guide/builds/screenshot_2025-03-14-19-46-05-45_a018ce24e5d63bb13a8d24754083b426.jpg" alt="Screenshot_2025-03-14-19-46-05-45_a018ce24e5d63bb13a8d24754083b426" width="1200" height="2000">
+
+<img src="../assets/images/guide/builds/screenshot_2025-03-14-19-46-11-89_a018ce24e5d63bb13a8d24754083b426.jpg" alt="Screenshot_2025-03-14-19-46-11-89_a018ce24e5d63bb13a8d24754083b426" width="1200" height="2000">
+
+---
+
+その他何か気になること・分からないことはこちらへどうぞ→<https://discord.gg/J6bH8mc6>
+
+## ビルドの組み方の考え方
+
+この項目ではバージョン毎のビルドの組み方について書いています。
+
+atomonが考えるビルドの組み方であって、全てのプレイヤーに通ずるものではありませんが、良い記録が出せているビルド構築思想を採用しているので、オリジナルビルドの構築に悩んだら参考にしてみてください。
+
+### v0981
+
+当バージョンでは大きく2つのビルドの組み方が考えられる。
+
+[コスモス](../magic/cosmos.md)を軸にしたビルドと、[アセンション](../magic/ascension.md)を軸にしたビルドである。
+
+それぞれのビルドについて、優先してあげたいステータスやそれの為に取りたいAF、一緒に使いたい融合魔法、融合魔法の取得順等を解説する。
+
+クールタイムや魔法の持続時間、移動速度は全てのビルドで上げるべきステータスであることを前置きしておく。
+
+### コスモス軸
+
+[クラス](../database/classes.md)・[実験体](../database/test-subjects.md)をメイジに設定することで使用出来る究極魔法・コスモスを軸としたビルド。
+
+序盤は[ジェネシス](../magic/genesis.md)だけで凌ぐことが難しいので、[花火](../magic/fireworks.md)を併用するのが楽。
+
+コスモスの素の火力がとても高いので、AFはクールタイム減少や移動速度、魔法の持続時間を盛れるものを優先してとっていればよい。
+
+7分半を簡単に越えられるように、花火から取っていくのが良いが、12分半を越えるにはジェネシスの完成も必要なので、序盤はマナ回収を駆使して早くに融合魔法を揃えるといい。
+
+3つめの融合魔法は取らなくても良い、取るなら自分の好きな魔法を使ってあげよう。
+
+簡単に[テラ(ハード)](../database/terra-hard.md)などで記録を出したい人にオススメ。
+
+### アセンション軸
+
+クラス・実験体を戦闘魔法使いに設定することで使用出来る究極魔法・アセンションを軸にしたビルド。
+
+アセンションは元の融合魔法が[ゲート](../magic/gate.md)と非常に強力であるため、序盤のゲームプレイはコスモスよりずっと楽なのが特徴。
+
+併用すべき魔法はやはり花火で、取得順序も花火→ゲートとするのが楽。
+
+また、こちらも3つめの融合魔法は取らなくても良いので、好きな魔法を使ってやるといい。
+
+コスモスよりダメージがでにくいので、終盤は少し時間がかかるが、致命的な差ではないので、どちらを使うかは好みでキメていい。
+
+### v0.964
+
+当バージョンでは、大きく3つのビルドの組み方が考えられる。
+
+花火を軸にしたビルド、[ブラスター](../magic/blaster.md)を軸にしたビルド、デウスエクスマキナを使ったビルドである。
+
+それぞれのビルドについて、優先してあげたいステータスやそれの為に取りたいAF、一緒に使いたい融合魔法、融合魔法の取得順等を解説する。
+
+攻撃力や攻撃力増幅、クールタイムや魔法の持続時間、移動速度は全てのビルドで上げるべきステータスであることを前置きしておく。
+
+### 花火軸のビルド
+
+[花火](../magic/fireworks.md)を軸にする都合、考古学者や黒魔法使い等、最初から魔力弾をもっている[クラス](../database/classes.md)を選ぶことが多いビルド。
+
+[花火](../magic/fireworks.md)のDPS強化のために、魔法のサイズを上昇させることが望ましい。そのためにも火薬や爆弾、増幅器やウランを優先して集めたい。また、花火はクールタイムに難があるため、"[エーテル](../artifacts/ether.md)矢"と"魔術の弾丸"は取っておくべきだろう。
+
+サイズを上げると火力強化に繋がる[ゲート](../magic/gate.md)や、大きくなるほど多くの敵に凍結をばら撒けるようになる雪花花火等と合わせることが多い。
+
+花火の火力が高いので、なんの融合魔法を使っても簡単にテラで40分まで到達出来る。好きな融合魔法を存分に使ってやれるね。
+
+[花火](../magic/fireworks.md)・[ゲート](../magic/gate.md)のように、2つしか融合魔法を取らなくてもテラ40分を軽々越えていけるので、[魔導学者](../builds/magic-scholar.md)で走る時にも使える。
+
+**花火のサイズを上げるほど、画面が見づらくなっていく**ので、走るには多少慣れが要る。
+
+火力が出やすいことからテラ40分を越えやすいビルドであるので、なんとか40分越えたいんだ、という方におすすめ。
+
+### ブラスター軸のビルド
+
+花火と同じく、魔力弾を最初から持っているクラスで走るのが楽。
+
+[ブラスター](../magic/blaster.md)は単発火力では花火に大きく劣るが、クールタイムの短さから、最終的なDPSはそこそこ出せる魔法で、特段必要なステータスは無く、取るべきAFも無いのが魅力(AFの要求数が少ない→ビルドの完成が容易で、周回の安定性が増す)。
+
+ブラスターの火力不足を補えるように、超高火力な融合魔法である[不死鳥](../magic/phoenix.md)や、[炎の嵐](../magic/firestorm.md)等と併用するのが普通。
+
+花火と違い、ブラスターは視認性を下げないので、そのまま高い視認性を維持したいなら、[炎の嵐](../magic/firestorm.md)は採用しない方が良い。
+
+火力が出づらいビルドなので、テラ40分を越えるのは花火軸よりは大変で、慣れが要る。
+
+AF要求の低さは大きな魅力なので、色んなシナジーを試したい時にもおすすめ。
+
+### デウスエクスマキナビルド
+
+atomonが一番使わないビルド。同時に最も楽にテラ**37:30**まで到達できるビルドであり、37:30を超えるのが最も難しいビルドでもある。
+
+クラスを問わず、デウスエクスマキナの効果で強化する融合魔法もかなり自由に選べるのが魅力。しかしご存知の通り、通常魔法が効力を失い、融合魔法は一つしか使えない。
+
+デウスエクスマキナの効果で非常に強力なステータス強化を得られるので、AFがとても低い。
+
+火力がすごいことになるのでウェーブ攻略もサクサクということで、かなり周回に向いたビルドと言える。
+
+ジェムやゴールドを集めたい方におすすめ。
+
+## 色んなメタビルド
+
+この項目では、様々なプレイヤーによって走られたビルドを紹介しています。
+
+自分でビルドを組む際の参考になると思います。
+
+ビルド構築の考え方と合わせて使って下さい。
+
+それなりに記録の出ているビルドを紹介していますが、それらを真似したからといって必ずしも記録が伸びるわけではないし、逆に、全く違うビルドでも、良い記録を狙えるのだということを前置いておきます。
+
+### v.972
+
+### ストームブリンガー・マキナ
+
+Yeskela、ryan、韓国勢
+
+多くのプレイヤーがテラハードで60分の記録を叩き出しているビルド
+
+クールタイムやユーティリティよりも火力系の伝説AFを優先すると良いらしい
+
+### インクィジター・マキナ
+
+ryan
+
+### クアンタムレーザー・花火・ゲート
+
+Noah、Yeskela 、Wrath
+
+究極魔法使用、火力でゴリ押しでウェーブをソッコーで突破するから初心者向け
+
+パッシブ魔法を削り吹雪と霜柱を採用
+
+考古よりAFが安定しないけど避けゲーする時間が減るから楽
+
+### ジャイアントインパクト・花火・ゲート
+
+アトモン
+
+### 花火・不死鳥・ゲート
+
+mizutama
+
+### v0.964
+
+### ブラスター・テラ電流・超新星
+
+<https://discord.com/channels/813581387051040778/815287421369319444/1424870782181445765>
+
+[超新星](../magic/supernova.md)が使われているのが特徴的。氏曰く、「より早く大きい敵を倒して、世界樹の果実を手に入れるため」の採用だそう。
+
+一歩引いて、ビルドの火力について考えてみると、[不死鳥](../magic/phoenix.md)や[ゲート](../magic/gate.md)、[炎の嵐](../magic/firestorm.md)といった魔法が無いために火力が出づらく、ウェーブが長引きやすそうに見える。
+
+割と上級者向けなビルド構築だと思います。
+
+### ブラスター・不死鳥・炎の嵐
+
+<https://discord.com/channels/1055826059385389056/1055858434437812254/1426960272769286278>
+
+[ブラスター](../magic/blaster.md)軸での理想的なビルド筆頭候補。
+
+不死鳥と炎の嵐で火力が足りているからか、花火も使えるが、視界の優先してかブラスターが採用されている。
+
+走者は、「序盤の走りやすさを考えて、ブラスターを採用した」らしい。
+
+後述するatomonの記録より、ブラスター軸として走りやすいビルドだと思います。
+
+一方で、炎の嵐による若干の視界不良は、終盤の避けゲーの際には如実に邪魔だと感じられるほど。
+
+慣れるまではむしろ記録が出づらいビルドだと思います。
+
+### ブラスター・不死鳥・スーパー台風
+
+<https://discord.com/channels/1055826059385389056/1055858434437812254/1424386057268498523>
+
+紹介している中で、唯一[ワンダーランド](../synergies/wonderland.md)を使っているビルド。
+
+また、[スーパー台風](../magic/super-typhoon.md)を使用しているのも中々癖がある。
+
+スーパー台風としては、炎の嵐とどちらが良いか、が議論の的だろうが、十中八九炎の嵐が良い。
+
+スーパー台風による視界不良は炎の嵐のそれとはくらべものにならないほど酷いので、普通は使われない。
+
+他にも、この記録の注目すべきところとして、魔法のクールタイム減少値と持続時間延長値が上げられる。
+
+どちらも[幽体化](../magic/cloaking.md)のバリューをより高めるもので、避けゲーのし易さに大きく貢献している。
+
+是非これらのステータスは積極的に上げていって頂きたい。
+
+### 花火・不死鳥・ゲート
+
+<https://discord.com/channels/1055826059385389056/1055858434437812254/1431651589675941918>
+
+意外と使用者が少なめな花火軸。
+
+全ての魔法が高い火力を発揮出来る。反面、序盤の不安定さや、ステータス要求値の若干の上昇が気になるところか。ただ、間違いなくウェーブを最も早く削れるビルドなので、終盤はこれが一番強いでしょうね。
+
+パッシブ魔法の取り方が結構特徴的なビルドでもあると思う。知能をここまで削っている人、他にはいなそう。クリティカルが優先されているので、ジョーカーでの火力の上昇に期待しているのでしょう。
+
+### 花火・炎の嵐・ゲート
+
+<https://discord.com/channels/1055826059385389056/1055858434437812254/1433027944577630268>
+
+凍結を充実させるために不死鳥を捨てたビルド。
+
+知能、狙撃、魔力発散、エンチャントのパッシブを削ることで霜柱と吹雪の同時使用を可能にしている。
+
+そのため敵の加速が著しい終盤が少し楽になるほか、ウェーブ外で融解の上に立ち敵を殺し続けるという戦略が取りやすくなっている。
+
+[魔力弾](../magic/magic-bolt.md)、精霊、焼却があるため、花火軸だと辛くなりがちな序盤の移動もそこまで苦ではない。ドッペルゲンガーと魔法ミサイルを早めに入手しよう。
+
+花火、炎の嵐、ゲートの順で融合することをオススメします。
+
+[^1]: シールド/再構築、幽体化/蜃気楼、魔法陣/魔力解放
+[^2]: 吹雪/極寒期、霜柱/絶対零度
+[^3]: 高速詠唱、生命力、加速、集中、探索
+[^4]: 遺物箱から入手できる特別AF次第では不要
+[^5]: キル数を稼ぎ、チェストを生成することが目的
+[^6]: 地形を読み込むと稀にルーンが生成されるため、それを見つけることが目的
+[^7]: 群れの近くに居続けることで敵のデスポーンを抑え世界樹の果実を溜めつつ、敵のキル数も稼ぐことが目的
+[^8]: アイアンメイデン取得を避ける、死神の鎌を取得するようにする等の変更はありました、これは52:30以降の敵は攻撃しても倒せないことに起因するものです

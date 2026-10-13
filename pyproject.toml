@@ -1,0 +1,28 @@
+[project]
+name = "ms-wiki"
+version = "0.1.0"
+description = "マジサバwiki (MkDocs Material)"
+readme = "README.md"
+authors = [
+    { name = "custard-1855", email = "narian.tome.reon@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "beautifulsoup4>=4.15.0",
+    "markdownify>=1.2.3",
+    "mkdocs-git-revision-date-localized-plugin>=1.6.0",
+    "mkdocs-material>=9.7.7",
+    "requests>=2.34.2",
+]
+
+[tool.uv]
+package = false
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

@@ -1,0 +1,98 @@
+site_name: マジサバwiki
+site_url: https://custard-1855.github.io/ms-wiki/
+site_description: Magic Survival (マジックサバイバル) の非公式攻略wiki
+repo_url: https://github.com/custard-1855/ms-wiki
+repo_name: ms-wiki
+edit_uri: edit/main/docs/
+copyright: >-
+  非公式の攻略wikiです。ゲームの画像・情報の権利は LEME に帰属します。<br>
+  情報の追加・質問・要望は <a href="https://discord.gg/scXvWqmCZG">Discord</a> へどうぞ。
+
+theme:
+  name: material
+  custom_dir: overrides
+  language: ja
+  font:
+    text: Noto Sans JP
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-night
+        name: ダークモードに切り替え
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-sunny
+        name: ライトモードに切り替え
+  features:
+    - content.action.edit
+    - navigation.footer
+    - navigation.indexes
+    - navigation.top
+    - search.highlight
+
+plugins:
+  - search:
+      lang: ja
+  - git-revision-date-localized:
+      type: date
+      locale: ja
+      fallback_to_build_date: true
+
+extra:
+  discord:
+    name: Discord
+    link: https://discord.gg/scXvWqmCZG
+  social:
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/scXvWqmCZG
+      name: Discord
+
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/tablesort@5.3.0/dist/tablesort.min.js
+  - javascripts/tables.js
+
+markdown_extensions:
+  - attr_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.tilde
+
+validation:
+  omitted_files: info  # 個別ページは nav に入れない
+  absolute_links: warn
+  unrecognized_links: warn
+  anchors: warn
+
+nav:
+  - トップページ: index.md
+  - ゲーム概要: game-overview.md
+  - お役立ち情報:
+      - スーパーチュートリアル: guide/super-tutorial.md
+      - よくある質問: guide/faq.md
+      - 参考記録・ビルド構築解説: guide/builds.md
+      - 小ネタ・小ワザ集: guide/tips.md
+  - データベース:
+      - 魔法(紹介&tier): database/magic.md
+      - アーティファクト(紹介&tier): database/artifacts.md
+      - クラス: database/classes.md
+      - 実験体: database/test-subjects.md
+      - 研究: database/research.md
+      - 基礎情報: database/basics.md
+      - 用語集: database/glossary.md
+      - 深層区域: database/deep-zone.md
+      - テラ: database/terra.md
+      - テラ(ハード): database/terra-hard.md
+  - 編集者向け:
+      - メンバ希望の方へ: editors/join.md
