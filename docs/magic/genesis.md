@@ -2,7 +2,7 @@
 
 ## 基本情報
 
-<img src="../assets/images/magic/genesis/じぇね.png" alt="じぇね" width="1003" height="1620">
+![じぇね](../assets/images/magic/genesis/じぇね.png){ width="1003" height="1620" }
 
 ### 評価
 

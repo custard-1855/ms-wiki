@@ -1,6 +1,6 @@
 # 溶岩地帯
 
-<img src="../assets/images/magic/lava-zone/lava-zone.n.png" alt="Lava Zone.n" width="475" height="456">
+![Lava Zone.n](../assets/images/magic/lava-zone/lava-zone.n.png){ width="475" height="456" }
 
 ### 基本情報
 

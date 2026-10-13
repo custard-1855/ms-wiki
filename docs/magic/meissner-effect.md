@@ -2,7 +2,7 @@
 
 ## 基本情報
 
-<img src="../assets/images/magic/meissner-effect/まいす.png" alt="まいす" width="1003" height="1620">
+![まいす](../assets/images/magic/meissner-effect/まいす.png){ width="1003" height="1620" }
 
 ### 評価
 

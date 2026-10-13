@@ -2,7 +2,7 @@
 
 ## 基本情報
 
-<img src="../assets/images/magic/phoenix/ふぇに.png" alt="ふぇに" width="1003" height="1620">
+![ふぇに](../assets/images/magic/phoenix/ふぇに.png){ width="1003" height="1620" }
 
 ### 評価
 
@@ -10,7 +10,7 @@
 
 - 出力
 
-<img src="../assets/images/magic/phoenix/screenshot_20251018-003637.png" alt="Screenshot_20251018-003637" width="720" height="1612">
+![Screenshot\_20251018-003637](../assets/images/magic/phoenix/screenshot_20251018-003637.png){ width="720" height="1612" }
 
 基本は200〜400万ほど、ステータスが強ければここまで伸びる。
 

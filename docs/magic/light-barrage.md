@@ -2,7 +2,7 @@
 
 ## 基本情報
 
-<img src="../assets/images/magic/light-barrage/こうだん.png" alt="こうだん" width="1003" height="1620">
+![こうだん](../assets/images/magic/light-barrage/こうだん.png){ width="1003" height="1620" }
 
 ### 評価
 

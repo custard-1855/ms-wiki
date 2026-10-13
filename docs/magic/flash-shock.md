@@ -1,6 +1,6 @@
 # 閃光ショック
 
-<img src="../assets/images/magic/flash-shock/flash-shock.n.png" alt="Flash Shock.n" width="475" height="456">
+![Flash Shock.n](../assets/images/magic/flash-shock/flash-shock.n.png){ width="475" height="456" }
 
 ### 基本情報
 

@@ -1,6 +1,6 @@
 # 魔力弾
 
-<img src="../assets/images/magic/magic-bolt/magic-bolt.n.png" alt="Magic Bolt.n" width="475" height="456">
+![Magic Bolt.n](../assets/images/magic/magic-bolt/magic-bolt.n.png){ width="475" height="456" }
 
 ### 基本情報
 

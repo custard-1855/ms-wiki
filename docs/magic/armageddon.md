@@ -1,6 +1,6 @@
 # アルマゲドン
 
-<img src="../assets/images/magic/armageddon/armageddon.n.png" alt="Armageddon.n" width="475" height="456">
+![Armageddon.n](../assets/images/magic/armageddon/armageddon.n.png){ width="475" height="456" }
 
 ### 基本情報
 

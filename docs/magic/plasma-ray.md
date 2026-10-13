@@ -2,7 +2,7 @@
 
 ## 基本情報
 
-<img src="../assets/images/magic/plasma-ray/ぷらこ.png" alt="ぷらこ" width="1031" height="1620">
+![ぷらこ](../assets/images/magic/plasma-ray/ぷらこ.png){ width="1031" height="1620" }
 
 ### 評価
 

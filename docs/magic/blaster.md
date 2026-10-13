@@ -2,7 +2,7 @@
 
 ## 基本情報
 
-<img src="../assets/images/magic/blaster/ぶらす.png" alt="ぶらす" width="1003" height="1620">
+![ぶらす](../assets/images/magic/blaster/ぶらす.png){ width="1003" height="1620" }
 
 ### 評価
 
@@ -10,7 +10,7 @@
 
 - 出力
 
-<img src="../assets/images/magic/blaster/screenshot_20251018-001855.png" alt="Screenshot_20251018-001855" width="720" height="1612">
+![Screenshot\_20251018-001855](../assets/images/magic/blaster/screenshot_20251018-001855.png){ width="720" height="1612" }
 
 ダメージは基本は20万から30万ほどだが、ステータスが強力になるとここまで伸びる。
 

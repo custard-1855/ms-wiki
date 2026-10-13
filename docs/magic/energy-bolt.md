@@ -1,6 +1,6 @@
 # エネルギー弾
 
-<img src="../assets/images/magic/energy-bolt/energy-bolt.n.png" alt="Energy Bolt.n" width="475" height="456">
+![Energy Bolt.n](../assets/images/magic/energy-bolt/energy-bolt.n.png){ width="475" height="456" }
 
 ### 基本情報
 

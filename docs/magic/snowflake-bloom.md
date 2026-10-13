@@ -2,7 +2,7 @@
 
 ## 基本情報
 
-<img src="../assets/images/magic/snowflake-bloom/せか.png" alt="せか" width="1039" height="1620">
+![せか](../assets/images/magic/snowflake-bloom/せか.png){ width="1039" height="1620" }
 
 ### 評価
 
@@ -10,7 +10,7 @@
 
 - 出力
 
-<img src="../assets/images/magic/snowflake-bloom/screenshot_20251019-011149.png" alt="Screenshot_20251019-011149" width="720" height="1612">
+![Screenshot\_20251019-011149](../assets/images/magic/snowflake-bloom/screenshot_20251019-011149.png){ width="720" height="1612" }
 
 - 競合相手との比較
 

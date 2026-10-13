@@ -2,7 +2,7 @@
 
 ## 基本情報
 
-<img src="../assets/images/magic/vortex/ぼる.png" alt="ぼる" width="1003" height="1620">
+![ぼる](../assets/images/magic/vortex/ぼる.png){ width="1003" height="1620" }
 
 ### 評価
 

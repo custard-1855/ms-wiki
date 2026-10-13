@@ -1,6 +1,6 @@
 # 吹雪
 
-<img src="../assets/images/magic/blizzard/blizzard.n.png" alt="Blizzard.n" width="475" height="456">
+![Blizzard.n](../assets/images/magic/blizzard/blizzard.n.png){ width="475" height="456" }
 
 ### 基本情報
 

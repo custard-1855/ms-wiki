@@ -2,7 +2,7 @@
 
 ## 基本情報
 
-<img src="../assets/images/magic/teleport/screenshot_20250811-204742.png" alt="Screenshot_20250811-204742" width="1044" height="1597">
+![Screenshot\_20250811-204742](../assets/images/magic/teleport/screenshot_20250811-204742.png){ width="1044" height="1597" }
 
 ### 評価
 

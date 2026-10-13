@@ -4,7 +4,7 @@
 
 (郊外のページは後日作成します)
 
-<img src="../assets/images/stages/sewer/screenshot_2025-01-11-02-19-25-13_a018ce24e5d63bb13a8d24754083b426.jpg" alt="Screenshot_2025-01-11-02-19-25-13_a018ce24e5d63bb13a8d24754083b426" width="1200" height="2000">
+![Screenshot\_2025-01-11-02-19-25-13\_a018ce24e5d63bb13a8d24754083b426](../assets/images/stages/sewer/screenshot_2025-01-11-02-19-25-13_a018ce24e5d63bb13a8d24754083b426.jpg){ width="1200" height="2000" }
 
 ## ストーリー
 

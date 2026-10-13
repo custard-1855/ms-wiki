@@ -1,6 +1,6 @@
 # 火炎球
 
-<img src="../assets/images/magic/fireball/fireball.n.png" alt="Fireball.n" width="475" height="456">
+![Fireball.n](../assets/images/magic/fireball/fireball.n.png){ width="475" height="456" }
 
 ### 基本情報
 

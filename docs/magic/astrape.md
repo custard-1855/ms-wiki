@@ -2,7 +2,7 @@
 
 ## 基本情報
 
-<img src="../assets/images/magic/astrape/とらぺ.png" alt="とらぺ" width="1003" height="1620">
+![とらぺ](../assets/images/magic/astrape/とらぺ.png){ width="1003" height="1620" }
 
 ### 評価
 

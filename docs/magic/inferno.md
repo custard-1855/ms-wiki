@@ -2,7 +2,7 @@
 
 ## 基本情報
 
-<img src="../assets/images/magic/inferno/いんふぇ.png" alt="いんふぇ" width="1003" height="1620">
+![いんふぇ](../assets/images/magic/inferno/いんふぇ.png){ width="1003" height="1620" }
 
 ### 評価
 

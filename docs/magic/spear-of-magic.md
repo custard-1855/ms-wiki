@@ -2,7 +2,7 @@
 
 ## 基本情報
 
-<img src="../assets/images/magic/spear-of-magic/やり.png" alt="やり" width="1003" height="1620">
+![やり](../assets/images/magic/spear-of-magic/やり.png){ width="1003" height="1620" }
 
 ### 評価
 

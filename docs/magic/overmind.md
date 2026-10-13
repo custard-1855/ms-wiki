@@ -2,7 +2,7 @@
 
 ## 基本情報
 
-<img src="../assets/images/magic/overmind/おばま.png" alt="おばま" width="1003" height="1620">
+![おばま](../assets/images/magic/overmind/おばま.png){ width="1003" height="1620" }
 
 ### 評価
 

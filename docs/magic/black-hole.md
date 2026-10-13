@@ -2,7 +2,7 @@
 
 ## 基本情報
 
-<img src="../assets/images/magic/black-hole/ブラホ.png" alt="ブラホ" width="1003" height="1620">
+![ブラホ](../assets/images/magic/black-hole/ブラホ.png){ width="1003" height="1620" }
 
 ### 評価
 

@@ -2,7 +2,7 @@
 
 ## 基本情報
 
-<img src="../assets/images/magic/flying-swords/いき.png" alt="いき" width="1032" height="1620">
+![いき](../assets/images/magic/flying-swords/いき.png){ width="1032" height="1620" }
 
 ### 評価
 

@@ -2,7 +2,7 @@
 
 ## 基本情報
 
-<img src="../assets/images/magic/infinite-power/むげん.png" alt="むげん" width="1003" height="1620">
+![むげん](../assets/images/magic/infinite-power/むげん.png){ width="1003" height="1620" }
 
 ### 評価
 

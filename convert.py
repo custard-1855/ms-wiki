@@ -308,9 +308,11 @@ class Converter(MarkdownConverter):
         return ""
 
     def convert_img(self, el, text, parent_tags):
-        # width/height を残すため HTML のまま出力する
-        attrs = " ".join(f'{k}="{v}"' for k, v in el.attrs.items())
-        return f"<img {attrs}>"
+        # 生の <img> だと MkDocs が相対パスを書き換えず、ページの URL (guide/faq/) からずれて表示されない。
+        # Markdown 記法にして、width/height は attr_list で残す。
+        alt = re.sub(r"([\\\[\]_*`|])", r"\\\1", el.get("alt", ""))
+        size = " ".join(f'{k}="{el[k]}"' for k in ("width", "height") if el.get(k))
+        return f"![{alt}]({el['src']})" + (f"{{ {size} }}" if size else "")
 
 
 def to_markdown(body: Tag | BeautifulSoup) -> str:

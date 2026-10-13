@@ -2,7 +2,7 @@
 
 ## 基本情報
 
-<img src="../assets/images/magic/demon-equation/でーもん.png" alt="でーもん" width="1003" height="1620">
+![でーもん](../assets/images/magic/demon-equation/でーもん.png){ width="1003" height="1620" }
 
 ### 評価
 

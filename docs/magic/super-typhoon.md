@@ -2,7 +2,7 @@
 
 ## 基本情報
 
-<img src="../assets/images/magic/super-typhoon/すぱたい.png" alt="すぱたい" width="1003" height="1620">
+![すぱたい](../assets/images/magic/super-typhoon/すぱたい.png){ width="1003" height="1620" }
 
 ### 評価
 

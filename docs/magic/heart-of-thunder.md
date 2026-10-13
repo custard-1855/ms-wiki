@@ -2,7 +2,7 @@
 
 ## 基本情報
 
-<img src="../assets/images/magic/heart-of-thunder/かみしん.png" alt="かみしん" width="1003" height="1620">
+![かみしん](../assets/images/magic/heart-of-thunder/かみしん.png){ width="1003" height="1620" }
 
 ### 評価
 
