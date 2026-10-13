@@ -21,6 +21,7 @@
 | tier 表 | tier の色分け + 列クリックで並べ替え |
 | 鮮度表示 | 各ページに最終更新日 (git 履歴から) |
 | コメント欄 | 置かない。Discord への誘導をヘッダーのアイコンとフッターに置く |
+| Discord の招待リンク | `mkdocs.yml` の `extra.discord` (フッター・ヘッダー) が正本。本文には貼らず「Discord」とだけ書く (トップとメンバ希望の方へは正本と同じリンクを置く) |
 | 旧 ID の URL | リダイレクトしない |
 
 ## タスク
@@ -43,7 +44,7 @@
   - スラッグはゲーム英語版の名称を小文字にし、単語をハイフンでつなぐ (例: `blood-pack`)
   - 英語版の名称が分からないものは意訳し、印を付けて確認を頼む
 - [>] `rename_map.csv` を確認してもらい、確定版を変換に使う
-  - 後回し. 他のメンバに委譲する
+  - 後回し. 他のメンバに委譲する (#8)
 
 ### 3. Markdown 変換 (一度きり)
 - [x] 内部リンク `//w.atwiki.jp/magicsurvival/pages/N.html` → `rename_map.csv` を使った相対リンク
@@ -75,8 +76,8 @@
 - [x] GitHub Actions: `main` への push でビルド・デプロイ (Pages の Source は GitHub Actions)
 - [x] GitHub Actions: PR で `mkdocs build --strict` を実行 (テストも実行)
 - [x] テスト: `convert.py` (pytest)、`docs/javascripts/tables.js` (node:test + jsdom)
-- [ ] main のブランチ保護 (PR 必須、CI 成功を必須)
-- [ ] メンバーを collaborator に追加
+- [ ] main のブランチ保護 (PR 必須、CI 成功を必須) (#10)
+- [ ] メンバーを collaborator に追加 (#10)
 - [x] `CONTRIBUTING.md`: ブランチ作成 → 編集 → PR の手順、ページ追加時のファイル名規則、ローカルでのプレビュー方法 (`uv run mkdocs serve`)
 
 ## 将来タスク
@@ -104,3 +105,48 @@ CI で PR ごとに実行する。翻訳 PR だけでなく、日本語ページ
 - [ ] 用語の統一: 用語集の日本語に対応する英語が使われているか
 - [ ] tier 表記 (S/A/B/C/D/E/×、`A(S)`) が日本語版と一致するか
 - [ ] 一般的な Markdown の lint (markdownlint-cli2) を日英両方にかける
+
+## 8. トップページの作り直し
+@wiki のトップは現在「引っ越しのご案内」と注意事項だけなので、以前のソース (@wiki 記法) から手で書き起こす。
+
+### 決定事項
+
+| 項目 | 決定 |
+| --- | --- |
+| H1 | Magic Survival 非公式攻略wiki |
+| 導入文 | よくある質問・初心者向け・メンバ希望・Discord への案内、非公式である旨、@wiki から移転した旨 (旧 URL へのリンク) |
+| wiki内案内 | Material の grid cards。主要ページ (6〜8 枚) だけ載せ、残りはサイドバーに任せる |
+| 日付つきの情報 | トップには置かない (PR 必須で更新が遅れがちなため) |
+| イベント | `events.md` を新設 (アンケート 2 件・マジサバクイズ・共通テスト2026。4 件とも受付中)。トップのカードから辿る |
+| クイズの PDF | `img.atwiki.jp` から `docs/assets/` に取り込む |
+| アップデート情報 | `database/updates.md` を新設。Naver の更新告知を過去まで全部集め、版ごとに既存 (v0.983) と同じ粒度で要約する。人が後で補足する |
+| 環境変化の所感 | 履歴の各版の下に置く。v0.982 の分は v0.983 の誤記とみなす |
+| Discord メッセージへのリンク | 削除 (サーバー参加者しか開けない) |
+| 管理人の推移・挨拶 | `about.md` (このwikiについて) を新設し、移転の経緯もそこに書く |
+| `&update()` `&count_pages` `&counter` `#contents` `#search`、CSS 編集中の告知 | 削除 |
+| 注意事項 | トップ末尾に CC BY-SA 版だけ残す (重複 3 つを 1 つに) |
+| 初心者向け情報まとめ | 存在しないページ。「準備中」ページとして `guide/beginners.md` を置く |
+| 準備中ページ | 共通テンプレート `overrides/coming-soon.html`。front matter に `template: coming-soon.html` と書くと、レベルアップ時の魔法選択風 (3 択カード: トップへ / 検索 / Discord) になる |
+| 404 | `overrides/404.html` も同じデザインで、文言だけ変える |
+| nav | データベース > アップデート履歴。新区分「コミュニティ」にイベント・マジサバクイズ・このwikiについて・メンバ希望の方へ |
+
+### タスク
+- [x] `overrides/coming-soon.html` と `overrides/404.html` (レベルアップ選択風)
+- [x] `guide/beginners.md` を準備中ページとして作り、`database/magic.md` のリンク切れも直す
+- [x] Naver の更新告知を集める (取れなければ Claude in Chrome で読む) → `database/updates.md`
+  - Naver Cafe の API で「업데이트」掲示板の 200 件を取得。v0.54〜v0.9941 を版ごとに要約
+  - [ ] v0.933 (記事 22703) は会員限定で未確認。誰かに読んでもらって追記する (#5)
+  - [ ] 要約のレビュー (#7)
+- [x] `events.md`、クイズ PDF の取り込み (PDF は取り込み済みだった)
+- [x] `about.md`
+- [x] `index.md` (導入文・カード・注意事項)
+- [x] `mkdocs.yml` の nav
+- [x] `mkdocs build --strict` で確認
+- [ ] `uv run mkdocs serve` で見た目を確認 (カード・準備中ページ・404) (#6)
+
+## ?
+- 大きすぎる画像のサイズ調整など, 可読性の向上 (#9)
+- atwikiにあった機能を追加
+  - 訪問者カウント
+  - 人気ページの提示
+  - ページ推薦...?

@@ -1,0 +1,54 @@
+{#-
+  準備中ページと 404 で使う、レベルアップ時の「魔法選択」画面を模したパネル。
+  選択肢は トップへ / 検索 / Discord の 3 枚と、下の「前のページに戻る」ボタン。
+  検索は header の検索と同じチェックボックス (#__search) を label で切り替える。
+  枠のギザギザは SVG フィルタ (#levelup-rough) で出している。
+-#}
+{% macro levelup(level, message) %}
+  <section class="levelup" aria-label="魔法選択">
+    <svg class="levelup__defs" aria-hidden="true" focusable="false">
+      <filter id="levelup-rough">
+        <feTurbulence type="fractalNoise" baseFrequency="0.05" numOctaves="2" seed="7" />
+        <feDisplacementMap in="SourceGraphic" scale="5" />
+      </filter>
+      <filter id="levelup-sketch">
+        <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="1" seed="3" />
+        <feDisplacementMap in="SourceGraphic" scale="1.6" />
+      </filter>
+    </svg>
+    <p class="levelup__level">現在レベル：{{ level }}</p>
+    <p class="levelup__title">魔法選択</p>
+    <p class="levelup__message">{{ message }}</p>
+    <div class="levelup__choices">
+      <a class="levelup__card" href="{{ nav.homepage.url | url }}">
+        <span class="levelup__icon">{% include ".icons/material/home-variant.svg" %}</span>
+        <span class="levelup__name">トップページ</span>
+        <span class="levelup__lv">Lv 1</span>
+        <span class="levelup__desc">拠点に<em>帰還</em>し、別のページを探す。</span>
+      </a>
+      <label class="levelup__card" for="__search" tabindex="0">
+        <span class="levelup__icon">{% include ".icons/material/magnify.svg" %}</span>
+        <span class="levelup__name">wiki内検索</span>
+        <span class="levelup__lv">Lv 1</span>
+        <span class="levelup__desc">ページ名やキーワードで wiki 全体を<em>探知</em>する。</span>
+      </label>
+      <a class="levelup__card" href="{{ config.extra.discord.link }}">
+        <span class="levelup__icon">{% include ".icons/fontawesome/brands/discord.svg" %}</span>
+        <span class="levelup__name">Discord</span>
+        <span class="levelup__lv">Lv 1</span>
+        <span class="levelup__desc">編集者を<em>召喚</em>し、質問や情報を届ける。</span>
+      </a>
+    </div>
+    <button class="levelup__back" type="button">前のページに戻る</button>
+  </section>
+  <script>
+    document.querySelectorAll("label.levelup__card").forEach(function (el) {
+      el.addEventListener("keydown", function (e) {
+        if (e.key === "Enter" || e.key === " ") { e.preventDefault(); el.click() }
+      })
+    })
+    document.querySelectorAll(".levelup__back").forEach(function (el) {
+      el.addEventListener("click", function () { history.back() })
+    })
+  </script>
+{% endmacro %}

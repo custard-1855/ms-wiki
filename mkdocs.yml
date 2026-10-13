@@ -59,6 +59,9 @@ extra_css:
 extra_javascript:
   - https://cdn.jsdelivr.net/npm/tablesort@5.3.0/dist/tablesort.min.js
   - javascripts/tables.js
+  - javascripts/shout.js
+  - javascripts/overview.js
+  - javascripts/top.js
 
 markdown_extensions:
   - attr_list
@@ -68,6 +71,9 @@ markdown_extensions:
   - toc:
       permalink: true
   - pymdownx.tilde
+  - pymdownx.emoji:  # トップページのカードのアイコン
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 validation:
   omitted_files: info  # 個別ページは nav に入れない
@@ -94,5 +100,9 @@ nav:
       - 深層区域: database/deep-zone.md
       - テラ: database/terra.md
       - テラ(ハード): database/terra-hard.md
-  - 編集者向け:
+      - アップデート履歴: database/updates.md
+  - コミュニティ:
+      - イベント: events.md
+      - マジサバクイズ一覧: guide/quiz.md
+      - このwikiについて: about.md
       - メンバ希望の方へ: editors/join.md

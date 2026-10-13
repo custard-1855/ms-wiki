@@ -1,3 +1,8 @@
+/* 叫び (.ms-shout) とトップの「wiki」の札用。使う文字だけを読み込む。
+   .ms-shout__text に新しい文字を使うときは、text= に足すこと */
+@import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap&text=%E3%83%89%E3%83%81%E3%83%A5%E3%83%BC%E3%83%88%E3%83%AA%E3%82%A2%E3%83%AB%E3%81%A0%E3%81%A3%EF%BC%81");
+@import url("https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap&text=wiki");
+
 /* 元 wiki の origin.css の配色を Material の CSS 変数に移したもの */
 
 :root {
@@ -99,4 +104,806 @@
   max-width: 640px;
   aspect-ratio: 16 / 9;
   border: 0;
+}
+
+/* 準備中ページと 404 (overrides/partials/levelup.html): レベルアップ時の「魔法選択」画面 */
+.levelup {
+  --lu-bg: #0c0907;
+  --lu-frame: #5e3d22;
+  --lu-text: #efe3c8;
+  --lu-sub: #9d968a;
+  --lu-card: #13110f;
+  --lu-line: #3d3833;
+  --lu-accent: #d65cf0;
+  position: relative;
+  max-width: 26rem;
+  margin: 1.5rem auto;
+  padding: 1.6rem 1.2rem 1.4rem;
+  background: var(--lu-bg);
+  color: var(--lu-text);
+  text-align: center;
+}
+/* 手描き風のギザギザの枠 (外側は茶、内側は暗い線) */
+.levelup::before,
+.levelup::after {
+  content: "";
+  position: absolute;
+  pointer-events: none;
+  filter: url(#levelup-rough);
+}
+.levelup::before {
+  inset: 0;
+  border: 3px solid var(--lu-frame);
+}
+.levelup::after {
+  inset: 6px;
+  border: 1px solid #2b1d12;
+}
+.levelup__defs {
+  position: absolute;
+  width: 0;
+  height: 0;
+}
+.md-typeset .levelup p {
+  margin: 0;
+}
+.md-typeset .levelup .levelup__level {
+  color: var(--lu-sub);
+  font-size: 0.65rem;
+}
+.md-typeset .levelup .levelup__title {
+  margin: 0.3rem 0 0;
+  padding-bottom: 0.6rem;
+  border-bottom: 1px solid #3a2a1c;
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+}
+.md-typeset .levelup .levelup__message {
+  margin: 0.9rem 0 1rem;
+  color: var(--lu-text);
+  font-size: 0.68rem;
+}
+.levelup__choices {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  text-align: left;
+}
+.md-typeset .levelup__card {
+  display: grid;
+  grid-template-columns: 3.2rem 1fr auto;
+  grid-template-areas: "icon name lv" "icon desc desc";
+  gap: 0.15rem 0.7rem;
+  align-items: start;
+  padding: 0.6rem 0.7rem;
+  border: 1px solid var(--lu-line);
+  background: var(--lu-card);
+  color: var(--lu-text);
+  cursor: pointer;
+  transition: border-color 0.1s, background-color 0.1s;
+}
+.md-typeset .levelup__card:hover,
+.md-typeset .levelup__card:focus-visible {
+  border-color: var(--lu-text);
+  background: #1b1815;
+  color: var(--lu-text);
+  outline: none;
+}
+.levelup__icon {
+  grid-area: icon;
+  display: flex;
+  width: 3.2rem;
+  height: 3.2rem;
+  padding: 0.55rem;
+  border: 1px solid #4a4a4a;
+  background: #000;
+}
+.levelup__icon svg {
+  width: 100%;
+  height: 100%;
+  fill: #e4e4e4;
+  filter: url(#levelup-sketch) drop-shadow(0 0 2px rgba(255, 255, 255, 0.35));
+}
+.levelup__name {
+  grid-area: name;
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+.levelup__lv {
+  grid-area: lv;
+  color: var(--lu-sub);
+  font-size: 0.65rem;
+}
+.levelup__desc {
+  grid-area: desc;
+  color: #c9c4ba;
+  font-size: 0.62rem;
+  line-height: 1.5;
+}
+.md-typeset .levelup__desc em {
+  color: var(--lu-accent);
+  font-style: normal;
+}
+.levelup__back {
+  position: relative;
+  display: block;
+  width: 100%;
+  margin-top: 1.2rem;
+  padding: 0.55rem;
+  border: 0;
+  background: none;
+  color: #b9b2a6;
+  font: inherit;
+  font-size: 0.7rem;
+  cursor: pointer;
+  isolation: isolate;
+}
+/* ボタンの帯も縁をギザギザに */
+.levelup__back::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: #1d1a17;
+  filter: url(#levelup-rough);
+}
+.levelup__back:hover,
+.levelup__back:focus-visible {
+  color: var(--lu-text);
+  outline: none;
+}
+.levelup__back:hover::before,
+.levelup__back:focus-visible::before {
+  background: #2a2622;
+}
+
+/* 叫び: 漫画の集中線 + 極太文字。おふざけ用の汎用部品 (CONTRIBUTING.md 参照)
+   <div class="ms-shout"><p class="ms-shout__lead">前置き</p>
+   <p class="ms-shout__text"><span>1行目</span><span>2行目</span></p></div> */
+.ms-shout {
+  --ms-shout-line: rgba(0, 0, 0, 0.55);
+  --ms-shout-fill: #fff;
+  --ms-shout-stroke: #111;
+  --ms-shout-shadow: #f54738;
+  position: relative;
+  margin: 1rem 0 1.5rem;
+  padding: 1.6rem 0.5rem 2rem;
+  overflow: hidden;
+  text-align: center;
+}
+[data-md-color-scheme="slate"] .ms-shout {
+  --ms-shout-line: rgba(255, 255, 255, 0.4);
+}
+/* 集中線: 細い放射状の線を中心だけ抜く */
+.ms-shout::before {
+  content: "";
+  position: absolute;
+  inset: -50%;
+  background: repeating-conic-gradient(
+    from 0deg,
+    var(--ms-shout-line) 0deg 0.6deg,
+    transparent 0.6deg 4deg,
+    var(--ms-shout-line) 4deg 4.3deg,
+    transparent 4.3deg 7.5deg
+  );
+  -webkit-mask-image: radial-gradient(ellipse 34% 30% at center, transparent 55%, #000 100%);
+  mask-image: radial-gradient(ellipse 34% 30% at center, transparent 55%, #000 100%);
+  animation: ms-shout-lines 0.24s steps(2) 4;  /* 文字の登場に合わせて約 1 秒で止める */
+}
+.md-typeset .ms-shout p {
+  position: relative;
+  margin: 0;
+}
+.md-typeset .ms-shout__lead {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-wrap: balance;
+  word-break: keep-all;
+}
+.md-typeset .ms-shout__text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 0.4rem;
+  color: var(--ms-shout-fill);
+  font-family: "Dela Gothic One", var(--md-text-font-family), sans-serif;
+  font-size: clamp(1.9rem, 8.5vw, 3.4rem);
+  line-height: 1.15;
+  letter-spacing: 0.02em;
+  -webkit-text-stroke: 0.22em var(--ms-shout-stroke);
+  paint-order: stroke fill;
+  text-shadow: 0.09em 0.09em 0 var(--ms-shout-shadow);
+  transform: skewX(-10deg) rotate(-3deg);
+  animation: ms-shout-slam 0.5s cubic-bezier(0.2, 1.6, 0.4, 1) both, ms-shout-shake 0.35s 0.45s linear both;
+}
+.md-typeset .ms-shout__text span + span {
+  margin-left: 2.2em;
+}
+/* 画面に入るまで待つ (javascripts/shout.js が is-pending を外す) */
+.ms-shout.is-pending::before,
+.md-typeset .ms-shout.is-pending .ms-shout__text {
+  animation-play-state: paused;
+}
+@keyframes ms-shout-slam {
+  from { transform: skewX(-10deg) rotate(-3deg) scale(2.4); opacity: 0; filter: blur(6px); }
+  to { transform: skewX(-10deg) rotate(-3deg) scale(1); opacity: 1; filter: none; }
+}
+@keyframes ms-shout-shake {
+  0%, 100% { translate: 0 0; }
+  20% { translate: -6px 3px; }
+  40% { translate: 5px -4px; }
+  60% { translate: -4px -2px; }
+  80% { translate: 3px 3px; }
+}
+@keyframes ms-shout-lines {
+  to { transform: rotate(1.5deg); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .ms-shout::before,
+  .md-typeset .ms-shout__text {
+    animation: none;
+  }
+}
+
+/* ===== ゲーム概要 (docs/game-overview.md) ===== */
+.ms-hero,
+.ms-journal,
+.ms-area,
+.ms-status {
+  --ms-ink: #efe3c8;
+  --ms-sub: #9d968a;
+  --ms-green: #8be04e;
+  --ms-frame: #5e3d22;
+}
+
+/* ヒーロー: 魔法の絵を暗く敷き、ゲームのタイトル画面風に */
+.ms-hero {
+  position: relative;
+  margin: 0 0 2rem;
+  padding: 3.2rem 1rem 2.4rem;
+  overflow: hidden;
+  background: #000;
+  color: var(--ms-ink);
+  text-align: center;
+}
+.ms-hero__bg {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  opacity: 0.45;
+  animation: ms-hero-drift 18s ease-in-out infinite alternate;
+}
+.md-typeset .ms-hero__bg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.ms-hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.85) 75%);
+}
+.md-typeset .ms-hero p {
+  position: relative;
+  z-index: 1;
+  margin: 0;
+}
+.md-typeset .ms-hero__title {
+  line-height: 0;
+}
+.md-typeset .ms-hero__title img {
+  width: min(60vw, 16rem);
+  height: auto;
+  filter: drop-shadow(0 0 0.5rem #000) drop-shadow(0 0 1.2rem rgba(255, 140, 60, 0.35));
+}
+.md-typeset .ms-hero__sub {
+  margin-top: 0.3rem;
+  font-size: 0.8rem;
+  letter-spacing: 0.4em;
+}
+.md-typeset .ms-hero__catch {
+  margin-top: 1.2rem;
+  color: var(--ms-sub);
+  font-size: 0.7rem;
+}
+.md-typeset .ms-hero__menu {
+  display: flex;
+  justify-content: center;
+  gap: 2.5rem;
+  margin-top: 1.6rem;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+.md-typeset .ms-hero__menu a {
+  color: #fff;
+}
+.md-typeset .ms-hero__menu a.ms-hero__infinite {
+  color: #ecd27a;
+}
+.md-typeset .ms-hero__menu a:hover {
+  text-shadow: 0 0 0.5em currentColor;
+}
+@keyframes ms-hero-drift {
+  from { transform: scale(1.05) translate(0, 0); }
+  to { transform: scale(1.15) translate(-2%, 1%); }
+}
+
+/* あらすじ: 日誌風のパネル。文字は javascripts/overview.js が一文字ずつ出す */
+.ms-journal {
+  position: relative;
+  padding: 1rem 1.2rem;
+  border: 1px solid #3a2a1c;
+  border-left: 3px solid var(--ms-frame);
+  background: #0c0907;
+  color: var(--ms-ink);
+}
+.md-typeset .ms-journal p {
+  margin: 0;
+}
+.md-typeset .ms-journal__head {
+  color: var(--ms-sub);
+  font-size: 0.62rem;
+  letter-spacing: 0.1em;
+}
+.md-typeset .ms-journal__text {
+  min-height: 4.5em;
+  margin: 0.6rem 0 0.4rem;
+  line-height: 1.8;
+}
+.ms-journal__text.is-typing::after {
+  content: "▍";
+  animation: ms-blink 0.8s steps(1) infinite;
+}
+.md-typeset .ms-journal__source {
+  color: var(--ms-sub);
+  font-size: 0.62rem;
+  text-align: right;
+}
+@keyframes ms-blink {
+  50% { opacity: 0; }
+}
+
+/* 遊び方: 番号つきのステップ */
+.md-typeset ol.ms-steps {  /* ol:not([hidden]) の display: flow-root に勝つため ol を付ける */
+  display: grid;
+  gap: 1rem;
+  margin: 1rem 0;
+  padding: 0;
+  list-style: none;
+  counter-reset: ms-step;
+}
+.md-typeset .ms-step {
+  display: grid;
+  grid-template-columns: 6rem 1fr;
+  gap: 1rem;
+  align-items: center;
+  margin: 0;
+  counter-increment: ms-step;
+}
+.md-typeset .ms-step__img {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 6rem;
+  height: 6rem;
+  margin: 0;
+  overflow: hidden;
+  border: 1px solid #4a4a4a;
+  background: #000;
+}
+.md-typeset .ms-step__img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.md-typeset .ms-step__img--orbs {
+  gap: 0.2rem;
+  padding: 0.3rem;
+}
+.md-typeset .ms-step__img--orbs img {
+  width: 33%;
+  height: auto;
+}
+.md-typeset .ms-step__img::before {
+  content: counter(ms-step);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  padding: 0 0.35rem;
+  background: var(--md-typeset-a-color);
+  color: #fff;
+  font-size: 0.7rem;
+  font-weight: 700;
+}
+.md-typeset .ms-step__body p {
+  margin: 0.2rem 0 0;
+}
+.md-typeset .ms-step__title {
+  font-size: 0.95rem;
+  font-weight: 700;
+}
+
+/* エリア: 区域選択画面の再現 (javascripts/overview.js が ◀ ▶ を付けて 1 枚ずつにする) */
+.ms-area {
+  max-width: 22rem;
+  margin: 1rem auto 0.5rem;
+  padding: 1rem;
+  background: #000;
+  color: #fff;
+  text-align: center;
+}
+.ms-area:focus-visible {
+  outline: 2px solid var(--ms-green);
+}
+.ms-area:not(.is-carousel) .ms-area__item + .ms-area__item {
+  margin-top: 2rem;
+}
+.md-typeset .ms-area p {
+  margin: 0;
+}
+.md-typeset .ms-area__name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2.4rem;
+  font-size: 1.5rem;
+}
+.ms-area__nav {
+  width: 0;
+  height: 0;
+  padding: 0;
+  border-top: 0.55rem solid transparent;
+  border-bottom: 0.55rem solid transparent;
+  background: none;
+  cursor: pointer;
+}
+.ms-area__nav--prev {
+  border-right: 0.8rem solid #fff;
+}
+.ms-area__nav--next {
+  border-left: 0.8rem solid #fff;
+}
+.ms-area__nav:hover {
+  filter: drop-shadow(0 0 4px #fff);
+}
+.md-typeset .ms-area img {
+  display: block;
+  width: 85%;
+  margin: 1rem auto 1.2rem;
+}
+.md-typeset .ms-area__time {
+  padding-top: 0.8rem;
+  border-top: 2px solid var(--ms-green);
+  color: var(--ms-green);
+  font-size: 1rem;
+  font-variant-numeric: tabular-nums;
+}
+.md-typeset .ms-area__text {
+  min-height: 3.2em;
+  margin-top: 0.6rem;
+  color: #ddd;
+  font-size: 0.62rem;
+  line-height: 1.7;
+}
+.md-typeset .ms-area__menu {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+}
+.md-typeset .ms-area__menu a {
+  color: #fff;
+}
+.md-typeset .ms-area__menu a:hover {
+  text-shadow: 0 0 0.5em #fff;
+}
+.md-typeset .ms-area__count {
+  margin-top: 0.6rem;
+  color: #777;
+  font-size: 0.6rem;
+}
+.md-typeset .ms-note {
+  color: var(--md-default-fg-color--light);
+  font-size: 0.65rem;
+  text-align: center;
+}
+
+/* 魔法ギャラリー: 黒いタイル。触れると光る */
+.ms-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(7.5rem, 1fr));
+  gap: 0.5rem;
+}
+.md-typeset .ms-gallery a {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  border: 1px solid #333;
+  background: #000;
+  color: #fff;
+}
+.md-typeset .ms-gallery img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  transition: transform 0.3s, filter 0.3s;
+}
+.md-typeset .ms-gallery span {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem 0.4rem 0.3rem;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.85));
+  font-size: 0.62rem;
+  font-weight: 700;
+}
+.md-typeset .ms-gallery a:hover,
+.md-typeset .ms-gallery a:focus-visible {
+  border-color: #efe3c8;
+  box-shadow: 0 0 0.8rem rgba(255, 170, 90, 0.45);
+}
+.md-typeset .ms-gallery a:hover img,
+.md-typeset .ms-gallery a:focus-visible img {
+  filter: brightness(1.25) saturate(1.2);
+  transform: scale(1.08);
+}
+
+/* ゲーム情報: ステータス画面風 */
+.md-typeset .ms-status {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  gap: 0.4rem 1.2rem;
+  margin: 1rem 0;
+  padding: 1rem 1.2rem;
+  background: #0c0907;
+  color: var(--ms-ink);
+}
+.md-typeset .ms-status dt {
+  color: var(--ms-green);
+  font-weight: 700;
+}
+.md-typeset .ms-status dd {
+  margin: 0;
+}
+
+/* 動画 */
+.md-typeset .ms-videos figure {
+  margin: 1rem 0;
+}
+.md-typeset .ms-videos figcaption {
+  max-width: none;
+  font-size: 0.65rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ms-hero__bg,
+  .ms-journal__text.is-typing::after {
+    animation: none;
+  }
+}
+
+/* ===== トップページ (docs/index.md、javascripts/top.js) =====
+   滲み出る魔法の絵 + 公式ロゴ + マナオーブ (canvas) + カードの枠 */
+.ms-top__defs {
+  position: absolute;
+  width: 0;
+  height: 0;
+}
+.ms-top {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 22rem;
+  margin: 0 0 2rem;
+  overflow: hidden;
+  background: #000;
+  color: #efe9dd;
+}
+.ms-top::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at center, transparent 40%, rgba(0, 0, 0, 0.75) 100%);
+  pointer-events: none;
+}
+.ms-top__orbs {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+
+/* 背景: 魔法の絵が 1 枚ずつ闇から滲み出て消える (色は一瞬だけ灯る) */
+.ms-top__bleed {
+  position: absolute;
+  inset: 0;
+  -webkit-mask-image: radial-gradient(ellipse 70% 80% at center, #000 30%, transparent 75%);
+  mask-image: radial-gradient(ellipse 70% 80% at center, #000 30%, transparent 75%);
+}
+.md-typeset .ms-top__bleed img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  animation: ms-top-bleed 42s ease-in-out -1.5s infinite;  /* 開いた時点で 1 枚目が滲み始めているように前倒し */
+}
+.md-typeset .ms-top__bleed img:nth-child(2) { animation-delay: 5.5s; }
+.md-typeset .ms-top__bleed img:nth-child(3) { animation-delay: 12.5s; }
+.md-typeset .ms-top__bleed img:nth-child(4) { animation-delay: 19.5s; }
+.md-typeset .ms-top__bleed img:nth-child(5) { animation-delay: 26.5s; }
+.md-typeset .ms-top__bleed img:nth-child(6) { animation-delay: 33.5s; }
+@keyframes ms-top-bleed {
+  0% { opacity: 0; transform: scale(1.12); filter: saturate(0) brightness(0.6); }
+  7% { opacity: 0.5; filter: saturate(1.1) brightness(1); }
+  14% { opacity: 0.32; filter: saturate(0.15) brightness(0.7); }
+  20% { opacity: 0; transform: scale(1); filter: saturate(0) brightness(0.5); }
+  100% { opacity: 0; }
+}
+/* フィルムグレイン */
+.ms-top::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.5'/%3E%3C/svg%3E");
+  opacity: 0.12;
+  mix-blend-mode: overlay;
+  pointer-events: none;
+}
+
+/* タイトル: 公式ロゴ (サムネイルから抜き出したもの) が左から書かれ、最後に「wiki」の札が押される */
+@property --ms-write {
+  syntax: "<percentage>";
+  inherits: false;
+  initial-value: 0%;
+}
+.md-typeset .ms-top__title {
+  position: relative;
+  z-index: 3;
+  margin: 0;
+  line-height: 0;
+  pointer-events: none;
+}
+.md-typeset .ms-top__logo {
+  width: min(62vw, 19rem);
+  height: auto;
+  filter: drop-shadow(0 0 0.6rem rgba(255, 236, 200, 0.15));  /* 背景は黒なので黒い影は付けない (周りが四角く暗くなる) */
+  -webkit-mask-image: linear-gradient(100deg, #000 var(--ms-write), transparent calc(var(--ms-write) + 12%));
+  mask-image: linear-gradient(100deg, #000 var(--ms-write), transparent calc(var(--ms-write) + 12%));
+  animation: ms-top-write 1.3s cubic-bezier(0.45, 0, 0.25, 1) 0.3s both;
+}
+.ms-top__tag {
+  position: absolute;
+  right: -0.4rem;
+  bottom: -0.2rem;
+  padding: 0.15rem 0.5rem 0.25rem;
+  color: #efe9dd;
+  font-family: "Caveat Brush", cursive;
+  font-size: clamp(1.1rem, 3.2vw, 1.6rem);  /* ロゴの大きさに合わせて伸ばす */
+  line-height: 1;
+  transform: rotate(-8deg);
+  animation: ms-top-stamp 0.4s cubic-bezier(0.2, 1.6, 0.4, 1) 1.6s both;
+}
+/* 札の枠はギザギザに (filter はトップページの #ms-rough) */
+.ms-top__tag::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  border: 2px solid #8a5a2e;
+  background: rgba(20, 12, 6, 0.85);
+  filter: url(#ms-rough);
+}
+.ms-top__hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+@media (max-width: 30em) {
+  .ms-top {
+    min-height: 18rem;
+  }
+}
+@keyframes ms-top-write {
+  from { --ms-write: -15%; }
+  to { --ms-write: 105%; }
+}
+@keyframes ms-top-stamp {
+  from { opacity: 0; transform: rotate(-8deg) scale(2); }
+  to { opacity: 1; transform: rotate(-8deg) scale(1); }
+}
+/* 2 回目以降: ロゴを書く演出を短くする */
+.ms-top.is-instant .ms-top__logo,
+.ms-top.is-instant .ms-top__tag {
+  animation-delay: 0s;
+  animation-duration: 0.6s;
+}
+
+/* カード: 触れると、ギザギザの枠が手描きのように引かれ、奥にゲームの絵が滲む */
+.md-typeset .ms-cards > ul > li.ms-card {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+}
+.ms-card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background-position: center;
+  background-size: cover;
+  opacity: 0;
+  filter: blur(1px) saturate(0.7);
+  transform: scale(1.08);
+  transition: opacity 0.6s, transform 1.2s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+.ms-card:hover::after,
+.ms-card:focus-within::after {
+  opacity: 0.16;
+  transform: scale(1);
+}
+[data-md-color-scheme="slate"] .ms-card:hover::after,
+[data-md-color-scheme="slate"] .ms-card:focus-within::after {
+  opacity: 0.3;
+}
+.ms-card:nth-child(1)::after { background-image: url("../assets/images/overview/magic/super-typhoon.jpg"); }
+.ms-card:nth-child(2)::after { background-image: url("../assets/images/top/artifacts.jpg"); }
+.ms-card:nth-child(3)::after { background-image: url("../assets/images/top/classes.jpg"); }
+.ms-card:nth-child(4)::after { background-image: url("../assets/images/overview/stages/academy.jpg"); }
+.ms-card:nth-child(5)::after { background-image: url("../assets/images/top/magic-circle.png"); background-size: contain; background-repeat: no-repeat; }
+.ms-card:nth-child(6)::after { background-image: url("../assets/images/overview/stages/virtual-ecosystem.jpg"); }
+.ms-card:nth-child(7)::after { background-image: url("../assets/images/overview/magic/fireworks.jpg"); }
+.ms-card:nth-child(8)::after { background-image: url("../assets/images/overview/stages/city.jpg"); }
+.ms-card__frame {
+  position: absolute;
+  inset: 4px;
+  width: calc(100% - 8px);
+  height: calc(100% - 8px);
+  overflow: visible;
+  pointer-events: none;
+  filter: url(#ms-rough);
+}
+.ms-card__frame rect {
+  fill: none;
+  stroke: #8a5a2e;
+  stroke-width: 2;
+  stroke-dasharray: 1;
+  stroke-dashoffset: 1;
+  transition: stroke-dashoffset 0.25s ease-in;
+}
+.ms-card:hover .ms-card__frame rect,
+.ms-card:focus-within .ms-card__frame rect {
+  stroke-dashoffset: 0;
+  transition: stroke-dashoffset 0.75s cubic-bezier(0.65, 0, 0.35, 1);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .md-typeset .ms-top__bleed img,
+  .md-typeset .ms-top__logo,
+  .ms-top__tag {
+    animation: none;
+  }
+  .md-typeset .ms-top__logo {
+    --ms-write: 105%;
+  }
+  .md-typeset .ms-top__bleed img:first-child {
+    opacity: 0.35;
+  }
+  .ms-card__frame rect,
+  .ms-card::after {
+    transition: none;
+  }
 }
