@@ -15,6 +15,10 @@ Magic Survival (マジックサバイバル) の非公式攻略wiki。@wiki か�
 | `.github/workflows/pages.yml` | PR でテストとビルド確認、main への push でデプロイ |
 | `tests/` | 変換スクリプト (pytest) と `docs/javascripts/tables.js` (node:test + jsdom) のテスト |
 
+## ライセンス
+
+文章 (`docs/` の Markdown) は CC BY-SA 4.0、コードは MIT。ゲームの画像・ゲーム内テキスト・データの権利は LEME に帰属し、対象外。詳しくは [LICENSE](LICENSE)。
+
 ## テスト
 
 ```sh
