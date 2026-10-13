@@ -1,21 +1,13 @@
 // トップページ (docs/index.md) の演出
-// - 試作の切り替え: ?hero=circle|bleed|both (既定 circle)、?orbs=0、?cards=0
-// - 魔法陣: 初回だけ描く演出。2 回目以降 (同じタブ) はすぐ出す
+// - ロゴ: 初回だけ書く演出。2 回目以降 (同じタブ) はすぐ出す
 // - マナオーブ: canvas に光の粒を漂わせ、カーソルに吸い寄せる
 // - カード: ギザギザの枠を描く SVG を差し込む (描く動きは CSS)
+// 魔法の絵が滲み出る背景は CSS だけで動く
 ;(function () {
   var top = document.querySelector("[data-ms-top]")
   if (!top) return
-  var params = new URLSearchParams(location.search)
   var reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches
 
-  var hero = params.get("hero") || "circle"
-  top.setAttribute("data-hero", hero)
-  var orbsOn = params.get("orbs") !== "0" && !reduced
-  top.setAttribute("data-orbs", orbsOn ? "on" : "off")
-  var cardsOn = params.get("cards") !== "0"
-
-  // 2 回目以降は魔法陣を描く演出を省く
   try {
     if (sessionStorage.getItem("ms-top-seen")) top.classList.add("is-instant")
     sessionStorage.setItem("ms-top-seen", "1")
@@ -24,7 +16,6 @@
   // カード: 枠の SVG を差し込む
   var cards = document.querySelectorAll(".ms-cards > ul > li")
   cards.forEach(function (li) {
-    if (!cardsOn) return
     li.classList.add("ms-card")
     var ns = "http://www.w3.org/2000/svg"
     var svg = document.createElementNS(ns, "svg")
@@ -40,7 +31,7 @@
     li.appendChild(svg)
   })
 
-  if (!orbsOn) return
+  if (reduced) return
 
   // マナオーブ (色はゲームのマナオーブの小・中・大から)
   var canvas = top.querySelector(".ms-top__orbs")

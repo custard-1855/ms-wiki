@@ -688,12 +688,7 @@
 }
 
 /* ===== トップページ (docs/index.md、javascripts/top.js) =====
-   案1 魔法陣 / 案2 滲み出る魔法 / 案3 マナオーブ / 案4 カードの枠。data-hero で切り替える */
-@property --ms-sweep {
-  syntax: "<angle>";
-  inherits: false;
-  initial-value: 0deg;
-}
+   滲み出る魔法の絵 + 公式ロゴ + マナオーブ (canvas) + カードの枠 */
 .ms-top__defs {
   position: absolute;
   width: 0;
@@ -725,59 +720,13 @@
   height: 100%;
   z-index: 2;
 }
-.ms-top[data-orbs="off"] .ms-top__orbs {
-  display: none;
-}
 
-/* 案1: 魔法陣が一周なぞるように描かれ、ゆっくり回る */
-.ms-top__circle {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 15rem;
-  height: 15rem;
-  margin: -7.5rem 0 0 -7.5rem;
-  z-index: 1;
-  -webkit-mask-image: conic-gradient(#000 var(--ms-sweep), transparent 0);
-  mask-image: conic-gradient(#000 var(--ms-sweep), transparent 0);
-  animation: ms-top-draw 1.8s cubic-bezier(0.65, 0, 0.35, 1) 0.2s both,
-    ms-top-spin 120s linear 2s infinite;
-}
-.md-typeset .ms-top__circle img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-  transform: scaleX(1.25);  /* 元の絵が縦長の楕円なので、円に近づける */
-  opacity: 0.32;
-  filter: drop-shadow(0 0 6px rgba(255, 240, 210, 0.5));
-  animation: ms-top-breathe 6s ease-in-out 2s infinite alternate;
-}
-.ms-top:not([data-hero="circle"]):not([data-hero="both"]) .ms-top__circle {
-  display: none;
-}
-@keyframes ms-top-draw {
-  from { --ms-sweep: 0deg; }
-  to { --ms-sweep: 360deg; }
-}
-@keyframes ms-top-spin {
-  to { rotate: 360deg; }
-}
-@keyframes ms-top-breathe {
-  from { opacity: 0.26; filter: drop-shadow(0 0 4px rgba(255, 240, 210, 0.35)); }
-  to { opacity: 0.4; filter: drop-shadow(0 0 10px rgba(255, 240, 210, 0.6)); }
-}
-
-/* 案2: 魔法の絵が 1 枚ずつ闇から滲み出て消える (色は一瞬だけ灯る) */
+/* 背景: 魔法の絵が 1 枚ずつ闇から滲み出て消える (色は一瞬だけ灯る) */
 .ms-top__bleed {
   position: absolute;
   inset: 0;
-  display: none;
   -webkit-mask-image: radial-gradient(ellipse 70% 80% at center, #000 30%, transparent 75%);
   mask-image: radial-gradient(ellipse 70% 80% at center, #000 30%, transparent 75%);
-}
-.ms-top[data-hero="bleed"] .ms-top__bleed,
-.ms-top[data-hero="both"] .ms-top__bleed {
-  display: block;
 }
 .md-typeset .ms-top__bleed img {
   position: absolute;
@@ -786,13 +735,13 @@
   height: 100%;
   object-fit: cover;
   opacity: 0;
-  animation: ms-top-bleed 42s ease-in-out infinite;
+  animation: ms-top-bleed 42s ease-in-out -1.5s infinite;  /* 開いた時点で 1 枚目が滲み始めているように前倒し */
 }
-.md-typeset .ms-top__bleed img:nth-child(2) { animation-delay: 7s; }
-.md-typeset .ms-top__bleed img:nth-child(3) { animation-delay: 14s; }
-.md-typeset .ms-top__bleed img:nth-child(4) { animation-delay: 21s; }
-.md-typeset .ms-top__bleed img:nth-child(5) { animation-delay: 28s; }
-.md-typeset .ms-top__bleed img:nth-child(6) { animation-delay: 35s; }
+.md-typeset .ms-top__bleed img:nth-child(2) { animation-delay: 5.5s; }
+.md-typeset .ms-top__bleed img:nth-child(3) { animation-delay: 12.5s; }
+.md-typeset .ms-top__bleed img:nth-child(4) { animation-delay: 19.5s; }
+.md-typeset .ms-top__bleed img:nth-child(5) { animation-delay: 26.5s; }
+.md-typeset .ms-top__bleed img:nth-child(6) { animation-delay: 33.5s; }
 @keyframes ms-top-bleed {
   0% { opacity: 0; transform: scale(1.12); filter: saturate(0) brightness(0.6); }
   7% { opacity: 0.5; filter: saturate(1.1) brightness(1); }
@@ -800,9 +749,8 @@
   20% { opacity: 0; transform: scale(1); filter: saturate(0) brightness(0.5); }
   100% { opacity: 0; }
 }
-/* フィルムグレイン (案2 のときだけ) */
-.ms-top[data-hero="bleed"]::before,
-.ms-top[data-hero="both"]::before {
+/* フィルムグレイン */
+.ms-top::before {
   content: "";
   position: absolute;
   inset: 0;
@@ -832,7 +780,7 @@
   filter: drop-shadow(0 0 0.6rem rgba(255, 236, 200, 0.15));  /* 背景は黒なので黒い影は付けない (周りが四角く暗くなる) */
   -webkit-mask-image: linear-gradient(100deg, #000 var(--ms-write), transparent calc(var(--ms-write) + 12%));
   mask-image: linear-gradient(100deg, #000 var(--ms-write), transparent calc(var(--ms-write) + 12%));
-  animation: ms-top-write 1.3s cubic-bezier(0.45, 0, 0.25, 1) 1.2s both;
+  animation: ms-top-write 1.3s cubic-bezier(0.45, 0, 0.25, 1) 0.3s both;
 }
 .ms-top__tag {
   position: absolute;
@@ -844,7 +792,7 @@
   font-size: clamp(1.1rem, 3.2vw, 1.6rem);  /* ロゴの大きさに合わせて伸ばす */
   line-height: 1;
   transform: rotate(-8deg);
-  animation: ms-top-stamp 0.4s cubic-bezier(0.2, 1.6, 0.4, 1) 2.5s both;
+  animation: ms-top-stamp 0.4s cubic-bezier(0.2, 1.6, 0.4, 1) 1.6s both;
 }
 /* 札の枠はギザギザに (filter はトップページの #ms-rough) */
 .ms-top__tag::before {
@@ -877,21 +825,14 @@
   from { opacity: 0; transform: rotate(-8deg) scale(2); }
   to { opacity: 1; transform: rotate(-8deg) scale(1); }
 }
-/* 2 回目以降・案2 だけのとき: 描く演出を省いてすぐ出す */
-.ms-top.is-instant .ms-top__circle,
+/* 2 回目以降: ロゴを書く演出を短くする */
 .ms-top.is-instant .ms-top__logo,
-.ms-top.is-instant .ms-top__tag,
-.ms-top[data-hero="bleed"] .ms-top__logo,
-.ms-top[data-hero="bleed"] .ms-top__tag {
+.ms-top.is-instant .ms-top__tag {
   animation-delay: 0s;
   animation-duration: 0.6s;
 }
-.ms-top.is-instant .ms-top__circle {
-  --ms-sweep: 360deg;
-  animation: ms-top-spin 120s linear infinite;
-}
 
-/* 案4: カードに触れると、ギザギザの枠が手描きのように引かれ、奥にゲームの絵が滲む */
+/* カード: 触れると、ギザギザの枠が手描きのように引かれ、奥にゲームの絵が滲む */
 .md-typeset .ms-cards > ul > li.ms-card {
   position: relative;
   isolation: isolate;
@@ -950,8 +891,6 @@
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .ms-top__circle,
-  .md-typeset .ms-top__circle img,
   .md-typeset .ms-top__bleed img,
   .md-typeset .ms-top__logo,
   .ms-top__tag {
@@ -959,9 +898,6 @@
   }
   .md-typeset .ms-top__logo {
     --ms-write: 105%;
-  }
-  .ms-top__circle {
-    --ms-sweep: 360deg;
   }
   .md-typeset .ms-top__bleed img:first-child {
     opacity: 0.35;

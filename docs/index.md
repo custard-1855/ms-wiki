@@ -12,9 +12,6 @@ title: Magic Survival 非公式攻略wiki
     <img src="assets/images/overview/magic/supernova.jpg" alt="">
   </div>
   <canvas class="ms-top__orbs" aria-hidden="true"></canvas>
-  <div class="ms-top__circle" aria-hidden="true">
-    <img src="assets/images/top/magic-circle.png" alt="">
-  </div>
   <h1 class="ms-top__title">
     <img class="ms-top__logo" src="assets/images/top/logo.png" alt="Magic Survival">
     <span class="ms-top__tag">wiki</span>
