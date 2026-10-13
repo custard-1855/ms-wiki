@@ -2,7 +2,7 @@
 
 **<span style="color: #F54738">大体の疑問は[よくある質問](../guide/faq.md)で解決しますよ！</span>**
 
-解決しなければこっちまで初心者向け情報まとめ
+解決しなければこっちまで > [初心者向け情報まとめ](../guide/beginners.md)
 
 魔法のtier議論はDiscordでしています。
 
