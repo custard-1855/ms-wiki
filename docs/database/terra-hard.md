@@ -165,6 +165,10 @@
 
 また、40分以降、商人さんのAF販売価格が高すぎて少ししか買えないことが多発する。それを防ぐ為に、ウェーブ終了後の空間でマナオーブを集めることをお勧めする、動画はこちら→<https://youtu.be/OWg93FVXxdw?feature=shared>
 
+<iframe class="video" src="https://www.youtube.com/embed/uwgu8EKbEYQ" allowfullscreen loading="lazy"></iframe>
+
+<iframe class="video" src="https://www.youtube.com/embed/OWg93FVXxdw" allowfullscreen loading="lazy"></iframe>
+
 では、ここから40分での立ち回り、考え方を解説しよう。
 
 契約の箱のクールタイムを争う時間が始まる。
@@ -185,7 +189,11 @@ VT中、第一に考えるべきは被弾を避けることだ。先述したよ
 
 <https://youtu.be/yqcX6omXkLk?feature=shared>
 
+<iframe class="video" src="https://www.youtube.com/embed/yqcX6omXkLk" allowfullscreen loading="lazy"></iframe>
+
 <https://youtu.be/0g5RbQTL8KA?feature=shared>
+
+<iframe class="video" src="https://www.youtube.com/embed/0g5RbQTL8KA" allowfullscreen loading="lazy"></iframe>
 
 holy chest発動に漕ぎつけても、それで終わりじゃあない。
 
@@ -311,6 +319,10 @@ holy chest発動に漕ぎつけても、それで終わりじゃあない。
 
 また、40分以降、商人さんのAF販売価格が高すぎて少ししか買えないことが多発する。それを防ぐ為に、ウェーブ終了後の空間でマナオーブを集めることをお勧めする、動画はこちら→<https://youtu.be/OWg93FVXxdw?feature=shared>
 
+<iframe class="video" src="https://www.youtube.com/embed/uwgu8EKbEYQ" allowfullscreen loading="lazy"></iframe>
+
+<iframe class="video" src="https://www.youtube.com/embed/OWg93FVXxdw" allowfullscreen loading="lazy"></iframe>
+
 では、ここから40分での立ち回り、考え方を解説しよう。
 
 契約の箱のクールタイムを争う時間が始まる。
@@ -331,7 +343,11 @@ VT中、第一に考えるべきは被弾を避けることだ。先述したよ
 
 <https://youtu.be/yqcX6omXkLk?feature=shared>
 
+<iframe class="video" src="https://www.youtube.com/embed/yqcX6omXkLk" allowfullscreen loading="lazy"></iframe>
+
 <https://youtu.be/0g5RbQTL8KA?feature=shared>
+
+<iframe class="video" src="https://www.youtube.com/embed/0g5RbQTL8KA" allowfullscreen loading="lazy"></iframe>
 
 holy chest発動に漕ぎつけても、それで終わりじゃあない。
 
@@ -393,6 +409,8 @@ holy chest発動に漕ぎつけても、それで終わりじゃあない。
 
 参考動画を貼っておきます→<https://youtu.be/WmX_SOykftM?si=hqfQLkm3i3E8Ev9t>
 
+<iframe class="video" src="https://www.youtube.com/embed/WmX_SOykftM" allowfullscreen loading="lazy"></iframe>
+
 ### 70:00～75:00ウェーブ終わりまで
 
 やることは47～50といっしょ。被弾を避けていけば良いだけ。
@@ -406,6 +424,8 @@ holy chest発動に漕ぎつけても、それで終わりじゃあない。
 一番大変と言っても過言でない時間。まずウェーブ外が大変、敵の移動速度が自キャラとほぼいっしょでめっちゃ固いので全然殺せない。そしてウェーブ内も大変。ただ白ルーンを出して削り続けるだけではじり貧で、先にこちらの残機が尽きる。青ルーンと白ルーンを交互に出していくのが理想だが、あまりにも運ゲーすぎるので、1つ2つ残機が削れるくらいの覚悟はしておこう。
 
 参考動画どうぞ→<https://youtu.be/z4MCXqFXvRU?si=fQ1ZxGjZKqMBMK22>
+
+<iframe class="video" src="https://www.youtube.com/embed/z4MCXqFXvRU" allowfullscreen loading="lazy"></iframe>
 
 ### 82:30～87:30ウェーブ終わりまで
 
@@ -422,6 +442,8 @@ holy chest発動に漕ぎつけても、それで終わりじゃあない。
 非常に苦しい時間。箱ガチャしましょう。なんなら全部青ルーン出しましょう。
 
 参考動画貼っておきます→<https://youtu.be/NaZAm3FRBRI?si=N0qvlhgoQZgUzaDL>
+
+<iframe class="video" src="https://www.youtube.com/embed/NaZAm3FRBRI" allowfullscreen loading="lazy"></iframe>
 
 ### 92:30～95:00ウェーブ終わりまで
 

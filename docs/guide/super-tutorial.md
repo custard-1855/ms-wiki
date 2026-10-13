@@ -532,6 +532,10 @@ DNAを取得。
 
 <https://youtu.be/9EXciYIQoII?si=0ZKFMlE8nnSITmEI>
 
+<iframe class="video" src="https://www.youtube.com/embed/Wytm9tDkrx0" allowfullscreen loading="lazy"></iframe>
+
+<iframe class="video" src="https://www.youtube.com/embed/9EXciYIQoII" allowfullscreen loading="lazy"></iframe>
+
 40〜50
 
 <https://youtu.be/7GCW1y_zBjs?si=EGiV62OpnUlXAeyS>
@@ -555,6 +559,18 @@ DNAを取得。
 〜77まで
 
 <https://youtu.be/AiKZeDw9EPI?si=-6w-fuv0Rz7-aa0K>
+
+<iframe class="video" src="https://www.youtube.com/embed/7GCW1y_zBjs" allowfullscreen loading="lazy"></iframe>
+
+<iframe class="video" src="https://www.youtube.com/embed/-rXazA6S6pw" allowfullscreen loading="lazy"></iframe>
+
+<iframe class="video" src="https://www.youtube.com/embed/3cg8GnClBcs" allowfullscreen loading="lazy"></iframe>
+
+<iframe class="video" src="https://www.youtube.com/embed/uN4cvdXpB6g" allowfullscreen loading="lazy"></iframe>
+
+<iframe class="video" src="https://www.youtube.com/embed/OvEL8f6p8oI" allowfullscreen loading="lazy"></iframe>
+
+<iframe class="video" src="https://www.youtube.com/embed/AiKZeDw9EPI" allowfullscreen loading="lazy"></iframe>
 
 ## AFピックを考えてみよう
 

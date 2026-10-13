@@ -19,3 +19,5 @@
 [分裂マキナ](https://m.cafe.naver.com/ca-fe/web/cafes/30012128/articles/24907)
 
 [花火マキナ](https://youtube.com/shorts/fAtOrs5OmFE?si=GNc0VZpThE8Xv54u)
+
+<iframe class="video" src="https://www.youtube.com/embed/fAtOrs5OmFE" allowfullscreen loading="lazy"></iframe>

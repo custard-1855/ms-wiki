@@ -251,6 +251,8 @@ wiki内記事へのご意見・ご要望はdiscordにて受付中です。
 
 [再生リスト](https://youtube.com/playlist?list=PL7Nm7vv8wC9mSUN_1PhO3AauzegWQ5RgN&si=3h42DjZNU3EW1sVF)
 
+<iframe class="video" src="https://www.youtube.com/embed/videoseries?list=PL7Nm7vv8wC9mSUN_1PhO3AauzegWQ5RgN" allowfullscreen loading="lazy"></iframe>
+
 - 究極魔法
 
 特定の融合魔法を大幅に強化する機能です。
