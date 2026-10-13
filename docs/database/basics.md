@@ -6,7 +6,7 @@
 
 ### 経験値
 
-<img src="../assets/images/database/basics/bar.png" alt="bar" width="186" height="22">
+![bar](../assets/images/database/basics/bar.png){ width="186" height="22" }
 
 経験値メーター
 
@@ -15,7 +15,7 @@
 
 #### レベル
 
-<img src="../assets/images/database/basics/levelup.png" alt="levelup" width="189" height="311">
+![levelup](../assets/images/database/basics/levelup.png){ width="189" height="311" }
 
 レベルアップ画面
 
@@ -34,7 +34,7 @@
 
 ### ゴールド
 
-<img src="../assets/images/database/basics/gold.png" alt="gold" width="189" height="59">
+![gold](../assets/images/database/basics/gold.png){ width="189" height="59" }
 
 ゴールド
 
@@ -45,7 +45,7 @@
 
 #### 研究
 
-<img src="../assets/images/database/basics/research.png" alt="Research" width="189" height="330">
+![Research](../assets/images/database/basics/research.png){ width="189" height="330" }
 
 研究一覧
 
@@ -54,7 +54,7 @@
 
 ### ジェム
 
-<img src="../assets/images/database/basics/jem.png" alt="jem" width="189" height="57">
+![jem](../assets/images/database/basics/jem.png){ width="189" height="57" }
 
 ジェム
 
@@ -65,7 +65,7 @@
 
 #### クラス
 
-<img src="../assets/images/database/basics/class.png" alt="Class" width="189" height="237">
+![Class](../assets/images/database/basics/class.png){ width="189" height="237" }
 
 クラス一覧
 
@@ -74,7 +74,7 @@
 
 #### 実験体
 
-<img src="../assets/images/database/basics/testsubject.png" alt="Testsubject" width="189" height="297">
+![Testsubject](../assets/images/database/basics/testsubject.png){ width="189" height="297" }
 
 実験体一覧
 
@@ -86,7 +86,7 @@
 
 ### エリア
 
-<img src="../assets/images/database/basics/arraysterra.png" alt="arraysterra" width="378" height="378">
+![arraysterra](../assets/images/database/basics/arraysterra.png){ width="378" height="378" }
 
 配列地　　　　　　　　　　　テラ
 
@@ -96,7 +96,7 @@
 
 #### ウェーブ
 
-<img src="../assets/images/database/basics/wave.png" alt="Wave" width="189" height="189">
+![Wave](../assets/images/database/basics/wave.png){ width="189" height="189" }
 
 ウェーブ
 
@@ -118,19 +118,19 @@
   - 複数のグレードが存在し、それぞれ経験値やマナオーブの獲得量が異なる。
     - マナオーブ小の経験値獲得量を1とした時、中は1.5、大は3.5程度（要検証）
 
-<img src="../assets/images/database/basics/mana-s.jpg" alt="mana s" width="189" height="189">
+![mana s](../assets/images/database/basics/mana-s.jpg){ width="189" height="189" }
 
 小
 
 - 少ない量の経験値と1個のマナオーブを獲得可能。
 
-<img src="../assets/images/database/basics/mana-m.jpg" alt="mana m" width="189" height="189">
+![mana m](../assets/images/database/basics/mana-m.jpg){ width="189" height="189" }
 
 中
 
 - 多い量の経験値と1個のマナオーブを獲得可能。
 
-<img src="../assets/images/database/basics/mana-l.jpg" alt="mana l" width="189" height="189">
+![mana l](../assets/images/database/basics/mana-l.jpg){ width="189" height="189" }
 
 大
 
@@ -138,7 +138,7 @@
 
 #### ライフオーブ
 
-<img src="../assets/images/database/basics/life-o.jpg" alt="life o" width="189" height="189">
+![life o](../assets/images/database/basics/life-o.jpg){ width="189" height="189" }
 
 ライフオーブ
 
@@ -150,7 +150,7 @@
 
 #### 世界樹の果実
 
-<img src="../assets/images/database/basics/world-tree-fruit.png" alt="World Tree Fruit" width="189" height="189">
+![World Tree Fruit](../assets/images/database/basics/world-tree-fruit.png){ width="189" height="189" }
 
 世界樹の果実
 
@@ -163,25 +163,25 @@
 - [創造の扉](../magic/door-of-creation.md)やミミックの効果、エリートモンスターからのドロップによって出現する。エリア侵入時に出現していることもある。
   - ルーンの効果のみを発動させるAFもある。
 
-<img src="../assets/images/database/basics/frenzy.png" alt="Frenzy" width="189" height="189">
+![Frenzy](../assets/images/database/basics/frenzy.png){ width="189" height="189" }
 
 狂奔のルーン
 
 - 攻撃力50%増幅、移動速度25%増加（持続時間：9秒）
 
-<img src="../assets/images/database/basics/invincible.png" alt="Invincible" width="189" height="189">
+![Invincible](../assets/images/database/basics/invincible.png){ width="189" height="189" }
 
 無敵のルーン
 
 - 無敵状態の継続（持続時間：9秒）
 
-<img src="../assets/images/database/basics/greed.png" alt="Greed" width="189" height="189">
+![Greed](../assets/images/database/basics/greed.png){ width="189" height="189" }
 
 貪欲のルーン
 
 - アイテム獲得半径200％増加（持続時間：5秒）
 
-<img src="../assets/images/database/basics/purification.png" alt="Purification" width="189" height="189">
+![Purification](../assets/images/database/basics/purification.png){ width="189" height="189" }
 
 浄化のルーン
 
@@ -193,19 +193,19 @@
   - 複数のグレードが存在し、それぞれ獲得できるゴールドの量が異なる。
 - 創造の扉やミミックの効果、敵からのドロップによって出現する。
 
-<img src="../assets/images/database/basics/cell-a.jpg" alt="cell a" width="189" height="189">
+![cell a](../assets/images/database/basics/cell-a.jpg){ width="189" height="189" }
 
 α
 
 - 200前後のゴールドを獲得できる。
 
-<img src="../assets/images/database/basics/cell-b.jpg" alt="cell b" width="189" height="189">
+![cell b](../assets/images/database/basics/cell-b.jpg){ width="189" height="189" }
 
 β
 
 - 2000前後のゴールドを獲得できる。
 
-<img src="../assets/images/database/basics/cell-g.jpg" alt="cell g" width="189" height="189">
+![cell g](../assets/images/database/basics/cell-g.jpg){ width="189" height="189" }
 
 γ
 
@@ -220,11 +220,11 @@
 
 #### シナジー
 
-<img src="../assets/images/database/basics/p_synergyicon.png" alt="P_SynergyIcon" width="128" height="128">
+![P\_SynergyIcon](../assets/images/database/basics/p_synergyicon.png){ width="128" height="128" }
 
 アイコン
 
-<img src="../assets/images/database/basics/1000006931.png" alt="1000006931" width="188" height="322">
+![1000006931](../assets/images/database/basics/1000006931.png){ width="188" height="322" }
 
 一覧
 
@@ -235,11 +235,11 @@
 
 #### 宝箱
 
-<img src="../assets/images/database/basics/treasure-chest.png" alt="Treasure Chest" width="188" height="189">
+![Treasure Chest](../assets/images/database/basics/treasure-chest.png){ width="188" height="189" }
 
 通常宝箱
 
-<img src="../assets/images/database/basics/1000006903.png" alt="1000006903" width="189" height="348">
+![1000006903](../assets/images/database/basics/1000006903.png){ width="189" height="348" }
 
 獲得画面
 
@@ -247,7 +247,7 @@
   - 通常～特別等級のAFが選択肢としてランダムに3つ提示され、その中から1つを選択して獲得することができる。
 - 敵のキル数、転移石の攻略、AFや魔法、シナジーの効果、クラスの能力など、様々な条件、方法によって出現する。
 
-<img src="../assets/images/database/basics/relic-chest.png" alt="Relic Chest" width="189" height="189">
+![Relic Chest](../assets/images/database/basics/relic-chest.png){ width="189" height="189" }
 
 遺物箱
 
@@ -259,11 +259,11 @@
 
 #### オベリスク
 
-<img src="../assets/images/database/basics/obelisk.png" alt="Obelisk" width="189" height="188">
+![Obelisk](../assets/images/database/basics/obelisk.png){ width="189" height="188" }
 
 オベリスク
 
-<img src="../assets/images/database/basics/1000006902.png" alt="1000006902" width="189" height="359">
+![1000006902](../assets/images/database/basics/1000006902.png){ width="189" height="359" }
 
 獲得画面
 
@@ -273,7 +273,7 @@
 - ジェムでリロールすることができる。
   - 最大4回（50→100→150→200）
 
-<img src="../assets/images/database/basics/broken-obelisk.png" alt="Broken Obelisk" width="189" height="189">
+![Broken Obelisk](../assets/images/database/basics/broken-obelisk.png){ width="189" height="189" }
 
 壊れたオベリスク
 
@@ -284,7 +284,7 @@
 
 #### 転移石
 
-<img src="../assets/images/database/basics/transfer-stone.png" alt="Transfer Stone" width="189" height="189">
+![Transfer Stone](../assets/images/database/basics/transfer-stone.png){ width="189" height="189" }
 
 転移石
 
@@ -293,9 +293,9 @@
 
 #### 商人
 
-<img src="../assets/images/database/basics/purchasing-a.png" alt="purchasing A" width="189" height="189">
+![purchasing A](../assets/images/database/basics/purchasing-a.png){ width="189" height="189" }
 
-<img src="../assets/images/database/basics/purchasing-b.png" alt="purchasing B" width="189" height="189">
+![purchasing B](../assets/images/database/basics/purchasing-b.png){ width="189" height="189" }
 
 購入画面
 
@@ -308,7 +308,7 @@
 
 ## ステータス
 
-<img src="../assets/images/database/basics/screenshot_20250811-234221.png" alt="Screenshot_20250811-234221" width="1021" height="766">
+![Screenshot\_20250811-234221](../assets/images/database/basics/screenshot_20250811-234221.png){ width="1021" height="766" }
 
 ステータス表示
 
@@ -359,7 +359,7 @@
 
 ### ノーマルモンスター
 
-<img src="../assets/images/database/basics/swarm.s.png" alt="Swarm.s" width="189" height="189">
+![Swarm.s](../assets/images/database/basics/swarm.s.png){ width="189" height="189" }
 
 スウォーム
 
@@ -369,7 +369,7 @@
 
 ### エリートモンスター
 
-<img src="../assets/images/database/basics/elite-monsters.png" alt="Elite Monsters" width="189" height="188">
+![Elite Monsters](../assets/images/database/basics/elite-monsters.png){ width="189" height="188" }
 
 エリートモンスター
 
@@ -377,13 +377,13 @@
 - 通常敵よりHPが高く移動速度が速いうえ、状態異常と即死に対して50%の耐性を持つ。
 - マナオーブ（中、大）、ライフオーブ、ルーンなどをドロップする。
 
-<img src="../assets/images/database/basics/servant.png" alt="Servant" width="189" height="189">
+![Servant](../assets/images/database/basics/servant.png){ width="189" height="189" }
 
 サーヴァント
 
 - 投射体を発射するエリートモンスター。
 
-<img src="../assets/images/database/basics/s06.png" alt="s06" width="416" height="543">
+![s06](../assets/images/database/basics/s06.png){ width="416" height="543" }
 
 スーパーエリートモンスター
 
@@ -393,7 +393,7 @@
 
 ### ボスモンスター
 
-<img src="../assets/images/database/basics/citadel.png" alt="Citadel" width="189" height="189">
+![Citadel](../assets/images/database/basics/citadel.png){ width="189" height="189" }
 
 シタデル
 
@@ -402,7 +402,7 @@
 - 死亡時に爆発を起こし、周囲の敵にダメージを与える。
 - 複数個のマナオーブ（大）をドロップする。
 
-<img src="../assets/images/database/basics/nemesis.png" alt="Nemesis" width="189" height="189">
+![Nemesis](../assets/images/database/basics/nemesis.png){ width="189" height="189" }
 
 ネメシス
 
@@ -412,7 +412,7 @@
 - 死亡時に爆発を起こし、周囲の敵にダメージを与える。
 - 世界樹の果実をドロップする。
 
-<img src="../assets/images/database/basics/apostle.png" alt="Apostle" width="189" height="189">
+![Apostle](../assets/images/database/basics/apostle.png){ width="189" height="189" }
 
 アポストル
 
@@ -423,7 +423,7 @@
 - 死亡時に爆発を起こし、周囲の敵にダメージを与える。
 - 世界樹の果実をドロップする。
 
-<img src="../assets/images/database/basics/hugewizard.png" alt="hugewizard" width="189" height="189">
+![hugewizard](../assets/images/database/basics/hugewizard.png){ width="189" height="189" }
 
 アマデウス
 

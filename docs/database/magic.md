@@ -153,35 +153,35 @@ wiki内記事へのご意見・ご要望はdiscordにて受付中です。
 
 | 画像 | 魔法名 | Tier | 効果 |
 | --- | --- | --- | --- |
-| <img src="../assets/images/database/magic/1000006393.png" alt="1000006393" width="30" height="35"> | 火の支配者 | E | [火炎球](../magic/fireball.md)、[隕石落下](../magic/meteor.md)、[焼却](../magic/incineration.md)、[溶岩地帯](../magic/lava-zone.md)のダメージ+25% |
-| <img src="../assets/images/database/magic/1000006394.png" alt="1000006394" width="30" height="35"> | 雷雲 | E | [落雷](../magic/thunderstorm.md)、[電気ショック](../magic/electric-shock.md)、[感電地帯](../magic/electric-zone.md)、[閃光ショック](../magic/flash-shock.md)のダメージ+25% |
-| <img src="../assets/images/database/magic/1000006395.png" alt="1000006395" width="30" height="35"> | 自然の怒り | E | [つむじ風](../magic/cyclone.md)、[吹雪](../magic/blizzard.md)、[津波](../magic/tsunami.md)、[霜柱](../magic/frost-nova.md)のダメージ+25% |
-| <img src="../assets/images/database/magic/1000006396.png" alt="1000006396" width="30" height="35"> | エネルギー工学 | E | [エネルギー弾](../magic/energy-bolt.md)、[怪光線](../magic/arcane-ray.md)、[精霊](../magic/spirit.md)、[衛星](../magic/satellite.md)のダメージ+25% |
-| <img src="../assets/images/database/magic/1000006397.png" alt="1000006397" width="30" height="35"> | アルカナ | E | 攻撃力+15% |
-| <img src="../assets/images/database/magic/1000006398.png" alt="1000006398" width="30" height="35"> | 守護天使 | <span style="color: #b33e5c">**S**</span> | 復活できる回数+1、最大HP+30% |
-| <img src="../assets/images/database/magic/1000006399.png" alt="1000006399" width="30" height="35"> | 無言詠唱 | <span style="color: #b33e5c">**S**</span> | すべての魔法クールタイム-7% |
-| <img src="../assets/images/database/magic/1000006400.png" alt="1000006400" width="30" height="35"> | 戦争魔法 | E | 攻撃力+8%、すべての魔法サイズ+8% |
-| <img src="../assets/images/database/magic/1000006401.png" alt="1000006401" width="30" height="35"> | タイムキーパー | <span style="color: #b33e5c">**S**</span> | ルーン効果時間&すべての魔法持続時間+12% |
-| <img src="../assets/images/database/magic/1000006402.png" alt="1000006402" width="30" height="35"> | 開拓者 | <span style="color: #b33e5c">**S**</span> | 移動速度+3%、アイテム獲得半径+50% |
-| <img src="../assets/images/database/magic/1000006403.png" alt="1000006403" width="30" height="35"> | 強打 | E | クリティカル倍率+30% |
-| <img src="../assets/images/database/magic/1000006404.png" alt="1000006404" width="30" height="35"> | 封印 | <span style="color: #b33e5c">**S**</span> | すべての敵の移動速度-8% |
-| <img src="../assets/images/database/magic/1000006405.png" alt="1000006405" width="30" height="35"> | 呪い | D | すべての敵の最大HP-6% |
-| <img src="../assets/images/database/magic/1000006406.png" alt="1000006406" width="30" height="35"> | チャクラ | E | すべての魔法ダメージ+20% |
-| <img src="../assets/images/database/magic/1000006407.png" alt="1000006407" width="30" height="35"> | マナ工場 | <span style="color: #b33e5c">**S**</span> | マナビーズのドロップ率+20% |
-| <img src="../assets/images/database/magic/1000006408.png" alt="1000006408" width="30" height="35"> | 博士 | D | 最大レベル+3 |
-| <img src="../assets/images/database/magic/1000006409.png" alt="1000006409" width="30" height="35"> | 血魔法 | E | 攻撃力増幅+10%、毎秒体力回復率-0.25% |
-| <img src="../assets/images/database/magic/1000006410.png" alt="1000006410" width="30" height="35"> | アドレナリン | <span style="color: #b33e5c">**S**</span> | 攻撃力&クリティカル率&移動速度+5% |
-| <img src="../assets/images/database/magic/1000006411.png" alt="1000006411" width="30" height="35"> | ジャガーノート | <span style="color: #a111cc">**A**</span> | 攻撃力+10%、受けるダメージ-15% |
-| <img src="../assets/images/database/magic/1000006412.png" alt="1000006412" width="30" height="35"> | プリースト | C | すべての敵の最大HP-3%、毎秒体力回復率+0.3% |
-| <img src="../assets/images/database/magic/1000006413.png" alt="1000006413" width="30" height="35"> | エルドリッチ | D | エリートモンスターの最大HP-10% |
-| <img src="../assets/images/database/magic/1000006414.png" alt="1000006414" width="30" height="35"> | ノーブレス | <span style="color: #b33e5c">**S**</span> | 近くに通常宝箱を1つ作成する |
-| <img src="../assets/images/database/magic/たお.png" alt="たお" width="30" height="35"> | 道士 | B | 全ての成長強化魔法を1レベルずつ獲得する |
-| <img src="../assets/images/database/magic/フローリスト.png" alt="フローリスト" width="30" height="35"> | フローリスト | <span style="color: #b33e5c">**S**</span> | 商人が販売するすべての商品が7%割引される |
-| <img src="../assets/images/database/magic/1000006203.png" alt="1000006203" width="30" height="35"> | エンチャント | C | 戦闘魔法を1つ選択し、選択した魔法を強化する |
+| ![1000006393](../assets/images/database/magic/1000006393.png){ width="30" height="35" } | 火の支配者 | E | [火炎球](../magic/fireball.md)、[隕石落下](../magic/meteor.md)、[焼却](../magic/incineration.md)、[溶岩地帯](../magic/lava-zone.md)のダメージ+25% |
+| ![1000006394](../assets/images/database/magic/1000006394.png){ width="30" height="35" } | 雷雲 | E | [落雷](../magic/thunderstorm.md)、[電気ショック](../magic/electric-shock.md)、[感電地帯](../magic/electric-zone.md)、[閃光ショック](../magic/flash-shock.md)のダメージ+25% |
+| ![1000006395](../assets/images/database/magic/1000006395.png){ width="30" height="35" } | 自然の怒り | E | [つむじ風](../magic/cyclone.md)、[吹雪](../magic/blizzard.md)、[津波](../magic/tsunami.md)、[霜柱](../magic/frost-nova.md)のダメージ+25% |
+| ![1000006396](../assets/images/database/magic/1000006396.png){ width="30" height="35" } | エネルギー工学 | E | [エネルギー弾](../magic/energy-bolt.md)、[怪光線](../magic/arcane-ray.md)、[精霊](../magic/spirit.md)、[衛星](../magic/satellite.md)のダメージ+25% |
+| ![1000006397](../assets/images/database/magic/1000006397.png){ width="30" height="35" } | アルカナ | E | 攻撃力+15% |
+| ![1000006398](../assets/images/database/magic/1000006398.png){ width="30" height="35" } | 守護天使 | <span style="color: #b33e5c">**S**</span> | 復活できる回数+1、最大HP+30% |
+| ![1000006399](../assets/images/database/magic/1000006399.png){ width="30" height="35" } | 無言詠唱 | <span style="color: #b33e5c">**S**</span> | すべての魔法クールタイム-7% |
+| ![1000006400](../assets/images/database/magic/1000006400.png){ width="30" height="35" } | 戦争魔法 | E | 攻撃力+8%、すべての魔法サイズ+8% |
+| ![1000006401](../assets/images/database/magic/1000006401.png){ width="30" height="35" } | タイムキーパー | <span style="color: #b33e5c">**S**</span> | ルーン効果時間&すべての魔法持続時間+12% |
+| ![1000006402](../assets/images/database/magic/1000006402.png){ width="30" height="35" } | 開拓者 | <span style="color: #b33e5c">**S**</span> | 移動速度+3%、アイテム獲得半径+50% |
+| ![1000006403](../assets/images/database/magic/1000006403.png){ width="30" height="35" } | 強打 | E | クリティカル倍率+30% |
+| ![1000006404](../assets/images/database/magic/1000006404.png){ width="30" height="35" } | 封印 | <span style="color: #b33e5c">**S**</span> | すべての敵の移動速度-8% |
+| ![1000006405](../assets/images/database/magic/1000006405.png){ width="30" height="35" } | 呪い | D | すべての敵の最大HP-6% |
+| ![1000006406](../assets/images/database/magic/1000006406.png){ width="30" height="35" } | チャクラ | E | すべての魔法ダメージ+20% |
+| ![1000006407](../assets/images/database/magic/1000006407.png){ width="30" height="35" } | マナ工場 | <span style="color: #b33e5c">**S**</span> | マナビーズのドロップ率+20% |
+| ![1000006408](../assets/images/database/magic/1000006408.png){ width="30" height="35" } | 博士 | D | 最大レベル+3 |
+| ![1000006409](../assets/images/database/magic/1000006409.png){ width="30" height="35" } | 血魔法 | E | 攻撃力増幅+10%、毎秒体力回復率-0.25% |
+| ![1000006410](../assets/images/database/magic/1000006410.png){ width="30" height="35" } | アドレナリン | <span style="color: #b33e5c">**S**</span> | 攻撃力&クリティカル率&移動速度+5% |
+| ![1000006411](../assets/images/database/magic/1000006411.png){ width="30" height="35" } | ジャガーノート | <span style="color: #a111cc">**A**</span> | 攻撃力+10%、受けるダメージ-15% |
+| ![1000006412](../assets/images/database/magic/1000006412.png){ width="30" height="35" } | プリースト | C | すべての敵の最大HP-3%、毎秒体力回復率+0.3% |
+| ![1000006413](../assets/images/database/magic/1000006413.png){ width="30" height="35" } | エルドリッチ | D | エリートモンスターの最大HP-10% |
+| ![1000006414](../assets/images/database/magic/1000006414.png){ width="30" height="35" } | ノーブレス | <span style="color: #b33e5c">**S**</span> | 近くに通常宝箱を1つ作成する |
+| ![たお](../assets/images/database/magic/たお.png){ width="30" height="35" } | 道士 | B | 全ての成長強化魔法を1レベルずつ獲得する |
+| ![フローリスト](../assets/images/database/magic/フローリスト.png){ width="30" height="35" } | フローリスト | <span style="color: #b33e5c">**S**</span> | 商人が販売するすべての商品が7%割引される |
+| ![1000006203](../assets/images/database/magic/1000006203.png){ width="30" height="35" } | エンチャント | C | 戦闘魔法を1つ選択し、選択した魔法を強化する |
 
 #### エンチャント
 
-<img src="../assets/images/database/magic/mk001.png" alt="mk001" width="248" height="288">
+![mk001](../assets/images/database/magic/mk001.png){ width="248" height="288" }
 
 - 攻撃魔法を1つ選択し、そのダメージと特定のステータスを1つ強化するパッシブ魔法です。
   - プレイごとに出現するレベルが決まっており、2~3回出現します。

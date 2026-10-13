@@ -2,7 +2,7 @@
 
 ## 基本情報
 
-<img src="../assets/images/magic/fireworks/はなび.png" alt="はなび" width="1003" height="1620">
+![はなび](../assets/images/magic/fireworks/はなび.png){ width="1003" height="1620" }
 
 ### 評価
 
@@ -10,7 +10,7 @@
 
 - 出力
 
-<img src="../assets/images/magic/fireworks/screenshot_20250920-203833.png" alt="Screenshot_20250920-203833" width="720" height="1612">
+![Screenshot\_20250920-203833](../assets/images/magic/fireworks/screenshot_20250920-203833.png){ width="720" height="1612" }
 
 盛りに盛れば500万くらいいくと思う。
 

@@ -1,6 +1,6 @@
 # 幽体化
 
-<img src="../assets/images/magic/cloaking/cloaking.n.png" alt="Cloaking.n" width="475" height="456">
+![Cloaking.n](../assets/images/magic/cloaking/cloaking.n.png){ width="475" height="456" }
 
 ### 基本情報
 

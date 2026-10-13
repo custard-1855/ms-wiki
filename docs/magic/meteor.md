@@ -1,6 +1,6 @@
 # 隕石落下
 
-<img src="../assets/images/magic/meteor/meteor.n.png" alt="Meteor.n" width="475" height="456">
+![Meteor.n](../assets/images/magic/meteor/meteor.n.png){ width="475" height="456" }
 
 ### 基本情報
 

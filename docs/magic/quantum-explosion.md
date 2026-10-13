@@ -2,7 +2,7 @@
 
 ## 基本情報
 
-<img src="../assets/images/magic/quantum-explosion/りょうし.png" alt="りょうし" width="1003" height="1620">
+![りょうし](../assets/images/magic/quantum-explosion/りょうし.png){ width="1003" height="1620" }
 
 ### 評価
 

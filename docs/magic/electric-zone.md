@@ -1,6 +1,6 @@
 # 感電地帯
 
-<img src="../assets/images/magic/electric-zone/electric-zone.n.png" alt="Electric Zone.n" width="475" height="456">
+![Electric Zone.n](../assets/images/magic/electric-zone/electric-zone.n.png){ width="475" height="456" }
 
 ### 基本情報
 

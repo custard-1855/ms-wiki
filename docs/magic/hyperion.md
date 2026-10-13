@@ -2,7 +2,7 @@
 
 ## 基本情報
 
-<img src="../assets/images/magic/hyperion/screenshot_20250811-204843.png" alt="Screenshot_20250811-204843" width="1052" height="1579">
+![Screenshot\_20250811-204843](../assets/images/magic/hyperion/screenshot_20250811-204843.png){ width="1052" height="1579" }
 
 ### 評価
 

@@ -1,6 +1,6 @@
 # 落雷
 
-<img src="../assets/images/magic/thunderstorm/thunderstorm.n.png" alt="Thunderstorm.n" width="475" height="456">
+![Thunderstorm.n](../assets/images/magic/thunderstorm/thunderstorm.n.png){ width="475" height="456" }
 
 ### 基本情報
 

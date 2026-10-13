@@ -2,7 +2,7 @@
 
 ## 基本情報
 
-<img src="../assets/images/magic/heart-of-ice/こしん.png" alt="こしん" width="1038" height="1620">
+![こしん](../assets/images/magic/heart-of-ice/こしん.png){ width="1038" height="1620" }
 
 ### 評価
 

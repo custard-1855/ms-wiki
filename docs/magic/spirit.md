@@ -1,6 +1,6 @@
 # 精霊
 
-<img src="../assets/images/magic/spirit/spirit.n.png" alt="Spirit.n" width="475" height="456">
+![Spirit.n](../assets/images/magic/spirit/spirit.n.png){ width="475" height="456" }
 
 ### 基本情報
 

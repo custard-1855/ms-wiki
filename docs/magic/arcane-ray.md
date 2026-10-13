@@ -1,6 +1,6 @@
 # 怪光線
 
-<img src="../assets/images/magic/arcane-ray/arcane-ray.n.png" alt="Arcane Ray.n" width="475" height="456">
+![Arcane Ray.n](../assets/images/magic/arcane-ray/arcane-ray.n.png){ width="475" height="456" }
 
 ### 基本情報
 

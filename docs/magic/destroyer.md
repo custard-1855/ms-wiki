@@ -2,7 +2,7 @@
 
 ## 基本情報
 
-<img src="../assets/images/magic/destroyer/ですと.png" alt="ですと" width="1003" height="1620">
+![ですと](../assets/images/magic/destroyer/ですと.png){ width="1003" height="1620" }
 
 ### 評価
 

@@ -1,6 +1,6 @@
 # 衛星
 
-<img src="../assets/images/magic/satellite/satellite.n.png" alt="Satellite.n" width="475" height="456">
+![Satellite.n](../assets/images/magic/satellite/satellite.n.png){ width="475" height="456" }
 
 ### 基本情報
 

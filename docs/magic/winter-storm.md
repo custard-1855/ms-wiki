@@ -2,7 +2,7 @@
 
 ## 基本情報
 
-<img src="../assets/images/magic/winter-storm/ふゆ.png" alt="ふゆ" width="1003" height="1620">
+![ふゆ](../assets/images/magic/winter-storm/ふゆ.png){ width="1003" height="1620" }
 
 ### 評価
 

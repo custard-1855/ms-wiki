@@ -2,7 +2,7 @@
 
 ## 基本情報
 
-<img src="../assets/images/magic/storm-ruler/あらし.png" alt="あらし" width="1003" height="1620">
+![あらし](../assets/images/magic/storm-ruler/あらし.png){ width="1003" height="1620" }
 
 ### 評価
 

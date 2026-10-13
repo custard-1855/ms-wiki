@@ -1,6 +1,6 @@
 # 焼却
 
-<img src="../assets/images/magic/incineration/incineration.n.png" alt="Incineration.n" width="475" height="456">
+![Incineration.n](../assets/images/magic/incineration/incineration.n.png){ width="475" height="456" }
 
 ### 基本情報
 

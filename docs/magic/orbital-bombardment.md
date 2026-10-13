@@ -2,7 +2,7 @@
 
 ## 基本情報
 
-<img src="../assets/images/magic/orbital-bombardment/きどう.png" alt="きどう" width="1003" height="1620">
+![きどう](../assets/images/magic/orbital-bombardment/きどう.png){ width="1003" height="1620" }
 
 ### 評価
 

@@ -2,7 +2,7 @@
 
 ## 基本情報
 
-<img src="../assets/images/magic/war-climate/せんそう.png" alt="せんそう" width="1003" height="1620">
+![せんそう](../assets/images/magic/war-climate/せんそう.png){ width="1003" height="1620" }
 
 ### 評価
 

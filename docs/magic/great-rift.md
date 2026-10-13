@@ -2,7 +2,7 @@
 
 ## 基本情報
 
-<img src="../assets/images/magic/great-rift/screenshot_20250811-204910.png" alt="Screenshot_20250811-204910" width="1034" height="1559">
+![Screenshot\_20250811-204910](../assets/images/magic/great-rift/screenshot_20250811-204910.png){ width="1034" height="1559" }
 
 ### 評価
 

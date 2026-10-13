@@ -2,7 +2,7 @@
 
 ## 基本情報
 
-<img src="../assets/images/magic/black-death/screenshot_20250811-204438.png" alt="Screenshot_20250811-204438" width="1023" height="1779">
+![Screenshot\_20250811-204438](../assets/images/magic/black-death/screenshot_20250811-204438.png){ width="1023" height="1779" }
 
 ### 評価
 

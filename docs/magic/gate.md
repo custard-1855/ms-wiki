@@ -2,7 +2,7 @@
 
 ## 基本情報
 
-<img src="../assets/images/magic/gate/げーと.png" alt="げーと" width="1003" height="1620">
+![げーと](../assets/images/magic/gate/げーと.png){ width="1003" height="1620" }
 
 ### 評価
 
@@ -10,7 +10,7 @@
 
 - 出力
 
-<img src="../assets/images/magic/gate/screenshot_20251018-004939.png" alt="Screenshot_20251018-004939" width="720" height="1612">
+![Screenshot\_20251018-004939](../assets/images/magic/gate/screenshot_20251018-004939.png){ width="720" height="1612" }
 
 火力を盛りまくると800万くらいはいきます
 

@@ -2,7 +2,7 @@
 
 ## 基本情報
 
-<img src="../assets/images/magic/furnace/ようこうろ.png" alt="ようこうろ" width="1003" height="1620">
+![ようこうろ](../assets/images/magic/furnace/ようこうろ.png){ width="1003" height="1620" }
 
 ### 評価
 

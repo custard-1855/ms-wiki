@@ -98,7 +98,7 @@
 - レベルアップ画面右上の魔法陣をタップすると、習得できる融合魔法が表示される。
 - レベル25、50、75に達するごとに1回ずつ融合可能回数が増える。
 
-<img src="../assets/images/guide/faq/fusion_combination.png" alt="fusion_combination" width="1080" height="2340">
+![fusion\_combination](../assets/images/guide/faq/fusion_combination.png){ width="1080" height="2340" }
 
 上図 魔法陣のマークが目印
 
@@ -108,7 +108,7 @@
   - 知能やノーブレス、エンチャントなどはアクティブ魔法ではなくパッシブ魔法。
     - また、融合魔法もアクティブ魔法に含まれない。
 
-<img src="../assets/images/guide/faq/overmind_applicable.png" alt="overmind_applicable" width="1080" height="2340">
+![overmind\_applicable](../assets/images/guide/faq/overmind_applicable.png){ width="1080" height="2340" }
 
 上図 アクティブ魔法に含まれない魔法に赤い×印を付けた
 
@@ -304,11 +304,11 @@
 
 - ショップ画面から研究資料を購入したり、エリアの初クリア報酬を獲得したりすることでクラスを強化できる。
 
-<img src="../assets/images/guide/faq/shop.a.png" alt="shop.a" width="1080" height="2340">
+![shop.a](../assets/images/guide/faq/shop.a.png){ width="1080" height="2340" }
 
 ショップ
 
-<img src="../assets/images/guide/faq/class.a~2.png" alt="class.a~2" width="1080" height="2340">
+![class.a~2](../assets/images/guide/faq/class.a~2.png){ width="1080" height="2340" }
 
 研究資料
 
@@ -326,11 +326,11 @@
 - 追加は掛け算、増加は足し算（要検証）
   - 魔道学者なら×2、学者なら+100
 
-<img src="../assets/images/guide/faq/screenshot_20250514-164740.png" alt="Screenshot_20250514-164740" width="1080" height="334">
+![Screenshot\_20250514-164740](../assets/images/guide/faq/screenshot_20250514-164740.png){ width="1080" height="334" }
 
 追加
 
-<img src="../assets/images/guide/faq/screenshot_20250514-164828.png" alt="Screenshot_20250514-164828" width="1080" height="322">
+![Screenshot\_20250514-164828](../assets/images/guide/faq/screenshot_20250514-164828.png){ width="1080" height="322" }
 
 増加
 
@@ -422,15 +422,15 @@
 - ランタン、マーキュリーによってマナオーブ獲得量を増やすことが出来る。また、その効果は重複する。
   - マナオーブ獲得量は小数点以下も計算されている。
 
-<img src="../assets/images/guide/faq/mana-s.jpg" alt="mana s" width="189" height="189">
+![mana s](../assets/images/guide/faq/mana-s.jpg){ width="189" height="189" }
 
 マナオーブ獲得量初期値は１
 
-<img src="../assets/images/guide/faq/mana-m.jpg" alt="mana m" width="189" height="189">
+![mana m](../assets/images/guide/faq/mana-m.jpg){ width="189" height="189" }
 
 マナオーブ獲得量初期値は1　
 
-<img src="../assets/images/guide/faq/mana-l.jpg" alt="mana l" width="189" height="189">
+![mana l](../assets/images/guide/faq/mana-l.jpg){ width="189" height="189" }
 
 マナオーブ獲得量初期値は<span style="color: #A1A911">5</span>
 
@@ -464,17 +464,17 @@
 
 - ゴールドやジェムの所有額やエリアの最高タイムなど、ゲームの状況を保存する機能。設定画面から行うことができる。
 
-<img src="../assets/images/guide/faq/option.png" alt="option" width="1080" height="1079">
+![option](../assets/images/guide/faq/option.png){ width="1080" height="1079" }
 
 設定
 
-<img src="../assets/images/guide/faq/cloudsave.png" alt="CloudSave" width="1080" height="2340">
+![CloudSave](../assets/images/guide/faq/cloudsave.png){ width="1080" height="2340" }
 
 クラウドセーブ
 
 #### ゴールド復旧はどうすれば直る？（仮）
 
-<img src="../assets/images/guide/faq/restore.gold.jpg" alt="restore.gold" width="1200" height="2000">
+![restore.gold](../assets/images/guide/faq/restore.gold.jpg){ width="1200" height="2000" }
 
 - 残念ながら、即座に直す確実な方法は確立されていない。
   - ゴールド復旧の画面を何回もタップして放置したり、ゲームを閉じたり開いたりすることで直る可能性があるかもしれない。

@@ -4,7 +4,7 @@
 
 **<span style="color: #F54738">注意！非公式用語を多用しているページです！分からない用語があれば[用語集](glossary.md)までどうぞ！</span>**
 
-<img src="../assets/images/database/terra-hard/テラハード.png" alt="テラハード" width="720" height="1612">
+![テラハード](../assets/images/database/terra-hard/テラハード.png){ width="720" height="1612" }
 
 ## 攻略
 

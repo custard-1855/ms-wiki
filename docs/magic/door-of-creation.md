@@ -2,7 +2,7 @@
 
 ## 基本情報
 
-<img src="../assets/images/magic/door-of-creation/とびら.png" alt="とびら" width="1003" height="1620">
+![とびら](../assets/images/magic/door-of-creation/とびら.png){ width="1003" height="1620" }
 
 ### 評価
 

@@ -2,7 +2,7 @@
 
 ## 基本情報
 
-<img src="../assets/images/magic/tera-current/てらでん.png" alt="てらでん" width="1003" height="1620">
+![てらでん](../assets/images/magic/tera-current/てらでん.png){ width="1003" height="1620" }
 
 ### 評価
 
@@ -10,7 +10,7 @@
 
 - 出力
 
-<img src="../assets/images/magic/tera-current/screenshot_20251020-001446.png" alt="Screenshot_20251020-001446" width="720" height="1612">
+![Screenshot\_20251020-001446](../assets/images/magic/tera-current/screenshot_20251020-001446.png){ width="720" height="1612" }
 
 - 競合相手との比較
 

@@ -2,7 +2,7 @@
 
 ## 基本情報
 
-<img src="../assets/images/magic/supernova/ちょう.png" alt="ちょう" width="1003" height="1620">
+![ちょう](../assets/images/magic/supernova/ちょう.png){ width="1003" height="1620" }
 
 ### 評価
 

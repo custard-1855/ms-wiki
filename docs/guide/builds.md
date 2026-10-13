@@ -24,19 +24,19 @@ hoge
 
 #### 簡単に52:30(ジェム上限)に到達出来るビルド
 
-<img src="../assets/images/guide/builds/1.png" alt="1" width="720" height="1612">
+![1](../assets/images/guide/builds/1.png){ width="720" height="1612" }
 
-<img src="../assets/images/guide/builds/2.png" alt="2" width="720" height="1612">
+![2](../assets/images/guide/builds/2.png){ width="720" height="1612" }
 
-<img src="../assets/images/guide/builds/3.png" alt="3" width="720" height="1612">
+![3](../assets/images/guide/builds/3.png){ width="720" height="1612" }
 
-<img src="../assets/images/guide/builds/4.png" alt="4" width="720" height="1612">
+![4](../assets/images/guide/builds/4.png){ width="720" height="1612" }
 
-<img src="../assets/images/guide/builds/5.png" alt="5" width="720" height="1612">
+![5](../assets/images/guide/builds/5.png){ width="720" height="1612" }
 
-<img src="../assets/images/guide/builds/6.png" alt="6" width="720" height="1612">
+![6](../assets/images/guide/builds/6.png){ width="720" height="1612" }
 
-<img src="../assets/images/guide/builds/7.png" alt="7" width="720" height="1612">
+![7](../assets/images/guide/builds/7.png){ width="720" height="1612" }
 
 **狙い**
 
@@ -46,23 +46,23 @@ hoge
 
 ### atomon
 
-<img src="../assets/images/guide/builds/a1.png" alt="a1" width="720" height="1612">
+![a1](../assets/images/guide/builds/a1.png){ width="720" height="1612" }
 
-<img src="../assets/images/guide/builds/a2.png" alt="a2" width="720" height="1612">
+![a2](../assets/images/guide/builds/a2.png){ width="720" height="1612" }
 
-<img src="../assets/images/guide/builds/a3.png" alt="a3" width="720" height="1612">
+![a3](../assets/images/guide/builds/a3.png){ width="720" height="1612" }
 
-<img src="../assets/images/guide/builds/a4.png" alt="a4" width="720" height="1612">
+![a4](../assets/images/guide/builds/a4.png){ width="720" height="1612" }
 
-<img src="../assets/images/guide/builds/a5.png" alt="a5" width="720" height="1612">
+![a5](../assets/images/guide/builds/a5.png){ width="720" height="1612" }
 
-<img src="../assets/images/guide/builds/a6.png" alt="a6" width="720" height="1612">
+![a6](../assets/images/guide/builds/a6.png){ width="720" height="1612" }
 
-<img src="../assets/images/guide/builds/a7.png" alt="a7" width="720" height="1612">
+![a7](../assets/images/guide/builds/a7.png){ width="720" height="1612" }
 
-<img src="../assets/images/guide/builds/a8.png" alt="a8" width="720" height="1612">
+![a8](../assets/images/guide/builds/a8.png){ width="720" height="1612" }
 
-<img src="../assets/images/guide/builds/a9.png" alt="a9" width="720" height="1612">
+![a9](../assets/images/guide/builds/a9.png){ width="720" height="1612" }
 
 <https://youtu.be/0007NV4duu4?si=n84F-Asvisq6snAp>
 
@@ -137,29 +137,29 @@ AFのtier表を見ながら、慎重に吟味してからAFを取りましょう
 
 下記はほぼ狙い通りに構築出来た記録です。
 
-<img src="../assets/images/guide/builds/screenshot_20251220-164456.png" alt="Screenshot_20251220-164456">
+![Screenshot\_20251220-164456](../assets/images/guide/builds/screenshot_20251220-164456.png)
 
-<img src="../assets/images/guide/builds/screenshot_20251220-164506.png" alt="Screenshot_20251220-164506">
+![Screenshot\_20251220-164506](../assets/images/guide/builds/screenshot_20251220-164506.png)
 
-<img src="../assets/images/guide/builds/screenshot_20251220-164510.png" alt="Screenshot_20251220-164510">
+![Screenshot\_20251220-164510](../assets/images/guide/builds/screenshot_20251220-164510.png)
 
-<img src="../assets/images/guide/builds/screenshot_20251220-164513.png" alt="Screenshot_20251220-164513">
+![Screenshot\_20251220-164513](../assets/images/guide/builds/screenshot_20251220-164513.png)
 
-<img src="../assets/images/guide/builds/screenshot_20251220-164517.png" alt="Screenshot_20251220-164517">
+![Screenshot\_20251220-164517](../assets/images/guide/builds/screenshot_20251220-164517.png)
 
-<img src="../assets/images/guide/builds/screenshot_20251220-164522.png" alt="Screenshot_20251220-164522">
+![Screenshot\_20251220-164522](../assets/images/guide/builds/screenshot_20251220-164522.png)
 
-<img src="../assets/images/guide/builds/screenshot_20251220-164526.png" alt="Screenshot_20251220-164526">
+![Screenshot\_20251220-164526](../assets/images/guide/builds/screenshot_20251220-164526.png)
 
-<img src="../assets/images/guide/builds/screenshot_20251220-164530.png" alt="Screenshot_20251220-164530">
+![Screenshot\_20251220-164530](../assets/images/guide/builds/screenshot_20251220-164530.png)
 
-<img src="../assets/images/guide/builds/screenshot_20251220-164534.png" alt="Screenshot_20251220-164534">
+![Screenshot\_20251220-164534](../assets/images/guide/builds/screenshot_20251220-164534.png)
 
 ### Noah
 
 #### ビルド
 
-| + | 107分30秒 / 神秘術師 / クアンタムレーザー・花火・ゲート | <img src="../assets/images/guide/builds/screenshot_20260111-014152.png" alt="Screenshot_20260111-014152" width="1080" height="2340"> <br> <img src="../assets/images/guide/builds/screenshot_20260111-014125.png" alt="Screenshot_20260111-014125" width="1080" height="2340"> <br> <img src="../assets/images/guide/builds/screenshot_20260111-014128.png" alt="Screenshot_20260111-014128" width="1080" height="2340"> <br> <img src="../assets/images/guide/builds/screenshot_20260111-014131.png" alt="Screenshot_20260111-014131" width="1080" height="2340"> <br> <img src="../assets/images/guide/builds/screenshot_20260111-014135.png" alt="Screenshot_20260111-014135" width="1080" height="2340"> <br> <img src="../assets/images/guide/builds/screenshot_20260111-014140.png" alt="Screenshot_20260111-014140" width="1080" height="2340"> <br> <img src="../assets/images/guide/builds/screenshot_20260111-014143.png" alt="Screenshot_20260111-014143" width="1080" height="2340"> <br> <img src="../assets/images/guide/builds/screenshot_20260111-014147.png" alt="Screenshot_20260111-014147" width="1080" height="2340"> <br> <img src="../assets/images/guide/builds/screenshot_20260111-014159.png" alt="Screenshot_20260111-014159" width="1080" height="2340"> |
+| + | 107分30秒 / 神秘術師 / クアンタムレーザー・花火・ゲート | ![Screenshot\_20260111-014152](../assets/images/guide/builds/screenshot_20260111-014152.png){ width="1080" height="2340" } <br> ![Screenshot\_20260111-014125](../assets/images/guide/builds/screenshot_20260111-014125.png){ width="1080" height="2340" } <br> ![Screenshot\_20260111-014128](../assets/images/guide/builds/screenshot_20260111-014128.png){ width="1080" height="2340" } <br> ![Screenshot\_20260111-014131](../assets/images/guide/builds/screenshot_20260111-014131.png){ width="1080" height="2340" } <br> ![Screenshot\_20260111-014135](../assets/images/guide/builds/screenshot_20260111-014135.png){ width="1080" height="2340" } <br> ![Screenshot\_20260111-014140](../assets/images/guide/builds/screenshot_20260111-014140.png){ width="1080" height="2340" } <br> ![Screenshot\_20260111-014143](../assets/images/guide/builds/screenshot_20260111-014143.png){ width="1080" height="2340" } <br> ![Screenshot\_20260111-014147](../assets/images/guide/builds/screenshot_20260111-014147.png){ width="1080" height="2340" } <br> ![Screenshot\_20260111-014159](../assets/images/guide/builds/screenshot_20260111-014159.png){ width="1080" height="2340" } |
 | --- | --- | --- |
 
 - 融合魔法(44レベル)
@@ -206,7 +206,7 @@ AFのtier表を見ながら、慎重に吟味してからAFを取りましょう
 
 アカシックレコードとフクロウがあれば、これらは安定します。獲得を狙うようにしてください。
 
-| + | 前回 | \| + \| 95分 / 神秘術師 / クアンタムレーザー・花火・ゲート \| <img src="../assets/images/guide/builds/screenshot_20251211-160530.png" alt="Screenshot_20251211-160530" width="1080" height="2340"> <br> <img src="../assets/images/guide/builds/screenshot_20251211-160533.png" alt="Screenshot_20251211-160533" width="1080" height="2340"> <br> <img src="../assets/images/guide/builds/screenshot_20251211-160536.png" alt="Screenshot_20251211-160536" width="1080" height="2340"> <br> <img src="../assets/images/guide/builds/screenshot_20251211-160539.png" alt="Screenshot_20251211-160539" width="1080" height="2340"> <br> <img src="../assets/images/guide/builds/screenshot_20251211-160543.png" alt="Screenshot_20251211-160543" width="1080" height="2340"> <br> <img src="../assets/images/guide/builds/screenshot_20251211-160558.png" alt="Screenshot_20251211-160558" width="1080" height="2340"> <br> <img src="../assets/images/guide/builds/screenshot_20251211-160603.png" alt="Screenshot_20251211-160603" width="1080" height="2340"> <br> <img src="../assets/images/guide/builds/screenshot_20251211-160606.png" alt="Screenshot_20251211-160606" width="1080" height="2340"> <br> <img src="../assets/images/guide/builds/screenshot_20251211-160619.png" alt="Screenshot_20251211-160619" width="1080" height="2340"> \| \| --- \| --- \| --- \| **狙い** --- 25分や45分〜52分を安定させるために、火力の高いクアンタムレーザーを使用しています。 <br> そのため、神秘術師のクラスと実験体を使用しています。 <br> また、霜柱、吹雪、津波を全て習得するために、アカシックレコードを取得した上で、生命力、集中、探索のレベルをMAX直前で止め、エンチャント、知能、魔力発散、狙撃、破裂の習得は諦めています。 <br> 津波と吹雪のレベルMAXを後回しにすることで、25分以前に権能の領域を取得した場合、4番目の融合として不死鳥を習得することができます。 <br> 権能の領域が取得出来なかった場合は、吹雪/極寒期、津波/極点を習得することができます。 <br> アカシックレコードが取得出来なかった場合は、津波を習得せず、霜柱と吹雪だけを習得し、パッシブ魔法のレベルを最大にするか魔力発散や狙撃を習得しましょう。 |
+| + | 前回 | \| + \| 95分 / 神秘術師 / クアンタムレーザー・花火・ゲート \| ![Screenshot\_20251211-160530](../assets/images/guide/builds/screenshot_20251211-160530.png){ width="1080" height="2340" } <br> ![Screenshot\_20251211-160533](../assets/images/guide/builds/screenshot_20251211-160533.png){ width="1080" height="2340" } <br> ![Screenshot\_20251211-160536](../assets/images/guide/builds/screenshot_20251211-160536.png){ width="1080" height="2340" } <br> ![Screenshot\_20251211-160539](../assets/images/guide/builds/screenshot_20251211-160539.png){ width="1080" height="2340" } <br> ![Screenshot\_20251211-160543](../assets/images/guide/builds/screenshot_20251211-160543.png){ width="1080" height="2340" } <br> ![Screenshot\_20251211-160558](../assets/images/guide/builds/screenshot_20251211-160558.png){ width="1080" height="2340" } <br> ![Screenshot\_20251211-160603](../assets/images/guide/builds/screenshot_20251211-160603.png){ width="1080" height="2340" } <br> ![Screenshot\_20251211-160606](../assets/images/guide/builds/screenshot_20251211-160606.png){ width="1080" height="2340" } <br> ![Screenshot\_20251211-160619](../assets/images/guide/builds/screenshot_20251211-160619.png){ width="1080" height="2340" } \| \| --- \| --- \| --- \| **狙い** --- 25分や45分〜52分を安定させるために、火力の高いクアンタムレーザーを使用しています。 <br> そのため、神秘術師のクラスと実験体を使用しています。 <br> また、霜柱、吹雪、津波を全て習得するために、アカシックレコードを取得した上で、生命力、集中、探索のレベルをMAX直前で止め、エンチャント、知能、魔力発散、狙撃、破裂の習得は諦めています。 <br> 津波と吹雪のレベルMAXを後回しにすることで、25分以前に権能の領域を取得した場合、4番目の融合として不死鳥を習得することができます。 <br> 権能の領域が取得出来なかった場合は、吹雪/極寒期、津波/極点を習得することができます。 <br> アカシックレコードが取得出来なかった場合は、津波を習得せず、霜柱と吹雪だけを習得し、パッシブ魔法のレベルを最大にするか魔力発散や狙撃を習得しましょう。 |
 | --- | --- | --- | --- | --- | --- |
 
 ## v0.964, テラ
@@ -243,19 +243,19 @@ AFの取得数を増やす為に考古学者を採用しています。
 
 下記はほぼ狙い通りに構築出来た記録です。
 
-<img src="../assets/images/guide/builds/screenshot_20250814-230804.png" alt="Screenshot_20250814-230804" width="720" height="1612">
+![Screenshot\_20250814-230804](../assets/images/guide/builds/screenshot_20250814-230804.png){ width="720" height="1612" }
 
-<img src="../assets/images/guide/builds/screenshot_20250814-230809.png" alt="Screenshot_20250814-230809" width="720" height="1612">
+![Screenshot\_20250814-230809](../assets/images/guide/builds/screenshot_20250814-230809.png){ width="720" height="1612" }
 
-<img src="../assets/images/guide/builds/screenshot_20250814-230813.png" alt="Screenshot_20250814-230813" width="720" height="1612">
+![Screenshot\_20250814-230813](../assets/images/guide/builds/screenshot_20250814-230813.png){ width="720" height="1612" }
 
-<img src="../assets/images/guide/builds/screenshot_20250814-230816.png" alt="Screenshot_20250814-230816" width="720" height="1612">
+![Screenshot\_20250814-230816](../assets/images/guide/builds/screenshot_20250814-230816.png){ width="720" height="1612" }
 
-<img src="../assets/images/guide/builds/screenshot_20250814-230820.png" alt="Screenshot_20250814-230820" width="720" height="1612">
+![Screenshot\_20250814-230820](../assets/images/guide/builds/screenshot_20250814-230820.png){ width="720" height="1612" }
 
-<img src="../assets/images/guide/builds/screenshot_20250814-230830.png" alt="Screenshot_20250814-230830" width="720" height="1612">
+![Screenshot\_20250814-230830](../assets/images/guide/builds/screenshot_20250814-230830.png){ width="720" height="1612" }
 
-<img src="../assets/images/guide/builds/screenshot_20250814-230834.png" alt="Screenshot_20250814-230834" width="720" height="1612">
+![Screenshot\_20250814-230834](../assets/images/guide/builds/screenshot_20250814-230834.png){ width="720" height="1612" }
 
 #### 追記
 
@@ -263,21 +263,21 @@ AFの取得数を増やす為に考古学者を採用しています。
 
 動画もあるので、動き方の参考になると思います。
 
-<img src="../assets/images/guide/builds/screenshot_20250907-231105.png" alt="Screenshot_20250907-231105" width="720" height="1612">
+![Screenshot\_20250907-231105](../assets/images/guide/builds/screenshot_20250907-231105.png){ width="720" height="1612" }
 
-<img src="../assets/images/guide/builds/screenshot_20250907-231110.png" alt="Screenshot_20250907-231110" width="720" height="1612">
+![Screenshot\_20250907-231110](../assets/images/guide/builds/screenshot_20250907-231110.png){ width="720" height="1612" }
 
-<img src="../assets/images/guide/builds/screenshot_20250907-231113.png" alt="Screenshot_20250907-231113" width="720" height="1612">
+![Screenshot\_20250907-231113](../assets/images/guide/builds/screenshot_20250907-231113.png){ width="720" height="1612" }
 
-<img src="../assets/images/guide/builds/screenshot_20250907-231116.png" alt="Screenshot_20250907-231116" width="720" height="1612">
+![Screenshot\_20250907-231116](../assets/images/guide/builds/screenshot_20250907-231116.png){ width="720" height="1612" }
 
-<img src="../assets/images/guide/builds/screenshot_20250907-231120.png" alt="Screenshot_20250907-231120" width="720" height="1612">
+![Screenshot\_20250907-231120](../assets/images/guide/builds/screenshot_20250907-231120.png){ width="720" height="1612" }
 
-<img src="../assets/images/guide/builds/screenshot_20250907-231128.png" alt="Screenshot_20250907-231128" width="720" height="1612">
+![Screenshot\_20250907-231128](../assets/images/guide/builds/screenshot_20250907-231128.png){ width="720" height="1612" }
 
-<img src="../assets/images/guide/builds/screenshot_20250907-231135.png" alt="Screenshot_20250907-231135" width="720" height="1612">
+![Screenshot\_20250907-231135](../assets/images/guide/builds/screenshot_20250907-231135.png){ width="720" height="1612" }
 
-<img src="../assets/images/guide/builds/screenshot_20250907-231139.png" alt="Screenshot_20250907-231139" width="720" height="1612">
+![Screenshot\_20250907-231139](../assets/images/guide/builds/screenshot_20250907-231139.png){ width="720" height="1612" }
 
 動画
 
@@ -289,21 +289,21 @@ AFの取得数を増やす為に考古学者を採用しています。
 
 記録を更新したので
 
-<img src="../assets/images/guide/builds/screenshot_20251005-221912.png" alt="Screenshot_20251005-221912" width="720" height="1612">
+![Screenshot\_20251005-221912](../assets/images/guide/builds/screenshot_20251005-221912.png){ width="720" height="1612" }
 
-<img src="../assets/images/guide/builds/screenshot_20251005-221916.png" alt="Screenshot_20251005-221916" width="720" height="1612">
+![Screenshot\_20251005-221916](../assets/images/guide/builds/screenshot_20251005-221916.png){ width="720" height="1612" }
 
-<img src="../assets/images/guide/builds/screenshot_20251005-221920.png" alt="Screenshot_20251005-221920" width="720" height="1612">
+![Screenshot\_20251005-221920](../assets/images/guide/builds/screenshot_20251005-221920.png){ width="720" height="1612" }
 
-<img src="../assets/images/guide/builds/screenshot_20251005-221923.png" alt="Screenshot_20251005-221923" width="720" height="1612">
+![Screenshot\_20251005-221923](../assets/images/guide/builds/screenshot_20251005-221923.png){ width="720" height="1612" }
 
-<img src="../assets/images/guide/builds/screenshot_20251005-221928.png" alt="Screenshot_20251005-221928" width="720" height="1612">
+![Screenshot\_20251005-221928](../assets/images/guide/builds/screenshot_20251005-221928.png){ width="720" height="1612" }
 
-<img src="../assets/images/guide/builds/screenshot_20251005-221934.png" alt="Screenshot_20251005-221934" width="720" height="1612">
+![Screenshot\_20251005-221934](../assets/images/guide/builds/screenshot_20251005-221934.png){ width="720" height="1612" }
 
-<img src="../assets/images/guide/builds/screenshot_20251005-221938.png" alt="Screenshot_20251005-221938" width="720" height="1612">
+![Screenshot\_20251005-221938](../assets/images/guide/builds/screenshot_20251005-221938.png){ width="720" height="1612" }
 
-<img src="../assets/images/guide/builds/screenshot_20251005-221942.png" alt="Screenshot_20251005-221942" width="720" height="1612">
+![Screenshot\_20251005-221942](../assets/images/guide/builds/screenshot_20251005-221942.png){ width="720" height="1612" }
 
 動画
 
@@ -317,7 +317,7 @@ AFの取得数を増やす為に考古学者を採用しています。
 
 ### Noah
 
-| + | 77分 / 考古学者 / 花火・炎の嵐・ゲート | <img src="../assets/images/guide/builds/1000009357.png" alt="1000009357" width="1080" height="2340"> <br> <img src="../assets/images/guide/builds/1000009358.png" alt="1000009358" width="1080" height="2340"> <br> <img src="../assets/images/guide/builds/1000009359.png" alt="1000009359" width="1080" height="2340"> <br> <img src="../assets/images/guide/builds/1000009360.png" alt="1000009360" width="1080" height="2340"> <br> <img src="../assets/images/guide/builds/1000009361.png" alt="1000009361" width="1080" height="2340"> <br> <img src="../assets/images/guide/builds/1000009362.png" alt="1000009362" width="1080" height="2340"> <br> <img src="../assets/images/guide/builds/1000009364.jpg" alt="1000009364" width="1080" height="427"> <br> <img src="../assets/images/guide/builds/1000009365.png" alt="1000009365" width="1080" height="2340"> |
+| + | 77分 / 考古学者 / 花火・炎の嵐・ゲート | ![1000009357](../assets/images/guide/builds/1000009357.png){ width="1080" height="2340" } <br> ![1000009358](../assets/images/guide/builds/1000009358.png){ width="1080" height="2340" } <br> ![1000009359](../assets/images/guide/builds/1000009359.png){ width="1080" height="2340" } <br> ![1000009360](../assets/images/guide/builds/1000009360.png){ width="1080" height="2340" } <br> ![1000009361](../assets/images/guide/builds/1000009361.png){ width="1080" height="2340" } <br> ![1000009362](../assets/images/guide/builds/1000009362.png){ width="1080" height="2340" } <br> ![1000009364](../assets/images/guide/builds/1000009364.jpg){ width="1080" height="427" } <br> ![1000009365](../assets/images/guide/builds/1000009365.png){ width="1080" height="2340" } |
 | --- | --- | --- |
 
 #### 狙い
@@ -340,7 +340,7 @@ AFの取得数を増やす為に考古学者を採用しています。
 
 何か変更したい融合がある場合は、下記Tier表のTier0、Tier1、もしくはTier2の魔法であればそこまで問題は無いと思います。
 
-| + | 個人的Tier | <img src="../assets/images/guide/builds/noah融合tier.png" alt="Noah融合Tier" width="1140" height="826"> |
+| + | 個人的Tier | ![Noah融合Tier](../assets/images/guide/builds/noah融合tier.png){ width="1140" height="826" } |
 | --- | --- | --- |
 
 - 魔法
@@ -363,7 +363,7 @@ AFの取得数を増やす為に考古学者を採用しています。
 
 特別パッシブは、下記Tier表のTier0、Tier1であれば習得することにしています。
 
-| + | 特別パッシブ個人的Tier | <img src="../assets/images/guide/builds/noah特別パッシブtier.png" alt="Noah特別パッシブTier" width="1140" height="460"> |
+| + | 特別パッシブ個人的Tier | ![Noah特別パッシブTier](../assets/images/guide/builds/noah特別パッシブtier.png){ width="1140" height="460" } |
 | --- | --- | --- |
 
 - AF
@@ -380,7 +380,7 @@ AFの取得数を増やす為に考古学者を採用しています。
 
 下記のTier表参照。
 
-| + | 伝説AF個人的Tier | <img src="../assets/images/guide/builds/noah伝説aftier.png" alt="Noah伝説AFTier" width="1140" height="552"> |
+| + | 伝説AF個人的Tier | ![Noah伝説AFTier](../assets/images/guide/builds/noah伝説aftier.png){ width="1140" height="552" } |
 | --- | --- | --- |
 
 | + | リロール基準 | Tier1のAFが出現した場合、基本的にリロールは行わない。 <br> Tier1.5のAFが出現した場合、オベリスクの残数に余裕が無く、かつTier1のAFで入手できていないモノがある場合に限りリロールを行う。 <br> Tier2のAFが出現した場合、Tier2以下のAFを既に取得しておりTier1、1.5のAFの入手に不安がある場合はリロールを行う。 <br> Tier3のAFが出現した場合、取得してきたAFがほとんどTier1もしくは1.5で、伝説AFが充実しているという状況でない限りはリロールを行う。 <br> Tier4、5のAFが出現した場合、基本的にリロールを行う。 |
@@ -442,33 +442,33 @@ AFの取得数を増やす為に考古学者を採用しています。
 
 ①ブラスター・雪花開花・超新星
 
-<img src="../assets/images/guide/builds/screenshot_2025-05-18-00-10-51-28_a018ce24e5d63bb13a8d24754083b426.jpg" alt="Screenshot_2025-05-18-00-10-51-28_a018ce24e5d63bb13a8d24754083b426" width="1200" height="2000">
+![Screenshot\_2025-05-18-00-10-51-28\_a018ce24e5d63bb13a8d24754083b426](../assets/images/guide/builds/screenshot_2025-05-18-00-10-51-28_a018ce24e5d63bb13a8d24754083b426.jpg){ width="1200" height="2000" }
 
-<img src="../assets/images/guide/builds/screenshot_2025-05-18-00-10-54-83_a018ce24e5d63bb13a8d24754083b426.jpg" alt="Screenshot_2025-05-18-00-10-54-83_a018ce24e5d63bb13a8d24754083b426" width="1200" height="2000">
+![Screenshot\_2025-05-18-00-10-54-83\_a018ce24e5d63bb13a8d24754083b426](../assets/images/guide/builds/screenshot_2025-05-18-00-10-54-83_a018ce24e5d63bb13a8d24754083b426.jpg){ width="1200" height="2000" }
 
-<img src="../assets/images/guide/builds/screenshot_2025-05-18-00-10-58-05_a018ce24e5d63bb13a8d24754083b426.jpg" alt="Screenshot_2025-05-18-00-10-58-05_a018ce24e5d63bb13a8d24754083b426" width="1200" height="2000">
+![Screenshot\_2025-05-18-00-10-58-05\_a018ce24e5d63bb13a8d24754083b426](../assets/images/guide/builds/screenshot_2025-05-18-00-10-58-05_a018ce24e5d63bb13a8d24754083b426.jpg){ width="1200" height="2000" }
 
-<img src="../assets/images/guide/builds/screenshot_2025-05-18-00-11-00-51_a018ce24e5d63bb13a8d24754083b426.jpg" alt="Screenshot_2025-05-18-00-11-00-51_a018ce24e5d63bb13a8d24754083b426" width="1200" height="2000">
+![Screenshot\_2025-05-18-00-11-00-51\_a018ce24e5d63bb13a8d24754083b426](../assets/images/guide/builds/screenshot_2025-05-18-00-11-00-51_a018ce24e5d63bb13a8d24754083b426.jpg){ width="1200" height="2000" }
 
-<img src="../assets/images/guide/builds/screenshot_2025-05-18-00-11-03-90_a018ce24e5d63bb13a8d24754083b426.jpg" alt="Screenshot_2025-05-18-00-11-03-90_a018ce24e5d63bb13a8d24754083b426" width="1200" height="2000">
+![Screenshot\_2025-05-18-00-11-03-90\_a018ce24e5d63bb13a8d24754083b426](../assets/images/guide/builds/screenshot_2025-05-18-00-11-03-90_a018ce24e5d63bb13a8d24754083b426.jpg){ width="1200" height="2000" }
 
-<img src="../assets/images/guide/builds/screenshot_2025-05-18-00-11-06-80_a018ce24e5d63bb13a8d24754083b426.jpg" alt="Screenshot_2025-05-18-00-11-06-80_a018ce24e5d63bb13a8d24754083b426" width="1200" height="2000">
+![Screenshot\_2025-05-18-00-11-06-80\_a018ce24e5d63bb13a8d24754083b426](../assets/images/guide/builds/screenshot_2025-05-18-00-11-06-80_a018ce24e5d63bb13a8d24754083b426.jpg){ width="1200" height="2000" }
 
 ---
 
 ②エクシディウム+雷の息吹
 
-<img src="../assets/images/guide/builds/screenshot_2025-05-28-17-56-33-72_a018ce24e5d63bb13a8d24754083b426.jpg" alt="Screenshot_2025-05-28-17-56-33-72_a018ce24e5d63bb13a8d24754083b426" width="1200" height="2000">
+![Screenshot\_2025-05-28-17-56-33-72\_a018ce24e5d63bb13a8d24754083b426](../assets/images/guide/builds/screenshot_2025-05-28-17-56-33-72_a018ce24e5d63bb13a8d24754083b426.jpg){ width="1200" height="2000" }
 
-<img src="../assets/images/guide/builds/screenshot_2025-05-28-17-56-36-21_a018ce24e5d63bb13a8d24754083b426.jpg" alt="Screenshot_2025-05-28-17-56-36-21_a018ce24e5d63bb13a8d24754083b426" width="1200" height="2000">
+![Screenshot\_2025-05-28-17-56-36-21\_a018ce24e5d63bb13a8d24754083b426](../assets/images/guide/builds/screenshot_2025-05-28-17-56-36-21_a018ce24e5d63bb13a8d24754083b426.jpg){ width="1200" height="2000" }
 
-<img src="../assets/images/guide/builds/screenshot_2025-05-28-17-57-06-71_a018ce24e5d63bb13a8d24754083b426.jpg" alt="Screenshot_2025-05-28-17-57-06-71_a018ce24e5d63bb13a8d24754083b426" width="1200" height="2000">
+![Screenshot\_2025-05-28-17-57-06-71\_a018ce24e5d63bb13a8d24754083b426](../assets/images/guide/builds/screenshot_2025-05-28-17-57-06-71_a018ce24e5d63bb13a8d24754083b426.jpg){ width="1200" height="2000" }
 
-<img src="../assets/images/guide/builds/screenshot_2025-05-28-17-57-09-14_a018ce24e5d63bb13a8d24754083b426.jpg" alt="Screenshot_2025-05-28-17-57-09-14_a018ce24e5d63bb13a8d24754083b426" width="1200" height="2000">
+![Screenshot\_2025-05-28-17-57-09-14\_a018ce24e5d63bb13a8d24754083b426](../assets/images/guide/builds/screenshot_2025-05-28-17-57-09-14_a018ce24e5d63bb13a8d24754083b426.jpg){ width="1200" height="2000" }
 
-<img src="../assets/images/guide/builds/screenshot_2025-05-28-17-57-11-92_a018ce24e5d63bb13a8d24754083b426.jpg" alt="Screenshot_2025-05-28-17-57-11-92_a018ce24e5d63bb13a8d24754083b426" width="1200" height="2000">
+![Screenshot\_2025-05-28-17-57-11-92\_a018ce24e5d63bb13a8d24754083b426](../assets/images/guide/builds/screenshot_2025-05-28-17-57-11-92_a018ce24e5d63bb13a8d24754083b426.jpg){ width="1200" height="2000" }
 
-<img src="../assets/images/guide/builds/screenshot_2025-05-28-17-57-14-57_a018ce24e5d63bb13a8d24754083b426.jpg" alt="Screenshot_2025-05-28-17-57-14-57_a018ce24e5d63bb13a8d24754083b426" width="1200" height="2000">
+![Screenshot\_2025-05-28-17-57-14-57\_a018ce24e5d63bb13a8d24754083b426](../assets/images/guide/builds/screenshot_2025-05-28-17-57-14-57_a018ce24e5d63bb13a8d24754083b426.jpg){ width="1200" height="2000" }
 
 ### 終わりに
 
@@ -486,33 +486,33 @@ AFの取得数を増やす為に考古学者を採用しています。
 
 その他微細な差異は下画像をご確認下さい(\_ \_)
 
-<img src="../assets/images/guide/builds/screenshot_2025-06-06-04-09-44-95.jpg" alt="Screenshot_2025-06-06-04-09-44-95">
+![Screenshot\_2025-06-06-04-09-44-95](../assets/images/guide/builds/screenshot_2025-06-06-04-09-44-95.jpg)
 
-<img src="../assets/images/guide/builds/screenshot_2025-06-06-04-09-49-51.jpg" alt="Screenshot_2025-06-06-04-09-49-51">
+![Screenshot\_2025-06-06-04-09-49-51](../assets/images/guide/builds/screenshot_2025-06-06-04-09-49-51.jpg)
 
-<img src="../assets/images/guide/builds/screenshot_2025-06-06-04-09-53-88.jpg" alt="Screenshot_2025-06-06-04-09-53-88">
+![Screenshot\_2025-06-06-04-09-53-88](../assets/images/guide/builds/screenshot_2025-06-06-04-09-53-88.jpg)
 
-<img src="../assets/images/guide/builds/screenshot_2025-06-06-04-09-57-75.jpg" alt="Screenshot_2025-06-06-04-09-57-75">
+![Screenshot\_2025-06-06-04-09-57-75](../assets/images/guide/builds/screenshot_2025-06-06-04-09-57-75.jpg)
 
-<img src="../assets/images/guide/builds/screenshot_2025-06-06-04-10-02-29.jpg" alt="Screenshot_2025-06-06-04-10-02-29">
+![Screenshot\_2025-06-06-04-10-02-29](../assets/images/guide/builds/screenshot_2025-06-06-04-10-02-29.jpg)
 
-<img src="../assets/images/guide/builds/screenshot_2025-06-06-04-10-20-12.jpg" alt="Screenshot_2025-06-06-04-10-20-12">
+![Screenshot\_2025-06-06-04-10-20-12](../assets/images/guide/builds/screenshot_2025-06-06-04-10-20-12.jpg)
 
 ## v0.946 / 深層区域の参考記録
 
-<img src="../assets/images/guide/builds/screenshot_2024-12-24-20-52-31-94_a018ce24e5d63bb13a8d24754083b426.jpg" alt="Screenshot_2024-12-24-20-52-31-94_a018ce24e5d63bb13a8d24754083b426" width="1200" height="2000">
+![Screenshot\_2024-12-24-20-52-31-94\_a018ce24e5d63bb13a8d24754083b426](../assets/images/guide/builds/screenshot_2024-12-24-20-52-31-94_a018ce24e5d63bb13a8d24754083b426.jpg){ width="1200" height="2000" }
 
-<img src="../assets/images/guide/builds/screenshot_2024-12-24-20-52-35-68_a018ce24e5d63bb13a8d24754083b426.jpg" alt="Screenshot_2024-12-24-20-52-35-68_a018ce24e5d63bb13a8d24754083b426" width="1200" height="2000">
+![Screenshot\_2024-12-24-20-52-35-68\_a018ce24e5d63bb13a8d24754083b426](../assets/images/guide/builds/screenshot_2024-12-24-20-52-35-68_a018ce24e5d63bb13a8d24754083b426.jpg){ width="1200" height="2000" }
 
-<img src="../assets/images/guide/builds/screenshot_2024-12-24-20-52-45-23_a018ce24e5d63bb13a8d24754083b426.jpg" alt="Screenshot_2024-12-24-20-52-45-23_a018ce24e5d63bb13a8d24754083b426" width="1200" height="2000">
+![Screenshot\_2024-12-24-20-52-45-23\_a018ce24e5d63bb13a8d24754083b426](../assets/images/guide/builds/screenshot_2024-12-24-20-52-45-23_a018ce24e5d63bb13a8d24754083b426.jpg){ width="1200" height="2000" }
 
-<img src="../assets/images/guide/builds/screenshot_2024-12-24-20-52-48-99_a018ce24e5d63bb13a8d24754083b426.jpg" alt="Screenshot_2024-12-24-20-52-48-99_a018ce24e5d63bb13a8d24754083b426" width="1200" height="2000">
+![Screenshot\_2024-12-24-20-52-48-99\_a018ce24e5d63bb13a8d24754083b426](../assets/images/guide/builds/screenshot_2024-12-24-20-52-48-99_a018ce24e5d63bb13a8d24754083b426.jpg){ width="1200" height="2000" }
 
-<img src="../assets/images/guide/builds/screenshot_2024-12-24-20-52-54-55_a018ce24e5d63bb13a8d24754083b426.jpg" alt="Screenshot_2024-12-24-20-52-54-55_a018ce24e5d63bb13a8d24754083b426" width="1200" height="2000">
+![Screenshot\_2024-12-24-20-52-54-55\_a018ce24e5d63bb13a8d24754083b426](../assets/images/guide/builds/screenshot_2024-12-24-20-52-54-55_a018ce24e5d63bb13a8d24754083b426.jpg){ width="1200" height="2000" }
 
-<img src="../assets/images/guide/builds/screenshot_2024-12-24-20-53-00-76_a018ce24e5d63bb13a8d24754083b426.jpg" alt="Screenshot_2024-12-24-20-53-00-76_a018ce24e5d63bb13a8d24754083b426" width="1200" height="2000">
+![Screenshot\_2024-12-24-20-53-00-76\_a018ce24e5d63bb13a8d24754083b426](../assets/images/guide/builds/screenshot_2024-12-24-20-53-00-76_a018ce24e5d63bb13a8d24754083b426.jpg){ width="1200" height="2000" }
 
-<img src="../assets/images/guide/builds/screenshot_2024-12-24-20-53-03-47_a018ce24e5d63bb13a8d24754083b426.jpg" alt="Screenshot_2024-12-24-20-53-03-47_a018ce24e5d63bb13a8d24754083b426" width="1200" height="2000">
+![Screenshot\_2024-12-24-20-53-03-47\_a018ce24e5d63bb13a8d24754083b426](../assets/images/guide/builds/screenshot_2024-12-24-20-53-03-47_a018ce24e5d63bb13a8d24754083b426.jpg){ width="1200" height="2000" }
 
 ### 狙い
 
@@ -555,37 +555,37 @@ AFの取得数を増やす為に考古学者を採用しています。
 
 その他微細な差異は下画像をご確認下さい(\_ \_)
 
-<img src="../assets/images/guide/builds/screenshot_2025-02-22-03-11-10-57_a018ce24e5d63bb13a8d24754083b426.jpg" alt="Screenshot_2025-02-22-03-11-10-57_a018ce24e5d63bb13a8d24754083b426" width="1200" height="2000">
+![Screenshot\_2025-02-22-03-11-10-57\_a018ce24e5d63bb13a8d24754083b426](../assets/images/guide/builds/screenshot_2025-02-22-03-11-10-57_a018ce24e5d63bb13a8d24754083b426.jpg){ width="1200" height="2000" }
 
-<img src="../assets/images/guide/builds/screenshot_2025-02-22-03-11-13-80_a018ce24e5d63bb13a8d24754083b426.jpg" alt="Screenshot_2025-02-22-03-11-13-80_a018ce24e5d63bb13a8d24754083b426" width="1200" height="2000">
+![Screenshot\_2025-02-22-03-11-13-80\_a018ce24e5d63bb13a8d24754083b426](../assets/images/guide/builds/screenshot_2025-02-22-03-11-13-80_a018ce24e5d63bb13a8d24754083b426.jpg){ width="1200" height="2000" }
 
-<img src="../assets/images/guide/builds/screenshot_2025-02-22-03-11-17-63_a018ce24e5d63bb13a8d24754083b426.jpg" alt="Screenshot_2025-02-22-03-11-17-63_a018ce24e5d63bb13a8d24754083b426" width="1200" height="2000">
+![Screenshot\_2025-02-22-03-11-17-63\_a018ce24e5d63bb13a8d24754083b426](../assets/images/guide/builds/screenshot_2025-02-22-03-11-17-63_a018ce24e5d63bb13a8d24754083b426.jpg){ width="1200" height="2000" }
 
-<img src="../assets/images/guide/builds/screenshot_2025-02-22-03-11-21-14_a018ce24e5d63bb13a8d24754083b426.jpg" alt="Screenshot_2025-02-22-03-11-21-14_a018ce24e5d63bb13a8d24754083b426" width="1200" height="2000">
+![Screenshot\_2025-02-22-03-11-21-14\_a018ce24e5d63bb13a8d24754083b426](../assets/images/guide/builds/screenshot_2025-02-22-03-11-21-14_a018ce24e5d63bb13a8d24754083b426.jpg){ width="1200" height="2000" }
 
-<img src="../assets/images/guide/builds/screenshot_2025-02-22-03-11-26-48_a018ce24e5d63bb13a8d24754083b426.jpg" alt="Screenshot_2025-02-22-03-11-26-48_a018ce24e5d63bb13a8d24754083b426" width="1200" height="2000">
+![Screenshot\_2025-02-22-03-11-26-48\_a018ce24e5d63bb13a8d24754083b426](../assets/images/guide/builds/screenshot_2025-02-22-03-11-26-48_a018ce24e5d63bb13a8d24754083b426.jpg){ width="1200" height="2000" }
 
-<img src="../assets/images/guide/builds/screenshot_2025-02-22-03-11-31-20_a018ce24e5d63bb13a8d24754083b426.jpg" alt="Screenshot_2025-02-22-03-11-31-20_a018ce24e5d63bb13a8d24754083b426" width="1200" height="2000">
+![Screenshot\_2025-02-22-03-11-31-20\_a018ce24e5d63bb13a8d24754083b426](../assets/images/guide/builds/screenshot_2025-02-22-03-11-31-20_a018ce24e5d63bb13a8d24754083b426.jpg){ width="1200" height="2000" }
 
-<img src="../assets/images/guide/builds/screenshot_2025-02-22-03-11-43-96_a018ce24e5d63bb13a8d24754083b426.jpg" alt="Screenshot_2025-02-22-03-11-43-96_a018ce24e5d63bb13a8d24754083b426" width="1200" height="2000">
+![Screenshot\_2025-02-22-03-11-43-96\_a018ce24e5d63bb13a8d24754083b426](../assets/images/guide/builds/screenshot_2025-02-22-03-11-43-96_a018ce24e5d63bb13a8d24754083b426.jpg){ width="1200" height="2000" }
 
 ### 追追記
 
 ビルド構築思想に大きな変更は無く[^8]、立ち回りにも差はありませんが、正規プレイでの終着点ということで載せておきます。
 
-<img src="../assets/images/guide/builds/screenshot_2025-03-14-19-45-49-02_a018ce24e5d63bb13a8d24754083b426.jpg" alt="Screenshot_2025-03-14-19-45-49-02_a018ce24e5d63bb13a8d24754083b426" width="1200" height="2000">
+![Screenshot\_2025-03-14-19-45-49-02\_a018ce24e5d63bb13a8d24754083b426](../assets/images/guide/builds/screenshot_2025-03-14-19-45-49-02_a018ce24e5d63bb13a8d24754083b426.jpg){ width="1200" height="2000" }
 
-<img src="../assets/images/guide/builds/screenshot_2025-03-14-19-45-51-98_a018ce24e5d63bb13a8d24754083b426.jpg" alt="Screenshot_2025-03-14-19-45-51-98_a018ce24e5d63bb13a8d24754083b426" width="1200" height="2000">
+![Screenshot\_2025-03-14-19-45-51-98\_a018ce24e5d63bb13a8d24754083b426](../assets/images/guide/builds/screenshot_2025-03-14-19-45-51-98_a018ce24e5d63bb13a8d24754083b426.jpg){ width="1200" height="2000" }
 
-<img src="../assets/images/guide/builds/screenshot_2025-03-14-19-45-54-67_a018ce24e5d63bb13a8d24754083b426.jpg" alt="Screenshot_2025-03-14-19-45-54-67_a018ce24e5d63bb13a8d24754083b426" width="1200" height="2000">
+![Screenshot\_2025-03-14-19-45-54-67\_a018ce24e5d63bb13a8d24754083b426](../assets/images/guide/builds/screenshot_2025-03-14-19-45-54-67_a018ce24e5d63bb13a8d24754083b426.jpg){ width="1200" height="2000" }
 
-<img src="../assets/images/guide/builds/screenshot_2025-03-14-19-45-57-08_a018ce24e5d63bb13a8d24754083b426.jpg" alt="Screenshot_2025-03-14-19-45-57-08_a018ce24e5d63bb13a8d24754083b426" width="1200" height="2000">
+![Screenshot\_2025-03-14-19-45-57-08\_a018ce24e5d63bb13a8d24754083b426](../assets/images/guide/builds/screenshot_2025-03-14-19-45-57-08_a018ce24e5d63bb13a8d24754083b426.jpg){ width="1200" height="2000" }
 
-<img src="../assets/images/guide/builds/screenshot_2025-03-14-19-46-00-04_a018ce24e5d63bb13a8d24754083b426.jpg" alt="Screenshot_2025-03-14-19-46-00-04_a018ce24e5d63bb13a8d24754083b426" width="1200" height="2000">
+![Screenshot\_2025-03-14-19-46-00-04\_a018ce24e5d63bb13a8d24754083b426](../assets/images/guide/builds/screenshot_2025-03-14-19-46-00-04_a018ce24e5d63bb13a8d24754083b426.jpg){ width="1200" height="2000" }
 
-<img src="../assets/images/guide/builds/screenshot_2025-03-14-19-46-05-45_a018ce24e5d63bb13a8d24754083b426.jpg" alt="Screenshot_2025-03-14-19-46-05-45_a018ce24e5d63bb13a8d24754083b426" width="1200" height="2000">
+![Screenshot\_2025-03-14-19-46-05-45\_a018ce24e5d63bb13a8d24754083b426](../assets/images/guide/builds/screenshot_2025-03-14-19-46-05-45_a018ce24e5d63bb13a8d24754083b426.jpg){ width="1200" height="2000" }
 
-<img src="../assets/images/guide/builds/screenshot_2025-03-14-19-46-11-89_a018ce24e5d63bb13a8d24754083b426.jpg" alt="Screenshot_2025-03-14-19-46-11-89_a018ce24e5d63bb13a8d24754083b426" width="1200" height="2000">
+![Screenshot\_2025-03-14-19-46-11-89\_a018ce24e5d63bb13a8d24754083b426](../assets/images/guide/builds/screenshot_2025-03-14-19-46-11-89_a018ce24e5d63bb13a8d24754083b426.jpg){ width="1200" height="2000" }
 
 ---
 
