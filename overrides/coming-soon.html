@@ -1,0 +1,14 @@
+{#-
+  準備中のページ用。Markdown の front matter に `template: coming-soon.html`
+  と書くと使われる。本文を書いたらその行を消せば普通のページに戻る。
+-#}
+{% extends "main.html" %}
+{% from "partials/levelup.html" import levelup with context %}
+{% block content %}
+  {% include "partials/actions.html" %}
+  {% if "<h1" not in page.content %}
+    <h1>{{ page.title | d(config.site_name, true) }}</h1>
+  {% endif %}
+  {{ page.content }}
+  {{ levelup("0 (準備中)", "このページはまだ習得されていません。次の行動を選んでください。") }}
+{% endblock %}

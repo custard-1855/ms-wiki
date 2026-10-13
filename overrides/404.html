@@ -1,0 +1,6 @@
+{% extends "main.html" %}
+{% from "partials/levelup.html" import levelup with context %}
+{% block content %}
+  <h1>ページが見つかりません</h1>
+  {{ levelup("404", "この先には何もありません。ページが移動したか、URL が間違っています。") }}
+{% endblock %}
