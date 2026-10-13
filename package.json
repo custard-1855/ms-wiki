@@ -2,7 +2,7 @@
   "private": true,
   "description": "docs/javascripts/ のテスト用 (サイトのビルドには不要)",
   "scripts": {
-    "test": "node --test tests/"
+    "test": "node --test \"tests/**/*.test.mjs\""
   },
   "devDependencies": {
     "jsdom": "24.1.3",
