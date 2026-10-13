@@ -2,7 +2,7 @@
 
 ## 基本情報
 
-<img src="../assets/images/magic/neutron-emission/ちゅうせい.png" alt="ちゅうせい" width="1003" height="1620">
+![ちゅうせい](../assets/images/magic/neutron-emission/ちゅうせい.png){ width="1003" height="1620" }
 
 ### 評価
 

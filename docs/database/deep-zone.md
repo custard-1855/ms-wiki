@@ -4,7 +4,7 @@
 
 現在更新作業中…
 
-<img src="../assets/images/database/deep-zone/スクリーンショット-2025-04-17-132338.png" alt="スクリーンショット 2025-04-17 132338" width="556" height="1052">
+![スクリーンショット 2025-04-17 132338](../assets/images/database/deep-zone/スクリーンショット-2025-04-17-132338.png){ width="556" height="1052" }
 
 ## 攻略(最新環境)
 
@@ -64,19 +64,19 @@ Lv7の魔法を複数揃えたり、融合魔法を作る等すれば良いだ�
 
 ビルド例貼っておくので、参考までに。
 
-<img src="../assets/images/database/deep-zone/screenshot_2025-09-08-21-50-40-48_a018ce24e5d63bb13a8d24754083b426.jpg" alt="Screenshot_2025-09-08-21-50-40-48_a018ce24e5d63bb13a8d24754083b426">
+![Screenshot\_2025-09-08-21-50-40-48\_a018ce24e5d63bb13a8d24754083b426](../assets/images/database/deep-zone/screenshot_2025-09-08-21-50-40-48_a018ce24e5d63bb13a8d24754083b426.jpg)
 
-<img src="../assets/images/database/deep-zone/screenshot_2025-09-08-21-50-44-56_a018ce24e5d63bb13a8d24754083b426.jpg" alt="Screenshot_2025-09-08-21-50-44-56_a018ce24e5d63bb13a8d24754083b426">
+![Screenshot\_2025-09-08-21-50-44-56\_a018ce24e5d63bb13a8d24754083b426](../assets/images/database/deep-zone/screenshot_2025-09-08-21-50-44-56_a018ce24e5d63bb13a8d24754083b426.jpg)
 
-<img src="../assets/images/database/deep-zone/screenshot_2025-09-08-21-50-48-14_a018ce24e5d63bb13a8d24754083b426.jpg" alt="Screenshot_2025-09-08-21-50-48-14_a018ce24e5d63bb13a8d24754083b426">
+![Screenshot\_2025-09-08-21-50-48-14\_a018ce24e5d63bb13a8d24754083b426](../assets/images/database/deep-zone/screenshot_2025-09-08-21-50-48-14_a018ce24e5d63bb13a8d24754083b426.jpg)
 
-<img src="../assets/images/database/deep-zone/screenshot_2025-09-08-21-50-51-01_a018ce24e5d63bb13a8d24754083b426.jpg" alt="Screenshot_2025-09-08-21-50-51-01_a018ce24e5d63bb13a8d24754083b426">
+![Screenshot\_2025-09-08-21-50-51-01\_a018ce24e5d63bb13a8d24754083b426](../assets/images/database/deep-zone/screenshot_2025-09-08-21-50-51-01_a018ce24e5d63bb13a8d24754083b426.jpg)
 
-<img src="../assets/images/database/deep-zone/screenshot_2025-09-08-21-50-54-66_a018ce24e5d63bb13a8d24754083b426.jpg" alt="Screenshot_2025-09-08-21-50-54-66_a018ce24e5d63bb13a8d24754083b426">
+![Screenshot\_2025-09-08-21-50-54-66\_a018ce24e5d63bb13a8d24754083b426](../assets/images/database/deep-zone/screenshot_2025-09-08-21-50-54-66_a018ce24e5d63bb13a8d24754083b426.jpg)
 
-<img src="../assets/images/database/deep-zone/screenshot_2025-09-08-21-50-58-14_a018ce24e5d63bb13a8d24754083b426.jpg" alt="Screenshot_2025-09-08-21-50-58-14_a018ce24e5d63bb13a8d24754083b426">
+![Screenshot\_2025-09-08-21-50-58-14\_a018ce24e5d63bb13a8d24754083b426](../assets/images/database/deep-zone/screenshot_2025-09-08-21-50-58-14_a018ce24e5d63bb13a8d24754083b426.jpg)
 
-<img src="../assets/images/database/deep-zone/screenshot_2025-09-08-21-51-01-13_a018ce24e5d63bb13a8d24754083b426.jpg" alt="Screenshot_2025-09-08-21-51-01-13_a018ce24e5d63bb13a8d24754083b426">
+![Screenshot\_2025-09-08-21-51-01-13\_a018ce24e5d63bb13a8d24754083b426](../assets/images/database/deep-zone/screenshot_2025-09-08-21-51-01-13_a018ce24e5d63bb13a8d24754083b426.jpg)
 
 ---
 

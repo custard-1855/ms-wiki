@@ -1,6 +1,6 @@
 # 津波
 
-<img src="../assets/images/magic/tsunami/tsunami.n.png" alt="Tsunami.n" width="475" height="456">
+![Tsunami.n](../assets/images/magic/tsunami/tsunami.n.png){ width="475" height="456" }
 
 ### 基本情報
 

@@ -2,7 +2,7 @@
 
 ## 基本情報
 
-<img src="../assets/images/magic/deus-ex-machina/screenshot_20251123-181118.png" alt="Screenshot_20251123-181118" width="1080" height="2340">
+![Screenshot\_20251123-181118](../assets/images/magic/deus-ex-machina/screenshot_20251123-181118.png){ width="1080" height="2340" }
 
 アカデミーのクリアによって解放されることに注意
 

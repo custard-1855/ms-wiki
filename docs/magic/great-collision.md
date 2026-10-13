@@ -2,7 +2,7 @@
 
 ## 基本情報
 
-<img src="../assets/images/magic/great-collision/screenshot_20250811-204811.png" alt="Screenshot_20250811-204811" width="1034" height="1565">
+![Screenshot\_20250811-204811](../assets/images/magic/great-collision/screenshot_20250811-204811.png){ width="1034" height="1565" }
 
 ### 評価
 
@@ -10,7 +10,7 @@
 
 - 出力
 
-<img src="../assets/images/magic/great-collision/スクリーンショット-2026-01-24-184045.png" alt="スクリーンショット 2026-01-24 184045" width="332" height="704">
+![スクリーンショット 2026-01-24 184045](../assets/images/magic/great-collision/スクリーンショット-2026-01-24-184045.png){ width="332" height="704" }
 
 MAX800万くらいまで伸びる。
 

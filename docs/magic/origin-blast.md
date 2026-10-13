@@ -2,7 +2,7 @@
 
 ## 基本情報
 
-<img src="../assets/images/magic/origin-blast/screenshot_20250811-204932.png" alt="Screenshot_20250811-204932" width="1000" height="1608">
+![Screenshot\_20250811-204932](../assets/images/magic/origin-blast/screenshot_20250811-204932.png){ width="1000" height="1608" }
 
 ### 評価
 

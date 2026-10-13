@@ -2,7 +2,7 @@
 
 ## 基本情報
 
-<img src="../assets/images/magic/avatar/あば.png" alt="あば" width="1003" height="1620">
+![あば](../assets/images/magic/avatar/あば.png){ width="1003" height="1620" }
 
 ### 評価
 

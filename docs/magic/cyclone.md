@@ -1,6 +1,6 @@
 # つむじ風
 
-<img src="../assets/images/magic/cyclone/cyclone.n.png" alt="Cyclone.n" width="475" height="456">
+![Cyclone.n](../assets/images/magic/cyclone/cyclone.n.png){ width="475" height="456" }
 
 ### 基本情報
 

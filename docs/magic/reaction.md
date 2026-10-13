@@ -2,7 +2,7 @@
 
 ## 基本情報
 
-<img src="../assets/images/magic/reaction/はんしゃ.png" alt="はんしゃ" width="1003" height="1620">
+![はんしゃ](../assets/images/magic/reaction/はんしゃ.png){ width="1003" height="1620" }
 
 ### 評価
 

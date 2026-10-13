@@ -2,7 +2,7 @@
 
 ## 基本情報
 
-<img src="../assets/images/magic/prism-barrage/ぷりらん.png" alt="ぷりらん" width="1003" height="1620">
+![ぷりらん](../assets/images/magic/prism-barrage/ぷりらん.png){ width="1003" height="1620" }
 
 ### 評価
 

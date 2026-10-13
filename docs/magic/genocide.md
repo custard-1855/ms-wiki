@@ -2,7 +2,7 @@
 
 ## 基本情報
 
-<img src="../assets/images/magic/genocide/じぇの.png" alt="じぇの" width="1003" height="1620">
+![じぇの](../assets/images/magic/genocide/じぇの.png){ width="1003" height="1620" }
 
 ### 評価
 

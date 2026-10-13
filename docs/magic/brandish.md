@@ -2,7 +2,7 @@
 
 ## 基本情報
 
-<img src="../assets/images/magic/brandish/ぶらん.png" alt="ぶらん" width="1029" height="1620">
+![ぶらん](../assets/images/magic/brandish/ぶらん.png){ width="1029" height="1620" }
 
 ### 評価
 

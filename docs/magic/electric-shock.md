@@ -1,6 +1,6 @@
 # 電気ショック
 
-<img src="../assets/images/magic/electric-shock/electric-shock.n.png" alt="Electric Shock.n" width="475" height="456">
+![Electric Shock.n](../assets/images/magic/electric-shock/electric-shock.n.png){ width="475" height="456" }
 
 ### 基本情報
 

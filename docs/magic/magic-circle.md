@@ -1,6 +1,6 @@
 # 魔法陣
 
-<img src="../assets/images/magic/magic-circle/magic-circle.n.png" alt="Magic Circle.n" width="475" height="456">
+![Magic Circle.n](../assets/images/magic/magic-circle/magic-circle.n.png){ width="475" height="456" }
 
 ### 基本情報
 

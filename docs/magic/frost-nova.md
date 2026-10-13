@@ -1,6 +1,6 @@
 # 霜柱
 
-<img src="../assets/images/magic/frost-nova/frost-nova.n.png" alt="Frost Nova.n" width="475" height="456">
+![Frost Nova.n](../assets/images/magic/frost-nova/frost-nova.n.png){ width="475" height="456" }
 
 ### 基本情報
 

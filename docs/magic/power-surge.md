@@ -2,7 +2,7 @@
 
 ## 基本情報
 
-<img src="../assets/images/magic/power-surge/でんりゅうぼ.png" alt="でんりゅうぼ" width="1003" height="1620">
+![でんりゅうぼ](../assets/images/magic/power-surge/でんりゅうぼ.png){ width="1003" height="1620" }
 
 ### 評価
 

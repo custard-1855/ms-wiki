@@ -2,7 +2,7 @@
 
 ## 基本情報
 
-<img src="../assets/images/magic/magnetic-field/じば.png" alt="じば" width="1003" height="1620">
+![じば](../assets/images/magic/magnetic-field/じば.png){ width="1003" height="1620" }
 
 ### 評価
 

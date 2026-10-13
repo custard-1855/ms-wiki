@@ -2,7 +2,7 @@
 
 ## 基本情報
 
-<img src="../assets/images/magic/deluge/こうずい.png" alt="こうずい" width="1003" height="1620">
+![こうずい](../assets/images/magic/deluge/こうずい.png){ width="1003" height="1620" }
 
 ### 評価
 

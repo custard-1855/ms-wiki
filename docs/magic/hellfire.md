@@ -2,7 +2,7 @@
 
 ## 基本情報
 
-<img src="../assets/images/magic/hellfire/へる.png" alt="へる" width="1003" height="1620">
+![へる](../assets/images/magic/hellfire/へる.png){ width="1003" height="1620" }
 
 ### 評価
 

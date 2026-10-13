@@ -2,7 +2,7 @@
 
 ## 性能
 
-<img src="../assets/images/builds/magic-scholar/screenshot_20250525-085344.png" alt="Screenshot_20250525-085344">
+![Screenshot\_20250525-085344](../assets/images/builds/magic-scholar/screenshot_20250525-085344.png)
 
 要約すると、魔法のダメージが2倍になる代わりに魔法を狙い通りに取得出来なくなるというもの。
 
@@ -24,18 +24,18 @@
 
 ## atomonによる魔導学者の参考記録
 
-<img src="../assets/images/builds/magic-scholar/screenshot_2024-12-14-21-24-23-73_a018ce24e5d63bb13a8d24754083b426.jpg" alt="Screenshot_2024-12-14-21-24-23-73_a018ce24e5d63bb13a8d24754083b426">
+![Screenshot\_2024-12-14-21-24-23-73\_a018ce24e5d63bb13a8d24754083b426](../assets/images/builds/magic-scholar/screenshot_2024-12-14-21-24-23-73_a018ce24e5d63bb13a8d24754083b426.jpg)
 
-<img src="../assets/images/builds/magic-scholar/screenshot_2024-12-14-21-24-28-03_a018ce24e5d63bb13a8d24754083b426.jpg" alt="Screenshot_2024-12-14-21-24-28-03_a018ce24e5d63bb13a8d24754083b426">
+![Screenshot\_2024-12-14-21-24-28-03\_a018ce24e5d63bb13a8d24754083b426](../assets/images/builds/magic-scholar/screenshot_2024-12-14-21-24-28-03_a018ce24e5d63bb13a8d24754083b426.jpg)
 
-<img src="../assets/images/builds/magic-scholar/screenshot_2024-12-14-21-24-33-03_a018ce24e5d63bb13a8d24754083b426.jpg" alt="Screenshot_2024-12-14-21-24-33-03_a018ce24e5d63bb13a8d24754083b426">
+![Screenshot\_2024-12-14-21-24-33-03\_a018ce24e5d63bb13a8d24754083b426](../assets/images/builds/magic-scholar/screenshot_2024-12-14-21-24-33-03_a018ce24e5d63bb13a8d24754083b426.jpg)
 
-<img src="../assets/images/builds/magic-scholar/screenshot_2024-12-14-21-24-36-59_a018ce24e5d63bb13a8d24754083b426.jpg" alt="Screenshot_2024-12-14-21-24-36-59_a018ce24e5d63bb13a8d24754083b426">
+![Screenshot\_2024-12-14-21-24-36-59\_a018ce24e5d63bb13a8d24754083b426](../assets/images/builds/magic-scholar/screenshot_2024-12-14-21-24-36-59_a018ce24e5d63bb13a8d24754083b426.jpg)
 
-<img src="../assets/images/builds/magic-scholar/screenshot_2024-12-14-21-24-41-58_a018ce24e5d63bb13a8d24754083b426.jpg" alt="Screenshot_2024-12-14-21-24-41-58_a018ce24e5d63bb13a8d24754083b426">
+![Screenshot\_2024-12-14-21-24-41-58\_a018ce24e5d63bb13a8d24754083b426](../assets/images/builds/magic-scholar/screenshot_2024-12-14-21-24-41-58_a018ce24e5d63bb13a8d24754083b426.jpg)
 
-<img src="../assets/images/builds/magic-scholar/screenshot_2024-12-14-21-24-46-21_a018ce24e5d63bb13a8d24754083b426.jpg" alt="Screenshot_2024-12-14-21-24-46-21_a018ce24e5d63bb13a8d24754083b426">
+![Screenshot\_2024-12-14-21-24-46-21\_a018ce24e5d63bb13a8d24754083b426](../assets/images/builds/magic-scholar/screenshot_2024-12-14-21-24-46-21_a018ce24e5d63bb13a8d24754083b426.jpg)
 
-<img src="../assets/images/builds/magic-scholar/screenshot_2024-12-14-21-24-49-52_a018ce24e5d63bb13a8d24754083b426.jpg" alt="Screenshot_2024-12-14-21-24-49-52_a018ce24e5d63bb13a8d24754083b426">
+![Screenshot\_2024-12-14-21-24-49-52\_a018ce24e5d63bb13a8d24754083b426](../assets/images/builds/magic-scholar/screenshot_2024-12-14-21-24-49-52_a018ce24e5d63bb13a8d24754083b426.jpg)
 
 度重なる妥協によって、非常に無駄のある魔法の取得状況となってしまってはいるが、融合魔法を3つ作れたのでなんとかなった。追走したいとい方がもしいれば、参考になると思います。

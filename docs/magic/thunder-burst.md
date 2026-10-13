@@ -2,7 +2,7 @@
 
 ## 基本情報
 
-<img src="../assets/images/magic/thunder-burst/さくれつ.png" alt="さくれつ" width="1003" height="1620">
+![さくれつ](../assets/images/magic/thunder-burst/さくれつ.png){ width="1003" height="1620" }
 
 ### 評価
 

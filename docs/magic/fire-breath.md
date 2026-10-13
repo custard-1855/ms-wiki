@@ -2,7 +2,7 @@
 
 ## 基本情報
 
-<img src="../assets/images/magic/fire-breath/ひの.png" alt="ひの" width="1003" height="1620">
+![ひの](../assets/images/magic/fire-breath/ひの.png){ width="1003" height="1620" }
 
 ### 評価
 

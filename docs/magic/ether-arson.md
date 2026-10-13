@@ -2,7 +2,7 @@
 
 ## 基本情報
 
-<img src="../assets/images/magic/ether-arson/えーてる.png" alt="えーてる" width="1003" height="1620">
+![えーてる](../assets/images/magic/ether-arson/えーてる.png){ width="1003" height="1620" }
 
 ### 評価
 

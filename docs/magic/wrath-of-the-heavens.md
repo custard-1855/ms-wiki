@@ -2,7 +2,7 @@
 
 ## 基本情報
 
-<img src="../assets/images/magic/wrath-of-the-heavens/そうてん.png" alt="そうてん" width="1003" height="1620">
+![そうてん](../assets/images/magic/wrath-of-the-heavens/そうてん.png){ width="1003" height="1620" }
 
 ### 評価
 

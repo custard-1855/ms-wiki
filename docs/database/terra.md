@@ -6,7 +6,7 @@
 
 **<span style="color: #F54738">最新の攻略情報は[テラ(ハード)](terra-hard.md)のページで確認出来ます！</span>**
 
-<img src="../assets/images/database/terra/screenshot_20250907-231233.png" alt="Screenshot_20250907-231233" width="720" height="1612">
+![Screenshot\_20250907-231233](../assets/images/database/terra/screenshot_20250907-231233.png){ width="720" height="1612" }
 
 ステージ進入と同時に[オベリスク](basics.md)が出現し、55個前後のマナオーブとレジェンドアーティファクト、大量の経験値を入手することが出来る。
 

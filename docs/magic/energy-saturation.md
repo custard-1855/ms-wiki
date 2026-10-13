@@ -2,7 +2,7 @@
 
 ## 基本情報
 
-<img src="../assets/images/magic/energy-saturation/えねほう.png" alt="えねほう" width="1003" height="1620">
+![えねほう](../assets/images/magic/energy-saturation/えねほう.png){ width="1003" height="1620" }
 
 ### 評価
 

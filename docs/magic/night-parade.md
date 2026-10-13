@@ -2,7 +2,7 @@
 
 ## 基本情報
 
-<img src="../assets/images/magic/night-parade/ひゃっき.png" alt="ひゃっき" width="1003" height="1620">
+![ひゃっき](../assets/images/magic/night-parade/ひゃっき.png){ width="1003" height="1620" }
 
 ### 評価
 

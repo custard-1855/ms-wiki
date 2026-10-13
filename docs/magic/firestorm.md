@@ -2,7 +2,7 @@
 
 ## 基本情報
 
-<img src="../assets/images/magic/firestorm/screenshot_20250811-204631.png" alt="Screenshot_20250811-204631" width="1037" height="1525">
+![Screenshot\_20250811-204631](../assets/images/magic/firestorm/screenshot_20250811-204631.png){ width="1037" height="1525" }
 
 ### 評価
 
@@ -10,7 +10,7 @@
 
 - 出力
 
-<img src="../assets/images/magic/firestorm/screenshot_20251019-011140.png" alt="Screenshot_20251019-011140" width="720" height="1612">
+![Screenshot\_20251019-011140](../assets/images/magic/firestorm/screenshot_20251019-011140.png){ width="720" height="1612" }
 
 - 競合相手との比較
 

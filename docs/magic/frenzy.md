@@ -2,7 +2,7 @@
 
 ## 基本情報
 
-<img src="../assets/images/magic/frenzy/ふれんじ.png" alt="ふれんじ" width="1046" height="1620">
+![ふれんじ](../assets/images/magic/frenzy/ふれんじ.png){ width="1046" height="1620" }
 
 ### 評価
 

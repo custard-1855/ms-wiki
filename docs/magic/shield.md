@@ -1,6 +1,6 @@
 # シールド
 
-<img src="../assets/images/magic/shield/shield.n.png" alt="Shield.n" width="475" height="456">
+![Shield.n](../assets/images/magic/shield/shield.n.png){ width="475" height="456" }
 
 ### 基本情報
 

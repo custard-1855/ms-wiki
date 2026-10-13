@@ -2,7 +2,7 @@
 
 ## 基本情報
 
-<img src="../assets/images/magic/thunder-breath/いぶき.png" alt="いぶき" width="1003" height="1620">
+![いぶき](../assets/images/magic/thunder-breath/いぶき.png){ width="1003" height="1620" }
 
 ### 評価
 

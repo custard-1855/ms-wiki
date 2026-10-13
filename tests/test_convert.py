@@ -244,8 +244,14 @@ src="//img.atwiki.jp/magicsurvival/attach/16/1/Magic%20Bolt.n.png"></picture>"""
         page=16,
         images=images,
     )
-    assert '<img src="../assets/images/magic/magic-bolt/magic-bolt.n.png" alt="Magic Bolt.n" width="30" height="35">' in md
+    assert '![Magic Bolt.n](../assets/images/magic/magic-bolt/magic-bolt.n.png){ width="30" height="35" }' in md
     assert images == {"magic/magic-bolt/magic-bolt.n.png": Path("out/img/attach/16/1/Magic%20Bolt.n.png")}
+
+
+def test_image_without_size_and_markdown_chars_in_alt():
+    md = convert('<img src="//img.atwiki.jp/magicsurvival/attach/15/1/a.png" alt="[tier]_表|*">')
+    assert r"![\[tier\]\_表\|\*](../assets/images/database/magic/a.png)" in md
+    assert "{" not in md
 
 
 def test_two_different_images_with_same_name_on_one_page_is_an_error():
