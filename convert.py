@@ -32,6 +32,8 @@ PAGE_RE = re.compile(r"^(?:https?:)?//w\.atwiki\.jp/magicsurvival/pages/(\d+)\.h
 COMMENT_RE = re.compile(r"--\s*.*\(\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2}\)$")
 BARE_URL_RE = re.compile(r"https?://w\.atwiki\.jp/magicsurvival/pages/\d+\.html(?:#[\w-]+)?")
 TITLE_LINK_RE = re.compile(r"^(?:https?:)?//w\.atwiki\.jp/magicsurvival/\?page=")
+YOUTUBE_VIDEO_RE = re.compile(r"^https?://(?:www\.|m\.)?(?:youtu\.be/|youtube\.com/(?:watch\?v=|shorts/|live/))([\w-]{11})")
+YOUTUBE_PLAYLIST_RE = re.compile(r"^https?://(?:www\.|m\.)?youtube\.com/playlist\?list=([\w-]+)")
 
 
 @dataclass
@@ -162,6 +164,27 @@ def link_bare_urls(body: Tag) -> None:
             last = m.end()
         parts.append(s[last:])
         s.replace_with(*[p for p in parts if p != ""])
+
+
+def youtube_embed_url(href: str) -> str | None:
+    if m := YOUTUBE_VIDEO_RE.match(href):
+        return f"https://www.youtube.com/embed/{m.group(1)}"
+    if m := YOUTUBE_PLAYLIST_RE.match(href):
+        return f"https://www.youtube.com/embed/videoseries?list={m.group(1)}"
+    return None
+
+
+def embed_youtube_links(body: Tag) -> None:
+    """YouTube の動画・再生リストへのリンクがあるブロックの直後に、埋め込みプレーヤーを置く (リンクは残す)。"""
+    last: dict[int, Tag] = {}  # ブロックごとに最後に置いたプレーヤー (同じブロックの複数リンクの順を保つ)
+    for a in body.select("a[href]"):
+        src = youtube_embed_url(a["href"])
+        if src is None:
+            continue
+        block = top_level(a, body)
+        iframe = Tag(name="iframe", attrs={"src": src})
+        last.get(id(block), block).insert_after(iframe)
+        last[id(block)] = iframe
 
 
 def rewrite_links(body: Tag, current: Page, pages: dict[int, Page]) -> None:
@@ -302,7 +325,8 @@ class Converter(MarkdownConverter):
     def convert_iframe(self, el, text, parent_tags):
         src = el.get("src", "")
         if "youtube.com/embed/" in src:
-            src = src.split("?")[0]
+            if "/embed/videoseries" not in src:  # 再生リストは ?list= が要る
+                src = src.split("?")[0]
             return f'\n\n<iframe class="video" src="{src}" allowfullscreen loading="lazy"></iframe>\n\n'
         print(f"  ! iframe {src}", file=sys.stderr)
         return ""
@@ -328,6 +352,7 @@ def convert_html(html: str | bytes, page: Page, pages: dict[int, Page], used_ima
     body = soup.select_one("#wikibody")
     remove_boilerplate(body)
     notes = convert_footnotes(soup, body)
+    embed_youtube_links(body)
     for el in [body] + [p for _, p in notes]:
         link_bare_urls(el)
         rewrite_attachments(el, page, used_images)

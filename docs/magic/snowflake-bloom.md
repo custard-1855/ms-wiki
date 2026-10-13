@@ -19,3 +19,5 @@
 ### 動画
 
 <https://youtube.com/shorts/K955W1ybZxI?si=KagXAY6mTKujE9z8>
+
+<iframe class="video" src="https://www.youtube.com/embed/K955W1ybZxI" allowfullscreen loading="lazy"></iframe>

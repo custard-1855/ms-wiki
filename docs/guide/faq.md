@@ -372,6 +372,8 @@
   - ウェーブ攻略後にマナオーブを無限に獲得する方法があるため、似たようなことは可能（現在修正済み）
     - <https://youtu.be/EJ9LmqWvM9M?si=zDnbe55hy0mNPe3p>
 
+<iframe class="video" src="https://www.youtube.com/embed/EJ9LmqWvM9M" allowfullscreen loading="lazy"></iframe>
+
 ### ステータス
 
 #### 増加と増幅って何が違うの？　どっち優先？

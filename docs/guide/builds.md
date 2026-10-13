@@ -68,6 +68,10 @@ hoge
 
 <https://youtu.be/er8CaThXAnY?si=ymhLTOpUwsfIxCjJ>
 
+<iframe class="video" src="https://www.youtube.com/embed/0007NV4duu4" allowfullscreen loading="lazy"></iframe>
+
+<iframe class="video" src="https://www.youtube.com/embed/er8CaThXAnY" allowfullscreen loading="lazy"></iframe>
+
 ### Noah
 
 #### ビルド
@@ -284,6 +288,10 @@ AFの取得数を増やす為に考古学者を採用しています。
 <https://youtu.be/nigO16g27-o?feature=shared>
 
 <https://youtu.be/wethk9Xzwws?feature=shared>
+
+<iframe class="video" src="https://www.youtube.com/embed/nigO16g27-o" allowfullscreen loading="lazy"></iframe>
+
+<iframe class="video" src="https://www.youtube.com/embed/wethk9Xzwws" allowfullscreen loading="lazy"></iframe>
 
 #### 追追記
 

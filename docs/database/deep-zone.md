@@ -78,6 +78,8 @@ Lv7の魔法を複数揃えたり、融合魔法を作る等すれば良いだ�
 
 ![Screenshot\_2025-09-08-21-51-01-13\_a018ce24e5d63bb13a8d24754083b426](../assets/images/database/deep-zone/screenshot_2025-09-08-21-51-01-13_a018ce24e5d63bb13a8d24754083b426.jpg)
 
+<iframe class="video" src="https://www.youtube.com/embed/fAtOrs5OmFE" allowfullscreen loading="lazy"></iframe>
+
 ---
 
 貰える報酬や生存の簡単さを考えれば、深層区域で47より先に行く意味はないけどね。

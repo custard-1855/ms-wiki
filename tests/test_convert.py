@@ -233,6 +233,37 @@ src="https://www.youtube.com/embed/2u78nk3HDYw?controls=1&amp;rel=0" width="640"
     assert '<iframe class="video" src="https://www.youtube.com/embed/2u78nk3HDYw" allowfullscreen loading="lazy"></iframe>' in md
 
 
+def video(src: str) -> str:
+    return f'<iframe class="video" src="{src}" allowfullscreen loading="lazy"></iframe>'
+
+
+def test_youtube_link_gets_player_after_its_block():
+    md = convert("""<div>動画はこちら→<a href="https://youtu.be/uwgu8EKbEYQ?feature=shared" rel="nofollow">https://youtu.be/uwgu8EKbEYQ?feature=shared</a>
+<br/>次の行</div><div>次のブロック</div>""")
+    assert md.endswith(
+        "動画はこちら→<https://youtu.be/uwgu8EKbEYQ?feature=shared>\n\n次の行\n\n"
+        f"{video('https://www.youtube.com/embed/uwgu8EKbEYQ')}\n\n次のブロック\n"
+    )
+
+
+def test_youtube_links_in_one_block_keep_their_order():
+    md = convert("""<ul><li><a href="https://youtube.com/shorts/lZF2hS89kK8?si=x">ショート</a></li>
+<li><a href="https://www.youtube.com/watch?v=0007NV4duu4&amp;t=10">通常</a></li></ul>""")
+    shorts = video("https://www.youtube.com/embed/lZF2hS89kK8")
+    watch = video("https://www.youtube.com/embed/0007NV4duu4")
+    assert md.index("[通常]") < md.index(shorts) < md.index(watch)
+
+
+def test_youtube_playlist_link_gets_playlist_player():
+    md = convert('<div><a href="https://youtube.com/playlist?list=PL7Nm7vv8wC9mSUN_1PhO3AauzegWQ5RgN&amp;si=x">再生リスト</a></div>')
+    assert video("https://www.youtube.com/embed/videoseries?list=PL7Nm7vv8wC9mSUN_1PhO3AauzegWQ5RgN") in md
+
+
+def test_youtube_channel_link_gets_no_player():
+    md = convert('<div><a href="https://www.youtube.com/@leme">チャンネル</a></div>')
+    assert "<iframe" not in md
+
+
 # --- 画像 -----------------------------------------------------------------------
 
 
