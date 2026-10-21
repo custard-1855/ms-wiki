@@ -1,0 +1,12 @@
+{#-
+  全ページ共通の <head> 追加分。
+  mkdocs.yml の extra.google_site_verification に Google Search Console の
+  確認コード (HTML タグの content の値) を書くと、所有権確認の meta タグを出す。
+-#}
+{% extends "base.html" %}
+{% block extrahead %}
+  {{ super() }}
+  {% if config.extra.google_site_verification %}
+    <meta name="google-site-verification" content="{{ config.extra.google_site_verification }}">
+  {% endif %}
+{% endblock %}
