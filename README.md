@@ -11,7 +11,8 @@ Magic Survival (マジックサバイバル) の非公式攻略wiki。@wiki か�
 | --- | --- |
 | `docs/` | ページの Markdown (これが正) |
 | `mkdocs.yml` | サイトの設定とサイドバー (`nav`) |
-| `overrides/` | Material のテンプレートの上書き (ヘッダーの Discord アイコン) |
+| `overrides/` | Material のテンプレートの上書き (ヘッダーの Discord アイコン、Search Console の確認タグ) |
+| `hooks/` | MkDocs のフック (各ページの meta description を本文から作る) |
 | `.github/workflows/pages.yml` | PR でテストとビルド確認、main への push でデプロイ |
 | `tests/` | 変換スクリプト (pytest) と `docs/javascripts/tables.js` (node:test + jsdom) のテスト |
 
